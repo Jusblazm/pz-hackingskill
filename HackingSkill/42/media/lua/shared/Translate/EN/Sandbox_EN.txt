@@ -1,0 +1,4 @@
+Sandbox_EN = {
+    Sandbox_HackingSkill_XPMultiplier = "Hacking Multiplier",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Rate at which Hacking skill levels up.",
+}

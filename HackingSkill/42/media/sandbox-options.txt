@@ -1,0 +1,11 @@
+VERSION = 1,
+
+option MultiplierConfig.Hacking
+{
+    type = double,
+    min = 0.00,
+    max = 1000.0,
+    default = 1.0,
+    page = Character,
+    translation = HackingSkill_XPMultiplier,
+}

@@ -1,0 +1,8 @@
+ItemName_EN = {
+    ItemName_Base.BookHacking1 = "Hacking I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Hacking II: "Dial-Up and Dig In"",
+    ItemName_Base.BookHacking3 = "Hacking III: "A Beginner's Guide to BBS Hacking"",
+    ItemName_Base.BookHacking4 = "Hacking IV: "The 2600 Codex: Mastering the Modem"",
+    ItemName_Base.BookHacking5 = "Hacking V: "The Zero Day Bible"",
+    ItemName_Base.BookHackingSet = "Set of Hacking Books",
+}

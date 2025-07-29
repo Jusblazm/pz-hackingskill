@@ -1,0 +1,5 @@
+IGUI_EN = {
+    IGUI_perks_Technology = "Technology",
+    IGUI_perks_Hacking = "Hacking",
+    IGUI_perks_Hacking_Description = "Allows the bypassing of electronic locks, alarm systems, and security devices. Increases the success rate of electronic infiltration.",
+}
