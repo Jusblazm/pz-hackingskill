@@ -1,6 +1,6 @@
 # Hacking Skill
 We should have been in 1995. So many good options... Well, at least I have WarGames and Sneakers..I just hope the zombies don't ask you to play chess.\
-Only on Steam's Workshop at: \
+Only on Steam's Workshop at: NOT RELEASED YET\
 If found elsewhere, please report.
 
 ## What This Mod Does
