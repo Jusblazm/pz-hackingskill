@@ -1,5 +1,5 @@
 IG_UI_ES = {
     IGUI_perks_Technology = "Tecnología",
-    IGUI_perks_Hacking = "Piratería",
+    IGUI_perks_Hacking = "Hackeo",
     IGUI_perks_Hacking_Description = "Permite eludir cerraduras electrónicas, sistemas de alarma y dispositivos de seguridad. Aumenta la tasa de éxito de la infiltración electrónica.",
 }
