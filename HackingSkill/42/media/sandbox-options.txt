@@ -9,3 +9,19 @@ option MultiplierConfig.Hacking
     page = Character,
     translation = HackingSkill_XPMultiplier,
 }
+
+option HackingSkill.BuildingAlarms
+{
+    type = boolean,
+    default = true,
+    page = HackingSkill,
+    translation = HackingSkill_BuildingAlarms,
+}
+
+option HackingSkill.VehicleAlarms
+{
+    type = boolean,
+    default = true,
+    page = HackingSkill,
+    translation = HackingSkill_VehicleAlarms,
+}
