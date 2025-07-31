@@ -32,5 +32,24 @@ function HackingSkill_Utils.isVehicleAlarmXPEnabled()
     return SandboxVars.HackingSkill and SandboxVars.HackingSkill.VehicleAlarms == true
 end
 
+function HackingSkill_Utils.getPlayerKnownAlarms(player)
+    local modData = player:getModData()
+    modData.knownVehicleAlarms = modData.knownVehicleAlarms or {}
+    return modData.knownVehicleAlarms
+end
+
+function HackingSkill_Utils.rememberVehicleAlarm(player, vehicle)
+    if not player or not vehicle then return end
+    local known = HackingSkill_Utils.getPlayerKnownAlarms(player)
+    known[tostring(vehicle:getId())] = true
+    player:transmitModData()
+end
+
+function HackingSkill_Utils.knowsVehicleAlarm(player, vehicle)
+    if not player or not vehicle then return false end
+    local known = player:getModData().knownVehicleAlarms
+    return known and known[tostring(vehicle:getId())] == true
+end
+
 
 return HackingSkill_Utils

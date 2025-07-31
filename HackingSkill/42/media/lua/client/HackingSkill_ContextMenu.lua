@@ -30,15 +30,53 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
             local square = obj:getSquare()
             if square then
                 local vehicle = square:getVehicleContainer()
+                -- if vehicle then
+                --     context:addOption(getText("ContextMenu_HackingSkill_CheckForAlarm"), vehicle, function()
+                --         local square = vehicle:getSquare()
+                --         local walkAction = ISWalkToTimedAction:new(player, square)
+                --         walkAction:setOnComplete(function()
+                --             ISTimedActionQueue.add(HackingSkill_CheckVehicleAlarmAction:new(player, vehicle))
+                --         end)
+                --         ISTimedActionQueue.add(walkAction)
+                --     end)
+
+                --     if HackingSkill_Utils.knowsVehicleAlarm(player, vehicle) and HackingSkill_Utils.hasVehicleAlarm(vehicle) then
+                --         context:addOption(getText("ContextMenu_HackingSkill_DisarmAlarm"), vehicle, function()
+                --             local square = vehicle:getSquare()
+                --             local walkAction = ISWalkToTimedAction:new(player, square)
+                --             walkAction:setOnComplete(function()
+                --                 ISTimedActionQueue.add(HackingSkill_DisarmVehicleAlarmAction:new(player, vehicle))
+                --             end)
+                --             ISTimedActionQueue.add(walkAction)
+                --         end)
+                --     end
+                --     break
+                -- end
                 if vehicle then
-                    context:addOption(getText("ContextMenu_HackingSkill_CheckForAlarm"), vehicle, function()
-                        local square = vehicle:getSquare()
-                        local walkAction = ISWalkToTimedAction:new(player, square)
-                        walkAction:setOnComplete(function()
-                            ISTimedActionQueue.add(HackingSkill_CheckVehicleAlarmAction:new(player, vehicle))
+                    local knowsAlarm = HackingSkill_Utils.knowsVehicleAlarm(player, vehicle)
+                    local hasAlarm = HackingSkill_Utils.hasVehicleAlarm(vehicle)
+
+                    if not knowsAlarm then
+                        -- let player check for an alarm
+                        context:addOption(getText("ContextMenu_HackingSkill_CheckForAlarm"), vehicle, function()
+                            local square = vehicle:getSquare()
+                            local walkAction = ISWalkToTimedAction:new(player, square)
+                            walkAction:setOnComplete(function()
+                                ISTimedActionQueue.add(HackingSkill_CheckVehicleAlarmAction:new(player, vehicle))
+                            end)
+                            ISTimedActionQueue.add(walkAction)
                         end)
-                        ISTimedActionQueue.add(walkAction)
-                    end)
+                    elseif knowsAlarm and hasAlarm then
+                        -- player knows there is an alarm
+                        context:addOption(getText("ContextMenu_HackingSkill_DisarmAlarm"), vehicle, function()
+                            local square = vehicle:getSquare()
+                            local walkAction = ISWalkToTimedAction:new(player, square)
+                            walkAction:setOnComplete(function()
+                                ISTimedActionQueue.add(HackingSkill_DisarmVehicleAlarmAction:new(player, vehicle))
+                            end)
+                            ISTimedActionQueue.add(walkAction)
+                        end)
+                    end
                     break
                 end
             end

@@ -37,13 +37,11 @@ function HackingSkill_CheckVehicleAlarmAction:perform()
     if detected and alarm then
         message = getText("IGUI_HackingSkill_PlayerText_VehicleAlarm")
         xpToAdd = 2
+        HackingSkill_Utils.rememberVehicleAlarm(self.character, self.vehicle)
     elseif detected and not alarm then
         message = getText("IGUI_HackingSkill_PlayerText_NoAlarm")
         xpToAdd = 2
     elseif not detected and alarm then
-        message = getText("IGUI_HackingSkill_PlayerText_NoAlarm")
-        xpToAdd = 1
-    elseif not alarm then
         message = getText("IGUI_HackingSkill_PlayerText_NoAlarm")
         xpToAdd = 1
     end
