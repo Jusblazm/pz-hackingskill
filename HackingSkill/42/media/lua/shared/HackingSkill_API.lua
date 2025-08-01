@@ -1,4 +1,4 @@
--- HackingSkillAPI
+-- HackingSkill_API
 HackingSkill = {}
 
 function HackingSkill.addXP(player, amount)

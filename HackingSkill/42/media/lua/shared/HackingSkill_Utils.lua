@@ -1,3 +1,4 @@
+-- HackingSkill_Utils
 HackingSkill_Utils = {}
 
 function HackingSkill_Utils.isDoorOrWindow(obj)

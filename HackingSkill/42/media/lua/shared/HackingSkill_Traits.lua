@@ -1,4 +1,4 @@
--- HackingTraits
+-- HackingSkill_Traits
 require "NPCs/MainCreationMethods"
 
 local hackerTraits = function()
