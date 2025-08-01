@@ -1,1 +1,6 @@
-UI_CN = {}
+UI_CN = {
+    UI_trait_AmateurHacker = "业余黑客",
+    UI_trait_AmateurHacker_Description = "基础电脑知识。略微提升黑客技能。",
+    UI_trait_MasterHacker = "黑客大师",
+    UI_trait_MasterHacker_Description = "黑客经验丰富。大幅提升黑客技能。",
+}

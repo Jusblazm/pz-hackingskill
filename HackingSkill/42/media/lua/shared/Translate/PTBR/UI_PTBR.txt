@@ -1,1 +1,6 @@
-UI_PTBR = {}
+UI_PTBR = {
+    UI_trait_AmateurHacker = "Hacker Amador",
+    UI_trait_AmateurHacker_Description = "Conhecimento básico de informática. Pequeno aumento na habilidade de Hacking.",
+    UI_trait_MasterHacker = "Hacker Mestre",
+    UI_trait_MasterHacker_Description = "Experiente em hacking. Grande aumento na habilidade de Hacking.",
+}

@@ -1,1 +1,6 @@
-UI_DE = {}
+UI_DE = {
+    UI_trait_AmateurHacker = "Hacker-Amateur",
+    UI_trait_AmateurHacker_Description = "Grundkenntnisse in Computern. Kleiner Bonus auf Hackerfähigkeit.",
+    UI_trait_MasterHacker = "Meisterhacker",
+    UI_trait_MasterHacker_Description = "Erfahren im Hacken. Großer Bonus auf Hackerfähigkeit.",
+}
