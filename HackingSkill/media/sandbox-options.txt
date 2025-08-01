@@ -1,0 +1,17 @@
+VERSION = 1,
+
+option HackingSkill.BuildingAlarms
+{
+    type = boolean,
+    default = true,
+    page = HackingSkill,
+    translation = HackingSkill_BuildingAlarms,
+}
+
+option HackingSkill.VehicleAlarms
+{
+    type = boolean,
+    default = true,
+    page = HackingSkill,
+    translation = HackingSkill_VehicleAlarms,
+}

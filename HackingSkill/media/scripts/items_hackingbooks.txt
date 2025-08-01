@@ -1,0 +1,84 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+	/******* LITERATURE - SKILL BOOKS *******/
+	
+	item BookHacking1
+	{
+		DisplayName 		= Hacking I: "Phreaking 101",
+		DisplayCategory 	= SkillBook,
+		Type 				= Literature,
+		Weight 				= 1,
+		Icon 				= HackingBook,
+		LvlSkillTrained 	= 1,
+		NumLevelsTrained 	= 2,
+		NumberOfPages 		= 220,
+		SkillTrained 		= Hacking,
+		StaticModel 		= BookGrey,
+		WorldStaticModel 	= BookGrey_Ground,
+	}
+
+	item BookHacking2
+	{
+		DisplayName 		= Hacking II: "Dial-Up and Dig In",
+		DisplayCategory 	= SkillBook,
+		Type 				= Literature,
+		Weight 				= 1,
+		Icon 				= HackingBook,
+		LvlSkillTrained 	= 3,
+		NumLevelsTrained 	= 2,
+		NumberOfPages 		= 260,
+		SkillTrained 		= Hacking,
+		StaticModel 		= BookGrey,
+		WorldStaticModel 	= BookGrey_Ground,
+	}
+
+	item BookHacking3
+	{
+		DisplayName 		= Hacking III: "A Beginner's Guide to BBS Hacking",
+		DisplayCategory 	= SkillBook,
+		Type 				= Literature,
+		Weight 				= 1,
+		Icon 				= HackingBook,
+		LvlSkillTrained 	= 5,
+		NumLevelsTrained 	= 2,
+		NumberOfPages 		= 300,
+		SkillTrained 		= Hacking,
+		StaticModel 		= BookGrey,
+		WorldStaticModel 	= BookGrey_Ground,
+	}
+
+	item BookHacking4
+	{
+		DisplayName 		= Hacking IV: "The 2600 Codex: Mastering the Modem",
+		DisplayCategory 	= SkillBook,
+		Type 				= Literature,
+		Weight 				= 1,
+		Icon 				= HackingBook,
+		LvlSkillTrained 	= 7,
+		NumLevelsTrained 	= 2,
+		NumberOfPages 		= 340,
+		SkillTrained 		= Hacking,
+		StaticModel 		= BookGrey,
+		WorldStaticModel 	= BookGrey_Ground,
+	}
+
+	item BookHacking5
+	{
+		DisplayName 		= Hacking V: "The Zero Day Bible",
+		DisplayCategory 	= SkillBook,
+		Type 				= Literature,
+		Weight 				= 1,
+		Icon 				= HackingBook,
+		LvlSkillTrained 	= 9,
+		NumLevelsTrained 	= 2,
+		NumberOfPages 		= 380,
+		SkillTrained 		= Hacking,
+		StaticModel 		= BookGrey,
+		WorldStaticModel 	= BookGrey_Ground,
+	}
+}

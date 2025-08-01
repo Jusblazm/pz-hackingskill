@@ -1,0 +1,7 @@
+name=Hacking Skill & Traits
+id=JusHackingSkill
+description=Adds a brand new hacking skill with a few traits. Currently only provides support for MailOrderCatalogs by Jusblazm.
+poster=poster.png
+icon=icon.png
+author=Jusblazm
+modversion=1.0

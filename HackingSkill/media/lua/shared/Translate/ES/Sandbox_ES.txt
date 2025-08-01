@@ -1,0 +1,4 @@
+Sandbox_ES = {
+    Sandbox_HackingSkill_XPMultiplier = "Multiplicador de Hackeo",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Velocidad a la que sube de nivel la habilidad de Hackeo.",
+}

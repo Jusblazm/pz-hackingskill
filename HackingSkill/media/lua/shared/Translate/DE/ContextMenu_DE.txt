@@ -1,0 +1,3 @@
+ContextMenu_DE = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Auf Alarmsystem prüfen",
+}
