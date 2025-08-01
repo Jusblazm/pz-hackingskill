@@ -1,6 +1,6 @@
 # Hacking Skill
 We should have been in 1995. So many good options... Well, at least I have *WarGames* and *Sneakers*..I just hope the zombies don't ask you to play chess.\
-Only on Steam's Workshop at: NOT RELEASED YET\
+Only on Steam's Workshop at: https://steamcommunity.com/sharedfiles/filedetails/?id=3539339798\
 If found elsewhere, please report.
 
 ## What This Mod Does
@@ -51,7 +51,7 @@ This ensures compatibility while allowing enhanced features for players who have
 ### Announce you support Hacking Skill!
 > This mod optionally supports the "Hacking Skill" mod. If Hacking Skill is installed, players can gain Hacking XP through relevant actions.
 
-On steam you can replace "Hacking Skill" with `[url=]Hacking Skill[/url]` to provide a quick link.
+On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3539339798]Hacking Skill[/url]` to provide a quick link.
 
 ## 🌐 Translation Progress
 <!-- AUTO-GENERATED-TABLE:START -->
