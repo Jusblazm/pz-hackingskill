@@ -69,6 +69,26 @@ function HackingSkill_Utils.walkToNearestLocationForTimedAction(player, object, 
     ISTimedActionQueue.add(walkAction)
 end
 
+function HackingSkill_Utils.getAdjustedAlarmChance(character, baseChance)
+    local alarmChance = baseChance or 40
+
+    if character:HasTrait("Dextrous") then
+        alarmChance = alarmChance - 10
+    end
+    if character:HasTrait("Lucky") then
+        alarmChance = alarmChance - 15
+    end
+    if character:HasTrait("AllThumbs") then
+        alarmChance = alarmChance + 10
+    end
+    if character:HasTrait("Unlucky") then
+        alarmChance = alarmChance + 15
+    end
+
+    alarmChance = math.max(0, math.min(100, alarmChance))
+    return alarmChance
+end
+
 function HackingSkill_Utils.getPlayerKnownVehicleAlarms(player)
     local modData = player:getModData()
     modData.knownVehicleAlarms = modData.knownVehicleAlarms or {}

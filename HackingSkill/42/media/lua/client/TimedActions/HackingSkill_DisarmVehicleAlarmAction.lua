@@ -43,7 +43,8 @@ function HackingSkill_DisarmVehicleAlarmAction:perform()
             self.character:Say(getText("IGUI_HackingSkill_PlayerText_FailedDisarm"))
         end
         xpToAdd = 3
-        if ZombRand(100) < 40 then
+        local alarmChance = HackingSkill_Utils.getAdjustedAlarmChance(self.character, 40)
+        if ZombRand(100) < alarmChance then
             self.vehicle:triggerAlarm()
         end
     end
