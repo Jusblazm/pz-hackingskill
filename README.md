@@ -4,7 +4,9 @@ Only on Steam's Workshop at: NOT RELEASED YET\
 If found elsewhere, please report.
 
 ## What This Mod Does
-Adds a new hacking skill and two new hacking-related traits to the game. Project Zomboid, due to being based in 1993 has very few hacking options, so as of this moment the mod adds nothing outside of the skill and traits.\
+* Adds a new hacking skill and two new hacking-related traits to the game.
+* Adds new Context Menu options to vehicles, doors, and windows. You can now check for active alarm systems and if they are present, you can attempt to disarm them. Be careful though, you might not always notice the alarm system.
+
 Ultimately, this is a **framework**. It's here to allow other modders and myself to create.
 
 ## Modders
@@ -86,6 +88,10 @@ On steam you can replace "Hacking Skill" with `[url=]Hacking Skill[/url]` to pro
 
 ### Translation Notice
 Translations are done via ChatGPT and checked with Google Translate, unless otherwise noted. I do my best, but I'm sure there are some errors. If you would like to contribute please get in touch.
+
+### Translation Credits
+A hearty thank you to everyone who contributed to translations for Hacking Skill.\
+🇪🇸 Spanish: [Wondermama1](https://www.twitch.tv/wondermama1)
 
 ## Support
 Come find me on discord! Be sure to grab the Project Zomboid Modding Role once you arrive.\
