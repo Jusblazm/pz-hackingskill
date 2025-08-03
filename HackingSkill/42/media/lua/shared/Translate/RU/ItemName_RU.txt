@@ -1,1 +1,8 @@
-ItemName_RU = {}
+ItemName_RU = {
+    ItemName_Base.BookHacking1 = "Взлом I: "Основы фрикинга"",
+    ItemName_Base.BookHacking2 = "Взлом II: "Модемы и подключение"",
+    ItemName_Base.BookHacking3 = "Взлом III: "Руководство по взлому BBS для начинающих"",
+    ItemName_Base.BookHacking4 = "Взлом IV: "Кодекс 2600: Искусство модема"",
+    ItemName_Base.BookHacking5 = "Взлом V: "Библия Нулевого Дня"",
+    ItemName_Base.BookHackingSet = "Набор книг по взлому",
+}

@@ -1,1 +1,6 @@
-UI_JP = {}
+UI_JP = {
+    UI_trait_AmateurHacker = "アマチュアハッカー",
+    UI_trait_AmateurHacker_Description = "基本的なコンピュータ知識。ハッキングスキルに小さなボーナス。",
+    UI_trait_MasterHacker = "マスターハッカー",
+    UI_trait_MasterHacker_Description = "ハッキングの経験者。ハッキングスキルに大きなボーナス。",
+}

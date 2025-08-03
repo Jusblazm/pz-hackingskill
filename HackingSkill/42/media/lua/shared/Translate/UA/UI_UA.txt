@@ -1,1 +1,6 @@
-UI_UA = {}
+UI_UA = {
+    UI_trait_AmateurHacker = "Хакер-аматор",
+    UI_trait_AmateurHacker_Description = "Базові комп'ютерні знання. Невелике підвищення навику хакінгу.",
+    UI_trait_MasterHacker = "Майстер-хакер",
+    UI_trait_MasterHacker_Description = "Досвідчений хакер. Значне підвищення навику хакінгу.",
+}

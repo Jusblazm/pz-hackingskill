@@ -1,1 +1,12 @@
-IG_UI_FR = {}
+IGUI_FR = {
+    IGUI_perks_Technology = "Technologie",
+    IGUI_perks_Hacking = "Piratage",
+    IGUI_perks_Hacking_Description = "Permet de contourner les serrures électroniques, systèmes d'alarme et dispositifs de sécurité. Augmente les chances de réussite lors d'infiltrations électroniques.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Aucun système d'alarme détecté",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Ce bâtiment possède un système d'alarme",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Ce véhicule possède un système d'alarme",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "J'ai désactivé le système d'alarme avec succès",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "J'ai peut-être désactivé le système d'alarme",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Je ne peux pas désactiver ce système d'alarme",
+}

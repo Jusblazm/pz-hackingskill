@@ -1,1 +1,8 @@
-ItemName_UA = {}
+ItemName_UA = {
+    ItemName_Base.BookHacking1 = "Хакінг I: "Фрікінг 101"",
+    ItemName_Base.BookHacking2 = "Хакінг II: "Дзвінки та підключення"",
+    ItemName_Base.BookHacking3 = "Хакінг III: "Посібник початківця з BBS-хакінгу"",
+    ItemName_Base.BookHacking4 = "Хакінг IV: "Кодекс 2600: Мистецтво модема"",
+    ItemName_Base.BookHacking5 = "Хакінг V: "Біблія нульового дня"",
+    ItemName_Base.BookHackingSet = "Набір книг з хакінгу",
+}
