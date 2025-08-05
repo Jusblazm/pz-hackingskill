@@ -22,9 +22,19 @@ local hackerTraits = function()
         false -- remove in MP?
     )
     masterHacker:addXPBoost(Perks.Hacking, 3)
+    BaseGameCharacterDetails.SetTraitDescription(masterHacker)
+
+    local tinFoilHat = TraitFactory.addTrait(
+        "TinFoilHat", -- type
+        getText("UI_trait_TinFoilHat"), -- name
+        -3, -- cost
+        getText("UI_trait_TinFoilHat_Description"), -- description
+        false, -- is profession?
+        false -- remove in MP?
+    )
+    BaseGameCharacterDetails.SetTraitDescription(tinFoilHat)
 
     TraitFactory.sortList()
-    BaseGameCharacterDetails.SetTraitDescription(masterHacker)
 end
 
 Events.OnGameBoot.Add(hackerTraits)

@@ -13,9 +13,12 @@ Ultimately, this is a **framework**. It's here to allow other modders and myself
 You do **not** need to repack this skill into your mod to make use of it.
 
 ### Available Functions
+> ⚠️ **Note:** Players with the `Tin Foil Hat` trait cannot gain XP or levels beyond 2 in the Hacking skill.  
+> The functions `addXP()` and `setLevel()` enforce this automatically.
 ``` lua
 HackingSkill.addXP(player, amount)
 -- Adds XP to the Hacking skill.
+-- XP gain is blocked if the player has the Tin Foil Hat trait and is level 2 or higher.
 
 HackingSkill.getXP(player) -> int
 -- Returns the player's current Hacking XP.
@@ -28,12 +31,19 @@ HackingSkill.getLevel(player) -> int
 
 HackingSkill.setLevel(player, level)
 -- Sets the player's Hacking level directly (use with care).
+-- Levels above 2 are ignored if the player has the Tin Foil Hat trait.
 
 HackingSkill.isMaxLevel(player) -> boolean
 -- Returns true if the player has reached the max level.
 
 HackingSkill.reset(player) -> boolean
--- Resets the player's Hacking level to 0 (use with care).
+-- Returns true after resetting the player's Hacking level to 0 (use with care).
+
+HackingSkill.hasTinFoilHatTrait(player) -> boolean
+-- Returns true if the player has the Tin Foil Hat trait.
+
+HackingSkill.isBlockedByTinFoilHatTrait(player) -> boolean
+-- Returns true if the player has the Tin Foil Hat trait and a Hacking level of 2.
 ```
 
 ### Optional Support
@@ -90,7 +100,7 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 Translations are done via ChatGPT and checked with Google Translate, unless otherwise noted. I do my best, but I'm sure there are some errors. If you would like to contribute please get in touch.
 
 ### Translation Credits
-A hearty thank you to everyone who contributed to translations for Hacking Skill.\
+A hearty thank you to everyone who contributed to translations for Hacking Skill. If a language is listed here it has been or is being translated by someone!\
 🇪🇸 Spanish: [Wondermama1](https://www.twitch.tv/wondermama1)
 
 ## Support

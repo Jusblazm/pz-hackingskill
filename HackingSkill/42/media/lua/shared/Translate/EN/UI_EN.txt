@@ -1,6 +1,8 @@
 UI_EN = {
     UI_trait_AmateurHacker = "Amateur Hacker",
-    UI_trait_AmateurHacker_Description = "Basic computer knowledge. Slight boost to Hacker skill.",
+    UI_trait_AmateurHacker_Description = "Basic computer knowledge. +1 boost to Hacking skill.",
     UI_trait_MasterHacker = "Master Hacker",
-    UI_trait_MasterHacker_Description = "Experienced in hacking. Great boost to Hacker skill.",
+    UI_trait_MasterHacker_Description = "Experienced in hacking. +3 boost to Hacking skill.",
+    UI_trait_TinFoilHat = "Tin Foil Hat",
+    UI_trait_TinFoilHat_Description = "You don't trust computers. You can't gain Hacking XP beyond level 2."
 }
