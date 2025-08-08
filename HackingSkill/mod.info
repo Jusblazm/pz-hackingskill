@@ -1,8 +1,8 @@
 name=Hacking Skill & Traits
 id=JusHackingSkill
-description=Adds a brand new hacking skill with a few traits. Currently only provides support for MailOrderCatalogs by Jusblazm.
+description=Adds a brand new hacking skill with a few traits.
 poster=poster.png
 icon=icon.png
 author=Jusblazm
 url=https://github.com/Jusblazm/pz-hackingskill
-modversion=1.0
+modversion=1.1
