@@ -4,7 +4,7 @@ Only on Steam's Workshop at: https://steamcommunity.com/sharedfiles/filedetails/
 If found elsewhere, please report.
 
 ## What This Mod Does
-* Adds a new hacking skill and two new hacking-related traits to the game.
+* Adds a new hacking skill and three new hacking-related traits to the game.
 * Adds new Context Menu options to vehicles, doors, and windows. You can now check for active alarm systems and if they are present, you can attempt to disarm them. Be careful though, you might not always notice the alarm system.
 
 Ultimately, this is a **framework**. It's here to allow other modders and myself to create.
@@ -14,7 +14,7 @@ You do **not** need to repack this skill into your mod to make use of it.
 
 ### Available Functions
 > ⚠️ **Note:** Players with the `Tin Foil Hat` trait cannot gain XP or levels beyond 2 in the Hacking skill.  
-> The functions `addXP()` and `setLevel()` enforce this automatically.
+> The functions `addXP()` and `setLevel()` enforce this **automatically**.
 ``` lua
 HackingSkill.addXP(player, amount)
 -- Adds XP to the Hacking skill.
