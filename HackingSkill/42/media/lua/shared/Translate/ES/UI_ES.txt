@@ -1,6 +1,8 @@
 UI_ES = {
-    UI_trait_AmateurHacker = "Hacker Aficionado",
-    UI_trait_AmateurHacker_Description = "Conocimientos básicos de informática. Ligero aumento en la habilidad de Hackeo.",
-    UI_trait_MasterHacker = "Hacker Maestro",
-    UI_trait_MasterHacker_Description = "Experto en hackeo. Gran aumento en la habilidad de Hackeo.",
+    UI_trait_AmateurHacker = "Hacker aficionado",
+    UI_trait_AmateurHacker_Description = "Conocimientos básicos de informática. +1 a la habilidad de hackeo.",
+    UI_trait_MasterHacker = "Hacker maestro",
+    UI_trait_MasterHacker_Description = "Experimentado en hackeo. +3 a la habilidad de hackeo.",
+    UI_trait_TinFoilHat = "Sombrero de papel de aluminio",
+    UI_trait_TinFoilHat_Description = "No confías en los ordenadores. No puedes ganar XP de hackeo más allá del nivel 2."
 }

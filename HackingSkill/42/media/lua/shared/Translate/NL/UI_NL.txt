@@ -1,1 +1,8 @@
-UI_NL = {}
+UI_NL = {
+    UI_trait_AmateurHacker = "Amateur-hacker",
+    UI_trait_AmateurHacker_Description = "Basiskennis van computers. +1 bonus op hackvaardigheid.",
+    UI_trait_MasterHacker = "Meesterhacker",
+    UI_trait_MasterHacker_Description = "Ervaren in hacken. +3 bonus op hackvaardigheid.",
+    UI_trait_TinFoilHat = "Aluminiumhoedje",
+    UI_trait_TinFoilHat_Description = "Je vertrouwt computers niet. Je kunt geen hack-ervaring opdoen boven niveau 2."
+}

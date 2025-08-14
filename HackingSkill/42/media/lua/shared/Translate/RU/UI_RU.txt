@@ -3,4 +3,6 @@ UI_RU = {
     UI_trait_AmateurHacker_Description = "Базовые знания компьютера. Небольшое повышение навыка взлома.",
     UI_trait_MasterHacker = "Мастер-хакер",
     UI_trait_MasterHacker_Description = "Опытный взломщик. Значительное повышение навыка взлома.",
+    UI_trait_TinFoilHat = "Шапочка из фольги",
+    UI_trait_TinFoilHat_Description = "Вы не доверяете компьютерам. Вы не можете получать опыт взлома выше 2 уровня."
 }

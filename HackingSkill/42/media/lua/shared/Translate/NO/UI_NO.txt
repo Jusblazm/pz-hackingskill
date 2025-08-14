@@ -1,1 +1,8 @@
-UI_NO = {}
+UI_NO = {
+    UI_trait_AmateurHacker = "Amatørhacker",
+    UI_trait_AmateurHacker_Description = "Grunnleggende datakunnskap. +1 til Hacking-ferdigheten.",
+    UI_trait_MasterHacker = "Mesterhacker",
+    UI_trait_MasterHacker_Description = "Erfaren innen hacking. +3 til Hacking-ferdigheten.",
+    UI_trait_TinFoilHat = "Hatt av aluminiumsfolie",
+    UI_trait_TinFoilHat_Description = "Du stoler ikke på datamaskiner. Du kan ikke få Hacking-XP utover nivå 2."
+}

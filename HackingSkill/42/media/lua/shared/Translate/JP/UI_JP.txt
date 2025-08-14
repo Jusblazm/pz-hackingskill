@@ -3,4 +3,6 @@ UI_JP = {
     UI_trait_AmateurHacker_Description = "基本的なコンピュータ知識。ハッキングスキルに小さなボーナス。",
     UI_trait_MasterHacker = "マスターハッカー",
     UI_trait_MasterHacker_Description = "ハッキングの経験者。ハッキングスキルに大きなボーナス。",
+    UI_trait_TinFoilHat = "アルミホイル帽",
+    UI_trait_TinFoilHat_Description = "あなたはコンピュータを信用しません。ハッキング経験値はレベル2を超えて獲得できません。"
 }

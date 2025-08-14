@@ -1,1 +1,8 @@
-UI_RO = {}
+UI_RO = {
+    UI_trait_AmateurHacker = "Hacker amator",
+    UI_trait_AmateurHacker_Description = "Cunoștințe de bază în informatică. +1 la abilitatea Hacking.",
+    UI_trait_MasterHacker = "Hacker maestru",
+    UI_trait_MasterHacker_Description = "Experimentat în hacking. +3 la abilitatea Hacking.",
+    UI_trait_TinFoilHat = "Pălărie de folie",
+    UI_trait_TinFoilHat_Description = "Nu ai încredere în computere. Nu poți câștiga XP la Hacking peste nivelul 2."
+}

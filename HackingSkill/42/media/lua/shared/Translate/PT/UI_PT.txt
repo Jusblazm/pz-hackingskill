@@ -3,4 +3,6 @@ UI_PT = {
     UI_trait_AmateurHacker_Description = "Conhecimentos básicos de informática. Aumento ligeiro na habilidade de Hacking.",
     UI_trait_MasterHacker = "Mestre Hacker",
     UI_trait_MasterHacker_Description = "Experiente em hacking. Grande aumento na habilidade de Hacking.",
+    UI_trait_TinFoilHat = "Chapéu de papel de alumínio",
+    UI_trait_TinFoilHat_Description = "Não confias em computadores. Não podes ganhar XP de hacking para além do nível 2."
 }

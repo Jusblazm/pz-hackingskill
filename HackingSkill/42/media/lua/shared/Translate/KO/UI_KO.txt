@@ -1,1 +1,8 @@
-UI_KO = {}
+UI_KO = {
+    UI_trait_AmateurHacker = "아마추어 해커",
+    UI_trait_AmateurHacker_Description = "기본적인 컴퓨터 지식. 해킹 스킬 +1 보너스.",
+    UI_trait_MasterHacker = "마스터 해커",
+    UI_trait_MasterHacker_Description = "해킹에 숙련됨. 해킹 스킬 +3 보너스.",
+    UI_trait_TinFoilHat = "은박 모자",
+    UI_trait_TinFoilHat_Description = "컴퓨터를 믿지 않음. 해킹 경험치는 2레벨을 넘어서 얻을 수 없습니다.",
+}

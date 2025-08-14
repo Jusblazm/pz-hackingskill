@@ -3,4 +3,6 @@ UI_UA = {
     UI_trait_AmateurHacker_Description = "Базові комп'ютерні знання. Невелике підвищення навику хакінгу.",
     UI_trait_MasterHacker = "Майстер-хакер",
     UI_trait_MasterHacker_Description = "Досвідчений хакер. Значне підвищення навику хакінгу.",
+    UI_trait_TinFoilHat = "Шапочка з фольги",
+    UI_trait_TinFoilHat_Description = "Ви не довіряєте комп’ютерам. Ви не можете отримувати досвід зламу вище рівня 2."
 }

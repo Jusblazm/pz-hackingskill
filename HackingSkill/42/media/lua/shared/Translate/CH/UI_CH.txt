@@ -3,4 +3,6 @@ UI_CH = {
     UI_trait_AmateurHacker_Description = "基本電腦知識。駭客技能略有提升。",
     UI_trait_MasterHacker = "駭客大師",
     UI_trait_MasterHacker_Description = "駭客經驗豐富。駭客技能大幅提升。",
+    UI_trait_TinFoilHat = "鋁箔帽",
+    UI_trait_TinFoilHat_Description = "你不信任電腦。你的駭客經驗值無法超過等級 2。"
 }
