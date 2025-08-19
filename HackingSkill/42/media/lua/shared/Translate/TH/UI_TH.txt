@@ -1,1 +1,8 @@
-UI_TH = {}
+UI_TH = {
+    UI_trait_AmateurHacker = "นักแฮ็กมือใหม่",
+    UI_trait_AmateurHacker_Description = "มีความรู้พื้นฐานด้านคอมพิวเตอร์ เพิ่มทักษะการแฮ็ก +1",
+    UI_trait_MasterHacker = "นักแฮ็กมืออาชีพ",
+    UI_trait_MasterHacker_Description = "มีประสบการณ์ด้านการแฮ็ก เพิ่มทักษะการแฮ็ก +3",
+    UI_trait_TinFoilHat = "หมวกฟอยล์",
+    UI_trait_TinFoilHat_Description = "ไม่ไว้ใจคอมพิวเตอร์ ไม่สามารถรับค่าประสบการณ์แฮ็กเกินเลเวล 2",
+}
