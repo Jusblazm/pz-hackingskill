@@ -1,8 +1,16 @@
 UI_CH = {
     UI_trait_AmateurHacker = "業餘駭客",
-    UI_trait_AmateurHacker_Description = "基本電腦知識。駭客技能略有提升。",
+    UI_trait_AmateurHacker_Description = "基本電腦知識。駭客技能 +1。",
     UI_trait_MasterHacker = "駭客大師",
-    UI_trait_MasterHacker_Description = "駭客經驗豐富。駭客技能大幅提升。",
+    UI_trait_MasterHacker_Description = "駭客經驗豐富。駭客技能 +3。",
     UI_trait_TinFoilHat = "鋁箔帽",
-    UI_trait_TinFoilHat_Description = "你不信任電腦。你的駭客經驗值無法超過等級 2。"
+    UI_trait_TinFoilHat_Description = "你不信任電腦。你的駭客經驗值無法超過等級 2。",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "獲取所有駭客技能書籍的好地方。",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "完整的駭客書籍收藏。",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "新手嗎？別擔心，你可以的！",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "是時候為你的知識打下堅實的基礎。",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "讓我們學習一些新技巧吧。",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "你快要成功了！繼續努力！",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "是時候精通這門技藝了。",
 }

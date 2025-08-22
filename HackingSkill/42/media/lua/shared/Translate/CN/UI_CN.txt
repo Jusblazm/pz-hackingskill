@@ -1,8 +1,16 @@
 UI_CN = {
     UI_trait_AmateurHacker = "业余黑客",
-    UI_trait_AmateurHacker_Description = "基础电脑知识。略微提升黑客技能。",
+    UI_trait_AmateurHacker_Description = "基础电脑知识。黑客技能 +1。",
     UI_trait_MasterHacker = "黑客大师",
-    UI_trait_MasterHacker_Description = "黑客经验丰富。大幅提升黑客技能。",
+    UI_trait_MasterHacker_Description = "黑客经验丰富。黑客技能 +3。",
     UI_trait_TinFoilHat = "锡箔帽",
-    UI_trait_TinFoilHat_Description = "你不信任电脑。你的黑客经验值无法超过等级 2。"
+    UI_trait_TinFoilHat_Description = "你不信任电脑。你的黑客经验值无法超过等级 2。",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "获取所有黑客技能书籍的好地方。",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "完整的黑客书籍收藏。",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "新手吗？别担心，你可以的！",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "是时候为你的知识打下坚实的基础。",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "让我们学习一些新技巧吧。",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "你快要成功了！继续努力！",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "是时候精通这门技艺了。",
 }

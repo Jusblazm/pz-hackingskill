@@ -1,1 +1,8 @@
-ItemName_TR = {}
+ItemName_TR = {
+    ItemName_Base.BookHacking1 = "Hacking I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Hacking II: "Dial-Up ve Derinlemesine"",
+    ItemName_Base.BookHacking3 = "Hacking III: "BBS Hacking için Yeni Başlayan Rehberi"",
+    ItemName_Base.BookHacking4 = "Hacking IV: "2600 Kodex: Modemi Ustalaştırmak"",
+    ItemName_Base.BookHacking5 = "Hacking V: "Sıfır Gün İncil'i"",
+    ItemName_Base.HackingSkillCatalog = "Katalog: Hacking Becerisi Kitapları",
+}

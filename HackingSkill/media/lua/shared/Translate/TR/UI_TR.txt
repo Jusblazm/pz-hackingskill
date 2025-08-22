@@ -1,1 +1,16 @@
-UI_TR = {}
+UI_TR = {
+    UI_trait_AmateurHacker = "Amatör Hacker",
+    UI_trait_AmateurHacker_Description = "Temel bilgisayar bilgisi. Hacking becerisine +1 bonus.",
+    UI_trait_MasterHacker = "Usta Hacker",
+    UI_trait_MasterHacker_Description = "Hacking konusunda deneyimli. Hacking becerisine +3 bonus.",
+    UI_trait_TinFoilHat = "Alüminyum Folyo Şapka",
+    UI_trait_TinFoilHat_Description = "Bilgisayarlara güvenmiyorsun. Hacking XP'si seviye 2'nin üzerine çıkamaz.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Tüm Hacking beceri kitaplarını bulabileceğiniz harika bir yer.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Hacking kitaplarının tamamı.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Yeni misin? Endişelenme, halledebilirsin!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Bilgin için sağlam bir temel oluşturma zamanı.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Hadi yeni teknikler öğrenelim.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Neredeyse oradasın! Devam et!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "Zanaatı ustalıkla öğrenme zamanı.",
+}

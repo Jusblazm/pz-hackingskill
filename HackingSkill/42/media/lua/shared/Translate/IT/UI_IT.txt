@@ -1,8 +1,16 @@
 UI_IT = {
     UI_trait_AmateurHacker = "Hacker Dilettante",
-    UI_trait_AmateurHacker_Description = "Conoscenze informatiche di base. Leggero incremento all’abilità Hacker.",
+    UI_trait_AmateurHacker_Description = "Conoscenze informatiche di base. +1 all’abilità di Hacking.",
     UI_trait_MasterHacker = "Hacker Esperto",
-    UI_trait_MasterHacker_Description = "Esperto in hacking. Grande incremento all’abilità Hacker.",
+    UI_trait_MasterHacker_Description = "Esperto di hacking. +3 all’abilità di Hacking.",
     UI_trait_TinFoilHat = "Cappello di stagnola",
-    UI_trait_TinFoilHat_Description = "Non ti fidi dei computer. Non puoi guadagnare XP di hacking oltre il livello 2."
+    UI_trait_TinFoilHat_Description = "Non ti fidi dei computer. Non puoi guadagnare XP di hacking oltre il livello 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Un ottimo posto per trovare tutti i tuoi libri di Hacking.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "La collezione completa dei libri di Hacking.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Principiante? Non preoccuparti, ce la farai!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "È il momento di costruire basi solide per le tue conoscenze.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Impariamo alcune nuove tecniche.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Ci sei quasi! Continua così!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "È il momento di padroneggiare l'arte.",
 }
