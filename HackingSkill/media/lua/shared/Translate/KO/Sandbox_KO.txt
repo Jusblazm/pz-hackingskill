@@ -1,1 +1,9 @@
-Sandbox_KO = {}
+Sandbox_KO = {
+    Sandbox_HackingSkill = "해킹 스킬 설정",
+    Sandbox_HackingSkill_XPMultiplier = "해킹 경험치 배율",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "해킹 스킬이 레벨업하는 속도.",
+    Sandbox_HackingSkill_BuildingAlarms = "건물 경보",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "건물 경보 해킹 시 해킹 경험치를 부여할까요?",
+    Sandbox_HackingSkill_VehicleAlarms = "차량 경보",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "차량 경보 해킹 시 해킹 경험치를 부여할까요?",
+}

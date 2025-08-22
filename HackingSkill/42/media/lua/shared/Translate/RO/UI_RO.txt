@@ -4,5 +4,13 @@ UI_RO = {
     UI_trait_MasterHacker = "Hacker maestru",
     UI_trait_MasterHacker_Description = "Experimentat în hacking. +3 la abilitatea Hacking.",
     UI_trait_TinFoilHat = "Pălărie de folie",
-    UI_trait_TinFoilHat_Description = "Nu ai încredere în computere. Nu poți câștiga XP la Hacking peste nivelul 2."
+    UI_trait_TinFoilHat_Description = "Nu ai încredere în computere. Nu poți câștiga XP la Hacking peste nivelul 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Un loc grozav pentru a găsi toate cărțile despre Hacking.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Colecția completă de cărți despre Hacking.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Începător? Nu-ți face griji, poți reuși!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "E timpul să îți pui o bază solidă de cunoștințe.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Hai să învățăm câteva tehnici noi.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Ești aproape! Continuă așa!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "E timpul să stăpânești această artă.",
 }

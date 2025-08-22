@@ -1,1 +1,8 @@
-UI_FR = {}
+UI_FR = {
+    UI_trait_AmateurHacker = "Hacker amateur",
+    UI_trait_AmateurHacker_Description = "Connaissances informatiques de base. Légère amélioration de la compétence Piratage.",
+    UI_trait_MasterHacker = "Hacker expert",
+    UI_trait_MasterHacker_Description = "Expérimenté en piratage. Amélioration significative de la compétence Piratage.",
+    UI_trait_TinFoilHat = "Chapeau en aluminium",
+    UI_trait_TinFoilHat_Description = "Vous ne faites pas confiance aux ordinateurs. Vous ne pouvez pas gagner d’XP en piratage au-delà du niveau 2."
+}

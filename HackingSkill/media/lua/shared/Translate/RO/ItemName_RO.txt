@@ -1,1 +1,8 @@
-ItemName_RO = {}
+ItemName_RO = {
+    ItemName_Base.BookHacking1 = "Hacking I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Hacking II: "Dial-Up și pătrundere"",
+    ItemName_Base.BookHacking3 = "Hacking III: "Ghidul începătorului pentru hacking BBS"",
+    ItemName_Base.BookHacking4 = "Hacking IV: "Codexul 2600: Stăpânirea modemului"",
+    ItemName_Base.BookHacking5 = "Hacking V: "Biblia Zero Day"",
+    ItemName_Base.HackingSkillCatalog = "Catalog: Cărți despre Abilitatea Hacking",
+}

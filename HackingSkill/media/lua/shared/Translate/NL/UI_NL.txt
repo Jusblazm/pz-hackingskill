@@ -1,1 +1,17 @@
-UI_NL = {}
+UI_NL = {
+    UI_trait_AmateurHacker = "Amateur-hacker",
+    UI_trait_AmateurHacker_Description = "Basiskennis van computers. +1 bonus op hackvaardigheid.",
+    UI_trait_MasterHacker = "Meesterhacker",
+    UI_trait_MasterHacker_Description = "Ervaren in hacken. +3 bonus op hackvaardigheid.",
+    UI_trait_TinFoilHat = "Aluminiumhoedje",
+    UI_trait_TinFoilHat_Description = "Je vertrouwt computers niet. Je kunt geen hack-ervaring opdoen boven niveau 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Een geweldige plek om al je hackvaardigheid te krijgen.",
+UI_HackingSkill_ItemDescription_BookHackingSet = "De complete collectie Hacking-boeken.",
+UI_HackingSkill_ItemDescription_BookHacking1 = "Beginner? Geen zorgen, dit kun je!",
+UI_HackingSkill_ItemDescription_BookHacking2 = "Tijd om een stevige basis voor je kennis te leggen.",
+UI_HackingSkill_ItemDescription_BookHacking3 = "Laten we wat nieuwe technieken leren.",
+UI_HackingSkill_ItemDescription_BookHacking4 = "Je bent er bijna! Ga zo door!",
+UI_HackingSkill_ItemDescription_BookHacking5 = "Tijd om het vak te beheersen.",
+
+}

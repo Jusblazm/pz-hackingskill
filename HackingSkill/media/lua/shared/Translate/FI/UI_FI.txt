@@ -1,1 +1,8 @@
-UI_FI = {}
+UI_FI = {
+    UI_trait_AmateurHacker = "Aloittelijahakkeri",
+    UI_trait_AmateurHacker_Description = "Perustason tietokoneosaaminen. +1 lisäys hakkerointitaitoon.",
+    UI_trait_MasterHacker = "Mestarihakkeri",
+    UI_trait_MasterHacker_Description = "Kokenut hakkeroinnissa. +3 lisäys hakkerointitaitoon.",
+    UI_trait_TinFoilHat = "Foliohattu",
+    UI_trait_TinFoilHat_Description = "Et luota tietokoneisiin. Et voi saada hakkerointikokemusta tason 2 jälkeen."
+}

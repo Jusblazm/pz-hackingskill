@@ -1,1 +1,12 @@
-IG_UI_RO = {}
+IGUI_RO = {
+    IGUI_perks_Technology = "Tehnologie",
+    IGUI_perks_Hacking = "Hacking",
+    IGUI_perks_Hacking_Description = "Permite ocolirea încuietorilor electronice, a sistemelor de alarmă și a dispozitivelor de securitate. Crește rata de succes a infiltrării electronice.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Nu a fost detectat niciun sistem de alarmă",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Această clădire are un sistem de alarmă",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Acest vehicul are un sistem de alarmă",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Am dezactivat cu succes sistemul de alarmă",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Este posibil să fi dezactivat sistemul de alarmă",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Nu pot dezactiva acest sistem de alarmă",
+}

@@ -1,1 +1,12 @@
-IG_UI_TH = {}
+IGUI_TH = {
+    IGUI_perks_Technology = "เทคโนโลยี",
+    IGUI_perks_Hacking = "การแฮ็ก",
+    IGUI_perks_Hacking_Description = "ช่วยให้สามารถข้ามการล็อกอิเล็กทรอนิกส์ ระบบสัญญาณกันขโมย และอุปกรณ์รักษาความปลอดภัย เพิ่มโอกาสสำเร็จในการเจาะระบบอิเล็กทรอนิกส์",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "ไม่พบระบบสัญญาณกันขโมย",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "อาคารนี้มีระบบสัญญาณกันขโมย",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "รถคันนี้มีระบบสัญญาณกันขโมย",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "ปลดระบบสัญญาณกันขโมยได้สำเร็จ",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "อาจจะปลดระบบสัญญาณกันขโมยได้แล้ว",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "ไม่สามารถปลดระบบสัญญาณกันขโมยนี้ได้",
+}

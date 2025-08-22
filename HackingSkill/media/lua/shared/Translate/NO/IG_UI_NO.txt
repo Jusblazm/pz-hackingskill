@@ -1,1 +1,12 @@
-IG_UI_NO = {}
+IGUI_NO = {
+    IGUI_perks_Technology = "Teknologi",
+    IGUI_perks_Hacking = "Hacking",
+    IGUI_perks_Hacking_Description = "Tillater omgåelse av elektroniske låser, alarmsystemer og sikkerhetsenheter. Øker suksessraten for elektronisk infiltrasjon.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Ingen alarmsystem oppdaget",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Denne bygningen har et alarmsystem",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Dette kjøretøyet har et alarmsystem",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Jeg deaktiverte alarmsystemet vellykket",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Jeg kan ha deaktivert alarmsystemet",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Jeg kan ikke deaktivere dette alarmsystemet",
+}

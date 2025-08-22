@@ -1,1 +1,8 @@
-ItemName_PTBR = {}
+ItemName_PTBR = {
+    ItemName_Base.BookHacking1 = "Hacking I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Hacking II: "Dial-Up e Mergulho Digital"",
+    ItemName_Base.BookHacking3 = "Hacking III: "Guia do Iniciante para Hackear BBS"",
+    ItemName_Base.BookHacking4 = "Hacking IV: "O Códex 2600: Dominando o Modem"",
+    ItemName_Base.BookHacking5 = "Hacking V: "A Bíblia do Zero Day"",
+    ItemName_Base.HackingSkillCatalog = "Catálogo: Livros de Habilidade de Hacking",
+}

@@ -1,1 +1,12 @@
-IG_UI_UA = {}
+IGUI_UA = {
+    IGUI_perks_Technology = "Технології",
+    IGUI_perks_Hacking = "Хакінг",
+    IGUI_perks_Hacking_Description = "Дозволяє обходити електронні замки, сигналізації та охоронні системи. Підвищує шанс успішного електронного проникнення.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Сигналізацію не виявлено",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "У цій будівлі є сигналізація",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "У цьому транспорті є сигналізація",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Мені вдалося вимкнути сигналізацію",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Можливо, я вимкнув сигналізацію",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Не можу вимкнути сигналізацію",
+}

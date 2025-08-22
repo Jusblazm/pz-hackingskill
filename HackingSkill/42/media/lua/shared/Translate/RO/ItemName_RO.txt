@@ -5,4 +5,5 @@ ItemName_RO = {
     ItemName_Base.BookHacking4 = "Hacking IV: "Codexul 2600: Stăpânirea modemului"",
     ItemName_Base.BookHacking5 = "Hacking V: "Biblia Zero Day"",
     ItemName_Base.BookHackingSet = "Set de cărți despre hacking",
+    ItemName_Base.HackingSkillCatalog = "Catalog: Cărți despre Abilitatea Hacking",
 }

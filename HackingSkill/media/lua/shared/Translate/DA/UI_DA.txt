@@ -1,1 +1,8 @@
-UI_DA = {}
+UI_DA = {
+    UI_trait_AmateurHacker = "Amatørhacker",
+    UI_trait_AmateurHacker_Description = "Grundlæggende computerkundskaber. +1 til hackingfærdighed.",
+    UI_trait_MasterHacker = "Mesterhacker",
+    UI_trait_MasterHacker_Description = "Erfaren i hacking. +3 til hackingfærdighed.",
+    UI_trait_TinFoilHat = "Sølvpapirshat",
+    UI_trait_TinFoilHat_Description = "Du stoler ikke på computere. Du kan ikke få hacking-XP over niveau 2."
+}

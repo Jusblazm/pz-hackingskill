@@ -5,4 +5,5 @@ ItemName_JP = {
     ItemName_Base.BookHacking4 = "ハッキング IV：「2600の書：モデムを極める」",
     ItemName_Base.BookHacking5 = "ハッキング V：「ゼロデイ・バイブル」",
     ItemName_Base.BookHackingSet = "ハッキング本セット",
+    ItemName_Base.HackingSkillCatalog = "カタログ：ハッキングスキル本",
 }

@@ -5,4 +5,5 @@ ItemName_KO = {
     ItemName_Base.BookHacking4 = "해킹 IV: "2600 코드북: 모뎀 마스터하기"",
     ItemName_Base.BookHacking5 = "해킹 V: "제로데이 바이블"",
     ItemName_Base.BookHackingSet = "해킹 서적 세트",
+    ItemName_Base.HackingSkillCatalog = "카탈로그: 해킹 스킬 서적",
 }

@@ -5,4 +5,5 @@ ItemName_RU = {
     ItemName_Base.BookHacking4 = "Взлом IV: "Кодекс 2600: Искусство модема"",
     ItemName_Base.BookHacking5 = "Взлом V: "Библия Нулевого Дня"",
     ItemName_Base.BookHackingSet = "Набор книг по взлому",
+    ItemName_Base.HackingSkillCatalog = "Каталог: Книги по навыку взлома",
 }

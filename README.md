@@ -10,28 +10,31 @@ If found elsewhere, please report.
 Ultimately, this is a **framework**. It's here to allow other modders and myself to create.
 
 ## Modders
-You do **not** need to repack this skill into your mod to make use of it.
+
+### API for Modders
+These are the **official functions** your mod can call to interact with Hacking Skill.
+You do **not** need to repack or include this mod to use them.
 
 ### Available Functions
 > ⚠️ **Note:** Players with the `Tin Foil Hat` trait cannot gain XP or levels beyond 2 in the Hacking skill.  
-> The functions `addXP()` and `setLevel()` enforce this **automatically**.
+> The API functions `addXP()` and `setLevel()` **enforce this automatically**.
 ``` lua
 HackingSkill.addXP(player, amount)
 -- Adds XP to the Hacking skill.
--- XP gain is blocked if the player has the Tin Foil Hat trait and is level 2 or higher.
+-- XP gain is blocked if the player has the Tin Foil Hat trait and level >= 2.
 
-HackingSkill.getXP(player) -> int
+HackingSkill.getXP(player) -> number
 -- Returns the player's current Hacking XP.
 
-HackingSkill.getXPToNextLevel(player) -> int
--- Returns the amount of XP needed to reach the next level.
+HackingSkill.getXPToNextLevel(player) -> number
+-- Returns XP required for the next level.
 
-HackingSkill.getLevel(player) -> int
+HackingSkill.getLevel(player) -> number
 -- Returns the player's current Hacking level.
 
 HackingSkill.setLevel(player, level)
 -- Sets the player's Hacking level directly (use with care).
--- Levels above 2 are ignored if the player has the Tin Foil Hat trait.
+-- If the player has the Tin Foil Hat trait, levels above 2 are clamped to 2.
 
 HackingSkill.isMaxLevel(player) -> boolean
 -- Returns true if the player has reached the max level.
@@ -43,20 +46,18 @@ HackingSkill.hasTinFoilHatTrait(player) -> boolean
 -- Returns true if the player has the Tin Foil Hat trait.
 
 HackingSkill.isBlockedByTinFoilHatTrait(player) -> boolean
--- Returns true if the player has the Tin Foil Hat trait and a Hacking level of 2.
+-- Returns true if the player has the Tin Foil Hat trait and a Hacking level >= 2
 ```
 
 ### Optional Support
-This mod is set up to be supported optionally. Meaning you do not need to require it as a dependency, but can take advantage of it if it's present.
-
-To safely support the Hacking skill without causing errors for users who don’t have it installed, wrap your calls with this pattern:
+You don't need to declare this as a dependency.
+Wrap your calls to check if the skill is present, to keep compatibility for players without Hacking Skill:
 ``` lua
- -- Give 10 XP to the Hacking skill if the player has the Hacking Skill installed.
+ -- Safely grant 10 XP if Hacking Skill is installed.
 if HackingSkill and Perks.Hacking then
     HackingSkill.addXP(player, 10)
 end
 ```
-This ensures compatibility while allowing enhanced features for players who have Hacking Skill installed and active.
 
 ### Announce you support Hacking Skill!
 > This mod optionally supports the "Hacking Skill" mod. If Hacking Skill is installed, players can gain Hacking XP through relevant actions.

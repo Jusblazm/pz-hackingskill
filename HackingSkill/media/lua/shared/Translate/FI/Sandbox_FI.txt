@@ -1,1 +1,9 @@
-Sandbox_FI = {}
+Sandbox_FI = {
+    Sandbox_HackingSkill = "Hakkerointitaitojen asetukset",
+    Sandbox_HackingSkill_XPMultiplier = "Hakkeroinnin kerroin",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Nopeus, jolla hakkerointitaito kehittyy.",
+    Sandbox_HackingSkill_BuildingAlarms = "Rakennusten hälytykset",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Pitäisikö rakennusten hälytysten hakkeroinnin antaa hakkerointikokemusta?",
+    Sandbox_HackingSkill_VehicleAlarms = "Ajoneuvojen hälytykset",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Pitäisikö autojen hälytysten hakkeroinnin antaa hakkerointikokemusta?",
+}
