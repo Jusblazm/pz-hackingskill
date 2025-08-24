@@ -1,1 +1,12 @@
-IG_UI_CH = {}
+IG_UI_CH = {
+    IGUI_perks_Technology = "科技",
+    IGUI_perks_Hacking = "駭客技術",
+    IGUI_perks_Hacking_Description = "允許繞過電子鎖、警報系統和安全設備。提升電子入侵的成功率。",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "未偵測到警報系統",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "此建築有警報系統",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "此車輛有警報系統",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "我成功解除警報系統",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "我可能已經解除警報系統",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "我無法解除此警報系統",
+}

@@ -1,1 +1,16 @@
-UI_TH = {}
+UI_TH = {
+    UI_trait_AmateurHacker = "นักแฮ็กมือใหม่",
+    UI_trait_AmateurHacker_Description = "มีความรู้พื้นฐานด้านคอมพิวเตอร์ เพิ่มทักษะการแฮ็ก +1",
+    UI_trait_MasterHacker = "นักแฮ็กมืออาชีพ",
+    UI_trait_MasterHacker_Description = "มีประสบการณ์ด้านการแฮ็ก เพิ่มทักษะการแฮ็ก +3",
+    UI_trait_TinFoilHat = "หมวกฟอยล์",
+    UI_trait_TinFoilHat_Description = "ไม่ไว้ใจคอมพิวเตอร์ ไม่สามารถรับค่าประสบการณ์แฮ็กเกินเลเวล 2",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "สถานที่ยอดเยี่ยมในการหาหนังสือทักษะการแฮ็กทั้งหมดของคุณ",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "ชุดหนังสือการแฮ็กครบชุด",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "มือใหม่เหรอ? ไม่ต้องกังวล คุณทำได้แน่นอน!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "ถึงเวลาวางรากฐานความรู้ให้มั่นคงแล้ว",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "มาเรียนรู้เทคนิคใหม่ๆ กันเถอะ",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "คุณใกล้จะสำเร็จแล้ว! สู้ต่อไป!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "ถึงเวลาที่จะเป็นปรมาจารย์แล้ว",
+}

@@ -1,1 +1,16 @@
-UI_DE = {}
+UI_DE = {
+    UI_trait_AmateurHacker = "Hacker-Amateur",
+    UI_trait_AmateurHacker_Description = "Grundkenntnisse in Computern. +1 Bonus auf Hackerfähigkeit.",
+    UI_trait_MasterHacker = "Meisterhacker",
+    UI_trait_MasterHacker_Description = "Erfahren im Hacken. +3 Bonus auf Hackerfähigkeit.",
+    UI_trait_TinFoilHat = "Alufolienhut",
+    UI_trait_TinFoilHat_Description = "Du vertraust Computern nicht. Du kannst keine Hacking-EP über Stufe 2 hinaus erhalten.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Ein großartiger Ort, um alle Hackerbücher zu bekommen.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Die komplette Sammlung von Hackerbüchern.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Neuling? Keine Sorge, das schaffst du!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Zeit, ein solides Fundament für dein Wissen zu schaffen.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Lass uns ein paar neue Techniken lernen.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Fast geschafft! Mach weiter so!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "Zeit, das Handwerk zu meistern.",
+}

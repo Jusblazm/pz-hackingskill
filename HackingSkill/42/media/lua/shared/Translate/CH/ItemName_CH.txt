@@ -5,4 +5,5 @@ ItemName_CH = {
     ItemName_Base.BookHacking4 = "駭客精通 IV：「2600 密典：調變解密」",
     ItemName_Base.BookHacking5 = "駭客終章 V：「零日聖經」",
     ItemName_Base.BookHackingSet = "一套駭客書籍",
+    ItemName_Base.HackingSkillCatalog = "目錄：駭客技能書籍",
 }

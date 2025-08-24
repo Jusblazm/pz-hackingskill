@@ -1,1 +1,4 @@
-ContextMenu_KO = {}
+ContextMenu_KO = {
+    ContextMenu_HackingSkill_CheckForAlarm = "경보 시스템 확인",
+    ContextMenu_HackingSkill_DisarmAlarm = "경보 시스템 해제",
+}

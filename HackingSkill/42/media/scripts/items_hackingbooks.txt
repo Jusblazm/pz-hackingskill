@@ -96,4 +96,18 @@ module Base
 		StaticModel 		= BookGrey,
 		WorldStaticModel 	= BookGrey_Ground,
 	}
+
+	item HackingSkillCatalog
+	{
+		DisplayName         = Catalog: Hacking Skill Books,
+		DisplayCategory     = Literature,
+		Type                = Literature,
+		Weight              = 0.5,
+		Icon                = Magazine,
+		BoredomChange       = -10,
+		StressChange        = -10,
+		StaticModel         = Magazine,
+		WorldStaticModel    = MagazineGround,
+		Tags                = Magazine,	
+	}
 }

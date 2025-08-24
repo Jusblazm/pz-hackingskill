@@ -1,1 +1,4 @@
-ContextMenu_PTBR = {}
+ContextMenu_PTBR = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Verificar Sistema de Alarme",
+    ContextMenu_HackingSkill_DisarmAlarm = "Desarmar Sistema de Alarme",
+}

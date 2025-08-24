@@ -1,1 +1,12 @@
-IG_UI_FI = {}
+IGUI_FI = {
+    IGUI_perks_Technology = "Teknologia",
+    IGUI_perks_Hacking = "Hakkerointi",
+    IGUI_perks_Hacking_Description = "Mahdollistaa sähköisten lukkojen, hälytysjärjestelmien ja turvalaitteiden ohittamisen. Parantaa sähköisen tunkeutumisen onnistumisprosenttia.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Hälytysjärjestelmää ei havaittu",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Tässä rakennuksessa on hälytysjärjestelmä",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Tässä ajoneuvossa on hälytysjärjestelmä",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Poistin hälytysjärjestelmän onnistuneesti käytöstä",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Saatoin poistaa hälytysjärjestelmän käytöstä",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "En voi poistaa tätä hälytysjärjestelmää käytöstä",
+}

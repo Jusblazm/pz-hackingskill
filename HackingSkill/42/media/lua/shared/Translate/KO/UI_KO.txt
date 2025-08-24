@@ -1,1 +1,16 @@
-UI_KO = {}
+UI_KO = {
+    UI_trait_AmateurHacker = "아마추어 해커",
+    UI_trait_AmateurHacker_Description = "기본적인 컴퓨터 지식. 해킹 스킬 +1 보너스.",
+    UI_trait_MasterHacker = "마스터 해커",
+    UI_trait_MasterHacker_Description = "해킹에 숙련됨. 해킹 스킬 +3 보너스.",
+    UI_trait_TinFoilHat = "은박 모자",
+    UI_trait_TinFoilHat_Description = "컴퓨터를 믿지 않음. 해킹 경험치는 2레벨을 넘어서 얻을 수 없습니다.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "해킹 스킬 관련 모든 책을 얻을 수 있는 최고의 장소입니다.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "해킹 책의 완전한 컬렉션입니다.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "초보자인가요? 걱정 마세요, 할 수 있습니다!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "지식을 쌓기 위한 탄탄한 기초를 마련할 시간입니다.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "새로운 기술을 배워봅시다.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "거의 다 왔습니다! 계속 진행하세요!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "이제 기술을 완전히 마스터할 시간입니다.",
+}

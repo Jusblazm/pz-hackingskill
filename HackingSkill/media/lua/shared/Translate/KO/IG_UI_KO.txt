@@ -1,1 +1,12 @@
-IG_UI_KO = {}
+IGUI_KO = {
+    IGUI_perks_Technology = "기술",
+    IGUI_perks_Hacking = "해킹",
+    IGUI_perks_Hacking_Description = "전자 잠금장치, 경보 시스템, 보안 장치를 우회할 수 있습니다. 전자 침투 성공률을 높입니다.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "경보 시스템이 감지되지 않음",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "이 건물에는 경보 시스템이 있습니다",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "이 차량에는 경보 시스템이 있습니다",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "경보 시스템을 성공적으로 해제했습니다",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "경보 시스템을 해제했을 수도 있습니다",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "이 경보 시스템은 해제할 수 없습니다",
+}

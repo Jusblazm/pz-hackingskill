@@ -5,4 +5,5 @@ ItemName_PTBR = {
     ItemName_Base.BookHacking4 = "Hacking IV: "O Códex 2600: Dominando o Modem"",
     ItemName_Base.BookHacking5 = "Hacking V: "A Bíblia do Zero Day"",
     ItemName_Base.BookHackingSet = "Coleção de Livros de Hacking",
+    ItemName_Base.HackingSkillCatalog = "Catálogo: Livros de Habilidade de Hacking",
 }

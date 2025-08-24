@@ -1,1 +1,16 @@
-UI_PTBR = {}
+UI_PTBR = {
+    UI_trait_AmateurHacker = "Hacker Amador",
+    UI_trait_AmateurHacker_Description = "Conhecimento básico de informática. Pequeno aumento na habilidade de Hacking.",
+    UI_trait_MasterHacker = "Hacker Mestre",
+    UI_trait_MasterHacker_Description = "Experiente em hacking. Grande aumento na habilidade de Hacking.",
+    UI_trait_TinFoilHat = "Chapéu de papel alumínio",
+    UI_trait_TinFoilHat_Description = "Você não confia em computadores. Não pode ganhar XP de hacking acima do nível 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Um ótimo lugar para conseguir todos os seus livros de Hacking.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "A coleção completa de livros de Hacking.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Iniciante? Não se preocupe, você consegue!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Hora de criar uma base sólida para o seu conhecimento.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Vamos aprender algumas novas técnicas.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Você está quase lá! Continue assim!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "É hora de dominar a arte.",
+}

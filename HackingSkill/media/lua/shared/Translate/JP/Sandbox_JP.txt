@@ -1,1 +1,9 @@
-Sandbox_JP = {}
+Sandbox_JP = {
+    Sandbox_HackingSkill = "ハッキングスキル設定",
+    Sandbox_HackingSkill_XPMultiplier = "ハッキング経験値倍率",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "ハッキングスキルがレベルアップする速度。",
+    Sandbox_HackingSkill_BuildingAlarms = "建物のアラーム",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "建物のアラームをハッキングするとハッキングXPを得られるか？",
+    Sandbox_HackingSkill_VehicleAlarms = "車両のアラーム",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "車両のアラームをハッキングするとハッキングXPを得られるか？",
+}

@@ -1,1 +1,9 @@
-Sandbox_PT = {}
+Sandbox_PT = {
+    Sandbox_HackingSkill = "Definições da Habilidade de Hacking",
+    Sandbox_HackingSkill_XPMultiplier = "Multiplicador de Hacking",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Velocidade com que a habilidade de Hacking evolui.",
+    Sandbox_HackingSkill_BuildingAlarms = "Alarmes de Edifício",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Hackear alarmes de edifícios deve dar XP de Hacking?",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarmes de Veículos",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Hackear alarmes de carros deve dar XP de Hacking?",
+}
