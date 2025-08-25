@@ -101,7 +101,7 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 Translations are done via ChatGPT and checked with Google Translate, unless otherwise noted. I do my best, but I'm sure there are some errors. If you would like to contribute please get in touch.
 
 ## Support
-Come find me on discord! Be sure to grab the Project Zomboid Modding Role once you arrive.\
+Come find me on discord! Be sure to grab the Project Zomboid Modding Role once you arrive.
 [![Discord](https://raw.githubusercontent.com/Jusblazm/pz-archive/refs/heads/main/_imgs/discordinvite.png)](https://discord.gg/yqstRpuGXy)
 
 A simple like and a favorite is more than enough, but if you would like to do more:
