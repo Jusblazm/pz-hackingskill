@@ -1,1 +1,16 @@
-UI_CS = {}
+UI_CS = {
+    UI_trait_AmateurHacker = "Amatérský hacker",
+    UI_trait_AmateurHacker_Description = "Základní znalosti počítačů. +1 bonus k dovednosti hackování.",
+    UI_trait_MasterHacker = "Mistr hacker",
+    UI_trait_MasterHacker_Description = "Zkušený v hackování. +3 bonus k dovednosti hackování.",
+    UI_trait_TinFoilHat = "Alobalová čepice",
+    UI_trait_TinFoilHat_Description = "Nevěříš počítačům. Nemůžeš získat XP v hackování nad úroveň 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Skvělé místo, kde získáš všechny knihy o hackování.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Kompletní kolekce knih o hackování.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Nováček? Neboj, zvládneš to!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Je čas si vybudovat pevný základ znalostí.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Naučme se nové techniky.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Už jsi skoro tam! Jen vydrž!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "Je čas ovládnout řemeslo.",
+}

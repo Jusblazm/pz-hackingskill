@@ -1,1 +1,16 @@
-UI_PH = {}
+UI_PH = {
+    UI_trait_AmateurHacker = "Bagitong Hacker",
+    UI_trait_AmateurHacker_Description = "Pangunahing kaalaman sa kompyuter. +1 dagdag sa kasanayan sa Pagha-hack.",
+    UI_trait_MasterHacker = "Batikang Hacker",
+    UI_trait_MasterHacker_Description = "Sanay sa pagha-hack. +3 dagdag sa kasanayan sa Pagha-hack.",
+    UI_trait_TinFoilHat = "Tinutupiang Sumbrero",
+    UI_trait_TinFoilHat_Description = "Hindi ka nagtitiwala sa mga kompyuter. Hindi ka makakakuha ng Hacking XP lampas level 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Isang mahusay na lugar para makuha ang lahat ng aklat sa kasanayan sa Pagha-hack.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Kumpletong koleksiyon ng mga aklat sa Pagha-hack.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Baguhan ka ba? Huwag mag-alala, kaya mo 'to!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Panahon na para magtayo ng matibay na pundasyon ng iyong kaalaman.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Matututo tayo ng ilang bagong teknik.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Malapit ka na! Ituloy mo lang!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "Panahon na para maging bihasa sa sining.",
+}

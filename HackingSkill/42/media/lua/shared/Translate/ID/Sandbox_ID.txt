@@ -1,1 +1,9 @@
-Sandbox_ID = {}
+Sandbox_ID = {
+    Sandbox_HackingSkill = "Pengaturan Keterampilan Peretasan",
+    Sandbox_HackingSkill_XPMultiplier = "Pengali Peretasan",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Kecepatan peningkatan level keterampilan Peretasan.",
+    Sandbox_HackingSkill_BuildingAlarms = "Alarm Bangunan",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Apakah meretas alarm bangunan memberikan XP Peretasan?",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarm Kendaraan",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Apakah meretas alarm kendaraan memberikan XP Peretasan?",
+}
