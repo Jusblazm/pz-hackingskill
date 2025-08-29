@@ -1,12 +1,12 @@
 IGUI_DA = {
     IGUI_perks_Technology = "Teknologi",
     IGUI_perks_Hacking = "Hacking",
-    IGUI_perks_Hacking_Description = "GÃ¸r det muligt at omgÃ¥ elektroniske lÃ¥se, alarmsystemer og sikkerhedsanordninger. Ã˜ger succesraten for elektronisk infiltration.",
+    IGUI_perks_Hacking_Description = "Gør det muligt at omgå elektroniske låse, alarmsystemer og sikkerhedsanordninger. Øger succesraten for elektronisk infiltration.",
 
     IGUI_HackingSkill_PlayerText_NoAlarm = "Intet alarmsystem registreret",
     IGUI_HackingSkill_PlayerText_BuildingAlarm = "Denne bygning har et alarmsystem",
-    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Dette kÃ¸retÃ¸j har et alarmsystem",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Dette køretøj har et alarmsystem",
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Jeg har succesfuldt deaktiveret alarmsystemet",
-    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Jeg har mÃ¥ske deaktiveret alarmsystemet",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Jeg har måske deaktiveret alarmsystemet",
     IGUI_HackingSkill_PlayerText_FailedDisarm = "Jeg kan ikke deaktivere dette alarmsystem",
 }

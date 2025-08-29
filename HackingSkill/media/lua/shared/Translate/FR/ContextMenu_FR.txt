@@ -1,4 +1,4 @@
 ContextMenu_FR = {
-    ContextMenu_HackingSkill_CheckForAlarm = "VÃ©rifier le systÃ¨me d'alarme",
-    ContextMenu_HackingSkill_DisarmAlarm = "DÃ©sactiver le systÃ¨me d'alarme",
+    ContextMenu_HackingSkill_CheckForAlarm = "Vérifier le système d'alarme",
+    ContextMenu_HackingSkill_DisarmAlarm = "Désactiver le système d'alarme",
 }

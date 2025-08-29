@@ -1,8 +1,9 @@
 ItemName_TR = {
     ItemName_Base.BookHacking1 = "Hacking I: "Phreaking 101"",
     ItemName_Base.BookHacking2 = "Hacking II: "Dial-Up ve Derinlemesine"",
-    ItemName_Base.BookHacking3 = "Hacking III: "BBS Hacking iÃ§in Yeni BaÅŸlayan Rehberi"",
-    ItemName_Base.BookHacking4 = "Hacking IV: "2600 Kodex: Modemi UstalaÅŸtÄ±rmak"",
-    ItemName_Base.BookHacking5 = "Hacking V: "SÄ±fÄ±r GÃ¼n Ä°ncil'i"",
-    ItemName_Base.HackingSkillCatalog = "Katalog: Hacking Becerisi KitaplarÄ±",
+    ItemName_Base.BookHacking3 = "Hacking III: "BBS Hacking için Yeni Baþlayan Rehberi"",
+    ItemName_Base.BookHacking4 = "Hacking IV: "2600 Kodex: Modemi Ustalaþtýrmak"",
+    ItemName_Base.BookHacking5 = "Hacking V: "Sýfýr Gün Ýncil'i"",
+    ItemName_Base.BookHackingSet = "Hacking Kitaplarý Seti",
+    ItemName_Base.HackingSkillCatalog = "Katalog: Hacking Becerisi Kitaplarý",
 }

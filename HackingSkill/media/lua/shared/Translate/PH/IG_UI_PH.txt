@@ -1,1 +1,12 @@
-IG_UI_PH = {}
+IGUI_PH = {
+    IGUI_perks_Technology = "Teknolohiya",
+    IGUI_perks_Hacking = "Pagha-hack",
+    IGUI_perks_Hacking_Description = "Nagbibigay-daan upang lampasan ang electronic locks, alarm systems, at mga security device. Pinapataas ang tsansa ng matagumpay na electronic infiltration.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Walang alarm system na natukoy",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Ang gusaling ito ay may alarm system",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Ang sasakyang ito ay may alarm system",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Matagumpay kong na-disable ang alarm system",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Maaaring na-disable ko ang alarm system",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Hindi ko ma-disable ang alarm system na ito",
+}

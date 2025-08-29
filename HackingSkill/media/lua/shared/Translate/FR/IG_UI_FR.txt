@@ -1,12 +1,12 @@
 IGUI_FR = {
     IGUI_perks_Technology = "Technologie",
     IGUI_perks_Hacking = "Piratage",
-    IGUI_perks_Hacking_Description = "Permet de contourner les serrures Ã©lectroniques, systÃ¨mes d'alarme et dispositifs de sÃ©curitÃ©. Augmente les chances de rÃ©ussite lors d'infiltrations Ã©lectroniques.",
+    IGUI_perks_Hacking_Description = "Permet de contourner les serrures électroniques, systèmes d'alarme et dispositifs de sécurité. Augmente les chances de réussite lors d'infiltrations électroniques.",
 
-    IGUI_HackingSkill_PlayerText_NoAlarm = "Aucun systÃ¨me d'alarme dÃ©tectÃ©",
-    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Ce bÃ¢timent possÃ¨de un systÃ¨me d'alarme",
-    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Ce vÃ©hicule possÃ¨de un systÃ¨me d'alarme",
-    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "J'ai dÃ©sactivÃ© le systÃ¨me d'alarme avec succÃ¨s",
-    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "J'ai peut-Ãªtre dÃ©sactivÃ© le systÃ¨me d'alarme",
-    IGUI_HackingSkill_PlayerText_FailedDisarm = "Je ne peux pas dÃ©sactiver ce systÃ¨me d'alarme",
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Aucun système d'alarme détecté",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Ce bâtiment possède un système d'alarme",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Ce véhicule possède un système d'alarme",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "J'ai désactivé le système d'alarme avec succès",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "J'ai peut-être désactivé le système d'alarme",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Je ne peux pas désactiver ce système d'alarme",
 }

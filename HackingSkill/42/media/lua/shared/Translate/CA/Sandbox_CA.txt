@@ -1,5 +1,5 @@
 Sandbox_CA = {
-    Sandbox_HackingSkill = "ConfiguraciÃ³ d'habilitat de pirateria",
+    Sandbox_HackingSkill = "Configuració d'habilitat de pirateria",
     Sandbox_HackingSkill_XPMultiplier = "Multiplicador de pirateria",
     Sandbox_HackingSkill_XPMultiplier_tooltip = "Taxa a la qual l'habilitat de pirateria puja de nivell.",
     Sandbox_HackingSkill_BuildingAlarms = "Alarmes d'edificis",

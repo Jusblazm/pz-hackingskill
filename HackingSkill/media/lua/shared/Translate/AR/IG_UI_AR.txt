@@ -1,1 +1,12 @@
-IG_UI_AR = {}
+IGUI_AR = {
+    IGUI_perks_Technology = "Tecnología",
+    IGUI_perks_Hacking = "Hacking",
+    IGUI_perks_Hacking_Description = "Permite evadir cerraduras electrónicas, sistemas de alarma y dispositivos de seguridad. Aumenta la probabilidad de éxito en infiltraciones electrónicas.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "No se detectó ningún sistema de alarma",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Este edificio tiene un sistema de alarma",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Este vehículo tiene un sistema de alarma",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Desactivé el sistema de alarma con éxito",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Puede que haya desactivado el sistema de alarma",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "No puedo desactivar este sistema de alarma",
+}

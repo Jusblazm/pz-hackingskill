@@ -1,9 +1,9 @@
 ItemName_CS = {
-    ItemName_Base.BookHacking1 = "Hackov√°n√≠ I: "Phreaking 101"",
-    ItemName_Base.BookHacking2 = "Hackov√°n√≠ II: "Dial-Up a jdeme na to"",
-    ItemName_Base.BookHacking3 = "Hackov√°n√≠ III: "Zaƒç√°teƒçnick√Ω pr≈Øvodce BBS hackov√°n√≠m"",
-    ItemName_Base.BookHacking4 = "Hackov√°n√≠ IV: "2600 K√≥dex: Ovl√°dnut√≠ modemu"",
-    ItemName_Base.BookHacking5 = "Hackov√°n√≠ V: "Bible Zero Day"",
-    ItemName_Base.BookHackingSet = "Sada knih o hackov√°n√≠",
-    ItemName_Base.HackingSkillCatalog = "Katalog: Knihy o hackov√°n√≠",
+    ItemName_Base.BookHacking1 = "Hackov·nÌ I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Hackov·nÌ II: "Dial-Up a jdeme na to"",
+    ItemName_Base.BookHacking3 = "Hackov·nÌ III: "ZaË·teËnick˝ pr˘vodce BBS hackov·nÌm"",
+    ItemName_Base.BookHacking4 = "Hackov·nÌ IV: "2600 KÛdex: Ovl·dnutÌ modemu"",
+    ItemName_Base.BookHacking5 = "Hackov·nÌ V: "Bible Zero Day"",
+    ItemName_Base.BookHackingSet = "Sada knih o hackov·nÌ",
+    ItemName_Base.HackingSkillCatalog = "Katalog: Knihy o hackov·nÌ",
 }

@@ -1,9 +1,9 @@
 Sandbox_CS = {
-    Sandbox_HackingSkill = "Nastaven√≠ dovednosti hackov√°n√≠",
-    Sandbox_HackingSkill_XPMultiplier = "N√°sobitel hackov√°n√≠",
-    Sandbox_HackingSkill_XPMultiplier_tooltip = "Rychlost, s jakou se dovednost hackov√°n√≠ zvy≈°uje.",
-    Sandbox_HackingSkill_BuildingAlarms = "Poplachy v budov√°ch",
-    Sandbox_HackingSkill_BuildingAlarms_tooltip = "M√° hackov√°n√≠ budov s poplachem p≈ôid√°vat XP do hackov√°n√≠?",
+    Sandbox_HackingSkill = "NastavenÌ dovednosti hackov·nÌ",
+    Sandbox_HackingSkill_XPMultiplier = "N·sobitel hackov·nÌ",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Rychlost, s jakou se dovednost hackov·nÌ zvyöuje.",
+    Sandbox_HackingSkill_BuildingAlarms = "Poplachy v budov·ch",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "M· hackov·nÌ budov s poplachem p¯id·vat XP do hackov·nÌ?",
     Sandbox_HackingSkill_VehicleAlarms = "Poplachy vozidel",
-    Sandbox_HackingSkill_VehicleAlarms_tooltip = "M√° hackov√°n√≠ aut s poplachem p≈ôid√°vat XP do hackov√°n√≠?",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "M· hackov·nÌ aut s poplachem p¯id·vat XP do hackov·nÌ?",
 }

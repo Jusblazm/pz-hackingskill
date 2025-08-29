@@ -1,1 +1,12 @@
-IG_UI_ID = {}
+IGUI_ID = {
+    IGUI_perks_Technology = "Teknologi",
+    IGUI_perks_Hacking = "Peretasan",
+    IGUI_perks_Hacking_Description = "Memungkinkan melewati kunci elektronik, sistem alarm, dan perangkat keamanan. Meningkatkan tingkat keberhasilan infiltrasi elektronik.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Tidak terdeteksi sistem alarm",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Bangunan ini memiliki sistem alarm",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Kendaraan ini memiliki sistem alarm",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Berhasil menonaktifkan sistem alarm",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Mungkin saya telah menonaktifkan sistem alarm",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Saya tidak bisa menonaktifkan sistem alarm ini",
+}

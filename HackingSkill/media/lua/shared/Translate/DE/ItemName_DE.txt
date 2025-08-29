@@ -1,8 +1,9 @@
 ItemName_DE = {
-    ItemName_Base.BookHacking1 = "Hacken I: â€žPhreaking 101â€œ",
-    ItemName_Base.BookHacking2 = "Hacken II: â€žEinwÃ¤hlen und Eindringenâ€œ",
-    ItemName_Base.BookHacking3 = "Hacken III: â€žEinsteigerhandbuch zum BBS-Hackenâ€œ",
-    ItemName_Base.BookHacking4 = "Hacken IV: â€žDer 2600-Kodex: Meisterung des Modemsâ€œ",
-    ItemName_Base.BookHacking5 = "Hacken V: â€žDie Zero-Day-Bibelâ€œ",
-    ItemName_Base.HackingSkillCatalog = "Katalog: HackerbÃ¼cher",
+    ItemName_Base.BookHacking1 = "Hacken I: „Phreaking 101“",
+    ItemName_Base.BookHacking2 = "Hacken II: „Einwählen und Eindringen“",
+    ItemName_Base.BookHacking3 = "Hacken III: „Einsteigerhandbuch zum BBS-Hacken“",
+    ItemName_Base.BookHacking4 = "Hacken IV: „Der 2600-Kodex: Meisterung des Modems“",
+    ItemName_Base.BookHacking5 = "Hacken V: „Die Zero-Day-Bibel“",
+    ItemName_Base.BookHackingSet = "Satz von Hackerbüchern",
+    ItemName_Base.HackingSkillCatalog = "Katalog: Hackerbücher",
 }

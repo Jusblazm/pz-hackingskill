@@ -1,1 +1,16 @@
-UI_PL = {}
+UI_PL = {
+    UI_trait_AmateurHacker = "Amatorski haker",
+    UI_trait_AmateurHacker_Description = "Podstawowa wiedza komputerowa. +1 do umiejêtnoœci Hakowanie.",
+    UI_trait_MasterHacker = "Mistrz hakerstwa",
+    UI_trait_MasterHacker_Description = "Doœwiadczony w hakowaniu. +3 do umiejêtnoœci Hakowanie.",
+    UI_trait_TinFoilHat = "Czapka z folii aluminiowej",
+    UI_trait_TinFoilHat_Description = "Nie ufasz komputerom. Nie mo¿esz zdobywaæ XP w hakowaniu powy¿ej poziomu 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Œwietne miejsce, aby zdobyæ wszystkie ksi¹¿ki o hakowaniu.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Pe³na kolekcja ksi¹¿ek o hakowaniu.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Nowicjusz? Nie martw siê, dasz sobie radê!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Czas zbudowaæ solidne podstawy wiedzy.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Poznajmy nowe techniki.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Ju¿ prawie tam jesteœ! Nie poddawaj siê!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "Czas opanowaæ rzemios³o do perfekcji.",
+}
