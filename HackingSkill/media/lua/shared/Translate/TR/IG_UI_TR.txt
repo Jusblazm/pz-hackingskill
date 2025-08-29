@@ -1,12 +1,12 @@
 IGUI_TR = {
     IGUI_perks_Technology = "Teknoloji",
     IGUI_perks_Hacking = "Hacking",
-    IGUI_perks_Hacking_Description = "Elektronik kilitleri, alarm sistemlerini ve gÃ¼venlik cihazlarÄ±nÄ± aÅŸmanÄ± saÄŸlar. Elektronik sÄ±zma baÅŸarÄ± oranÄ±nÄ± artÄ±rÄ±r.",
+    IGUI_perks_Hacking_Description = "Elektronik kilitleri, alarm sistemlerini ve güvenlik cihazlarını aşmanı sağlar. Elektronik sızma başarı oranını artırır.",
 
     IGUI_HackingSkill_PlayerText_NoAlarm = "Alarm sistemi tespit edilmedi",
     IGUI_HackingSkill_PlayerText_BuildingAlarm = "Bu binada bir alarm sistemi var",
-    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Bu araÃ§ta bir alarm sistemi var",
-    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Alarm sistemini baÅŸarÄ±yla devre dÄ±ÅŸÄ± bÄ±raktÄ±m",
-    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Alarm sistemini devre dÄ±ÅŸÄ± bÄ±rakmÄ±ÅŸ olabilirim",
-    IGUI_HackingSkill_PlayerText_FailedDisarm = "Bu alarm sistemini devre dÄ±ÅŸÄ± bÄ±rakamÄ±yorum",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Bu araçta bir alarm sistemi var",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Alarm sistemini başarıyla devre dışı bıraktım",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Alarm sistemini devre dışı bırakmış olabilirim",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Bu alarm sistemini devre dışı bırakamıyorum",
 }

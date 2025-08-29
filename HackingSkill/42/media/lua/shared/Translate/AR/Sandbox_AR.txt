@@ -1,9 +1,9 @@
 Sandbox_AR = {
-    Sandbox_HackingSkill = "ConfiguraciÃ³n de Habilidad de Hacking",
+    Sandbox_HackingSkill = "Configuración de Habilidad de Hacking",
     Sandbox_HackingSkill_XPMultiplier = "Multiplicador de Hacking",
     Sandbox_HackingSkill_XPMultiplier_tooltip = "Velocidad a la que la habilidad de Hacking sube de nivel.",
     Sandbox_HackingSkill_BuildingAlarms = "Alarmas de edificios",
-    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Â¿Hacer que hackear alarmas de edificios otorgue XP de Hacking?",
-    Sandbox_HackingSkill_VehicleAlarms = "Alarmas de vehÃ­culos",
-    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Â¿Hacer que hackear alarmas de autos otorgue XP de Hacking?",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "¿Hacer que hackear alarmas de edificios otorgue XP de Hacking?",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarmas de vehículos",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "¿Hacer que hackear alarmas de autos otorgue XP de Hacking?",
 }

@@ -1,1 +1,12 @@
-IG_UI_CA = {}
+IGUI_CA = {
+    IGUI_perks_Technology = "Tecnologia",
+    IGUI_perks_Hacking = "Pirateria Informàtica",
+    IGUI_perks_Hacking_Description = "Permet eludir tancaments electrònics, sistemes d'alarma i dispositius de seguretat. Augmenta la probabilitat d'èxit en infiltracions electròniques.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "No s'ha detectat cap sistema d'alarma",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Aquest edifici té un sistema d'alarma",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Aquest vehicle té un sistema d'alarma",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "He desactivat correctament el sistema d'alarma",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Potser he desactivat el sistema d'alarma",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "No puc desactivar aquest sistema d'alarma",
+}

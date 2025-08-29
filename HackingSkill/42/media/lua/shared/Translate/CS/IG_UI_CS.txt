@@ -1,12 +1,12 @@
 IGUI_CS = {
     IGUI_perks_Technology = "Technologie",
-    IGUI_perks_Hacking = "HackovÃ¡nÃ­",
-    IGUI_perks_Hacking_Description = "UmoÅ¾Åˆuje obejÃ­t elektronickÃ© zÃ¡mky, poplaÅ¡nÃ© systÃ©my a bezpeÄnostnÃ­ zaÅ™Ã­zenÃ­. ZvyÅ¡uje ÃºspÄ›Å¡nost elektronickÃ©ho pronikÃ¡nÃ­.",
+    IGUI_perks_Hacking = "Hackování",
+    IGUI_perks_Hacking_Description = "Umoòuje obejít elektronické zámky, poplašné systémy a bezpeènostní zaøízení. Zvyšuje úspìšnost elektronického pronikání.",
 
-    IGUI_HackingSkill_PlayerText_NoAlarm = "Nebyl zjiÅ¡tÄ›n Å¾Ã¡dnÃ½ poplaÅ¡nÃ½ systÃ©m",
-    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Tato budova mÃ¡ poplaÅ¡nÃ½ systÃ©m",
-    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Toto vozidlo mÃ¡ poplaÅ¡nÃ½ systÃ©m",
-    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "ÃšspÄ›Å¡nÄ› jsem deaktivoval poplaÅ¡nÃ½ systÃ©m",
-    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "MoÅ¾nÃ¡ jsem deaktivoval poplaÅ¡nÃ½ systÃ©m",
-    IGUI_HackingSkill_PlayerText_FailedDisarm = "NemÅ¯Å¾u deaktivovat tento poplaÅ¡nÃ½ systÃ©m",
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Nebyl zjištìn ádnı poplašnı systém",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Tato budova má poplašnı systém",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Toto vozidlo má poplašnı systém",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Úspìšnì jsem deaktivoval poplašnı systém",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Moná jsem deaktivoval poplašnı systém",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Nemùu deaktivovat tento poplašnı systém",
 }

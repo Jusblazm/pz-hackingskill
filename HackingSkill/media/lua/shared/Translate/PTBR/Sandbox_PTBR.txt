@@ -1,9 +1,9 @@
 Sandbox_PTBR = {
-    Sandbox_HackingSkill = "ConfiguraÃ§Ãµes da Habilidade de Hacking",
+    Sandbox_HackingSkill = "Configurações da Habilidade de Hacking",
     Sandbox_HackingSkill_XPMultiplier = "Multiplicador de Hacking",
-    Sandbox_HackingSkill_XPMultiplier_tooltip = "Velocidade de evoluÃ§Ã£o da habilidade de Hacking.",
-    Sandbox_HackingSkill_BuildingAlarms = "Alarmes de EdifÃ­cios",
-    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Hackear alarmes de edifÃ­cios deve conceder XP em Hacking?",
-    Sandbox_HackingSkill_VehicleAlarms = "Alarmes de VeÃ­culos",
-    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Hackear alarmes de veÃ­culos deve conceder XP em Hacking?",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Velocidade de evolução da habilidade de Hacking.",
+    Sandbox_HackingSkill_BuildingAlarms = "Alarmes de Edifícios",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Hackear alarmes de edifícios deve conceder XP em Hacking?",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarmes de Veículos",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Hackear alarmes de veículos deve conceder XP em Hacking?",
 }

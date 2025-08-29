@@ -1,4 +1,4 @@
 ContextMenu_UA = {
-    ContextMenu_HackingSkill_CheckForAlarm = "РџРµСЂРµРІС–СЂРёС‚Рё РЅР°СЏРІРЅС–СЃС‚СЊ СЃРёРіРЅР°Р»С–Р·Р°С†С–С—",
-    ContextMenu_HackingSkill_DisarmAlarm = "Р’РёРјРєРЅСѓС‚Рё СЃРёРіРЅР°Р»С–Р·Р°С†С–СЋ",
+    ContextMenu_HackingSkill_CheckForAlarm = "Перевірити наявність сигналізації",
+    ContextMenu_HackingSkill_DisarmAlarm = "Вимкнути сигналізацію",
 }

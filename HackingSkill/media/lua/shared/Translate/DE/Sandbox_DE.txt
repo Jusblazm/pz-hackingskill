@@ -1,9 +1,9 @@
 Sandbox_DE = {
-    Sandbox_HackingSkill = "Einstellungen f√ºr Hackerf√§higkeit",
+    Sandbox_HackingSkill = "Einstellungen f¸r Hackerf‰higkeit",
     Sandbox_HackingSkill_XPMultiplier = "Hacking-Erfahrungsmultiplikator",
-    Sandbox_HackingSkill_XPMultiplier_tooltip = "Rate, mit der sich die Hackerf√§higkeit verbessert.",
-    Sandbox_HackingSkill_BuildingAlarms = "Geb√§udealarme",
-    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Sollen gehackte Geb√§udealarme Hacker-XP geben?",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Rate, mit der sich die Hackerf‰higkeit verbessert.",
+    Sandbox_HackingSkill_BuildingAlarms = "Geb‰udealarme",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Sollen gehackte Geb‰udealarme Hacker-XP geben?",
     Sandbox_HackingSkill_VehicleAlarms = "Fahrzeugalarme",
     Sandbox_HackingSkill_VehicleAlarms_tooltip = "Sollen gehackte Fahrzeugalarme Hacker-XP geben?",
 }

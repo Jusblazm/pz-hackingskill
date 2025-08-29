@@ -1,12 +1,12 @@
 IGUI_RU = {
-    IGUI_perks_Technology = "РўРµС…РЅРѕР»РѕРіРёРё",
-    IGUI_perks_Hacking = "Р’Р·Р»РѕРј",
-    IGUI_perks_Hacking_Description = "РџРѕР·РІРѕР»СЏРµС‚ РѕР±С…РѕРґРёС‚СЊ СЌР»РµРєС‚СЂРѕРЅРЅС‹Рµ Р·Р°РјРєРё, СЃРёРіРЅР°Р»РёР·Р°С†РёРё Рё СѓСЃС‚СЂРѕР№СЃС‚РІР° Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё. РџРѕРІС‹С€Р°РµС‚ С€Р°РЅСЃ СѓСЃРїРµС€РЅРѕРіРѕ СЌР»РµРєС‚СЂРѕРЅРЅРѕРіРѕ РІР·Р»РѕРјР°.",
+    IGUI_perks_Technology = "Технологии",
+    IGUI_perks_Hacking = "Взлом",
+    IGUI_perks_Hacking_Description = "Позволяет обходить электронные замки, сигнализации и устройства безопасности. Повышает шанс успешного электронного взлома.",
 
-    IGUI_HackingSkill_PlayerText_NoAlarm = "РЎРёРіРЅР°Р»РёР·Р°С†РёСЏ РЅРµ РѕР±РЅР°СЂСѓР¶РµРЅР°",
-    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Р’ СЌС‚РѕРј Р·РґР°РЅРёРё СѓСЃС‚Р°РЅРѕРІР»РµРЅР° СЃРёРіРЅР°Р»РёР·Р°С†РёСЏ",
-    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Р’ СЌС‚РѕРј С‚СЂР°РЅСЃРїРѕСЂС‚РЅРѕРј СЃСЂРµРґСЃС‚РІРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅР° СЃРёРіРЅР°Р»РёР·Р°С†РёСЏ",
-    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "РњРЅРµ СѓРґР°Р»РѕСЃСЊ РѕС‚РєР»СЋС‡РёС‚СЊ СЃРёРіРЅР°Р»РёР·Р°С†РёСЋ",
-    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Р’РѕР·РјРѕР¶РЅРѕ, СЏ РѕС‚РєР»СЋС‡РёР» СЃРёРіРЅР°Р»РёР·Р°С†РёСЋ",
-    IGUI_HackingSkill_PlayerText_FailedDisarm = "РќРµ СѓРґР°Р»РѕСЃСЊ РѕС‚РєР»СЋС‡РёС‚СЊ СЃРёРіРЅР°Р»РёР·Р°С†РёСЋ",
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Сигнализация не обнаружена",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "В этом здании установлена сигнализация",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "В этом транспортном средстве установлена сигнализация",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Мне удалось отключить сигнализацию",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Возможно, я отключил сигнализацию",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Не удалось отключить сигнализацию",
 }

@@ -1,9 +1,9 @@
 Sandbox_FR = {
-    Sandbox_HackingSkill = "Param√®tres de comp√©tence en piratage",
+    Sandbox_HackingSkill = "ParamËtres de compÈtence en piratage",
     Sandbox_HackingSkill_XPMultiplier = "Multiplicateur de piratage",
-    Sandbox_HackingSkill_XPMultiplier_tooltip = "Taux de progression de la comp√©tence Piratage.",
-    Sandbox_HackingSkill_BuildingAlarms = "Alarmes des b√¢timents",
-    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Le piratage des alarmes de b√¢timents donne-t-il de l'XP en piratage ?",
-    Sandbox_HackingSkill_VehicleAlarms = "Alarmes des v√©hicules",
-    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Le piratage des alarmes de v√©hicules donne-t-il de l'XP en piratage ?",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Taux de progression de la compÈtence Piratage.",
+    Sandbox_HackingSkill_BuildingAlarms = "Alarmes des b‚timents",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Le piratage des alarmes de b‚timents donne-t-il de l'XP en piratage ?",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarmes des vÈhicules",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Le piratage des alarmes de vÈhicules donne-t-il de l'XP en piratage ?",
 }

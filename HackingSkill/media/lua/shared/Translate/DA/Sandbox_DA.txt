@@ -1,9 +1,9 @@
 Sandbox_DA = {
-    Sandbox_HackingSkill = "Indstillinger for hackingfÃ¦rdigheder",
+    Sandbox_HackingSkill = "Indstillinger for hackingfærdigheder",
     Sandbox_HackingSkill_XPMultiplier = "Hacking-multiplikator",
-    Sandbox_HackingSkill_XPMultiplier_tooltip = "Hastigheden hvormed hackingfÃ¦rdigheden stiger i niveau.",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Hastigheden hvormed hackingfærdigheden stiger i niveau.",
     Sandbox_HackingSkill_BuildingAlarms = "Bygningsalarmer",
     Sandbox_HackingSkill_BuildingAlarms_tooltip = "Skal hacking af bygningsalarmer give hacking-XP?",
-    Sandbox_HackingSkill_VehicleAlarms = "KÃ¸retÃ¸jsalarmer",
+    Sandbox_HackingSkill_VehicleAlarms = "Køretøjsalarmer",
     Sandbox_HackingSkill_VehicleAlarms_tooltip = "Skal hacking af bilalarmer give hacking-XP?",
 }

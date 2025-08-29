@@ -1,8 +1,9 @@
 ItemName_UA = {
-    ItemName_Base.BookHacking1 = "РҐР°РєС–РЅРі I: "Р¤СЂС–РєС–РЅРі 101"",
-    ItemName_Base.BookHacking2 = "РҐР°РєС–РЅРі II: "Р”Р·РІС–РЅРєРё С‚Р° РїС–РґРєР»СЋС‡РµРЅРЅСЏ"",
-    ItemName_Base.BookHacking3 = "РҐР°РєС–РЅРі III: "РџРѕСЃС–Р±РЅРёРє РїРѕС‡Р°С‚РєС–РІС†СЏ Р· BBS-С…Р°РєС–РЅРіСѓ"",
-    ItemName_Base.BookHacking4 = "РҐР°РєС–РЅРі IV: "РљРѕРґРµРєСЃ 2600: РњРёСЃС‚РµС†С‚РІРѕ РјРѕРґРµРјР°"",
-    ItemName_Base.BookHacking5 = "РҐР°РєС–РЅРі V: "Р‘С–Р±Р»С–СЏ РЅСѓР»СЊРѕРІРѕРіРѕ РґРЅСЏ"",
-    ItemName_Base.HackingSkillCatalog = "РљР°С‚Р°Р»РѕРі: РљРЅРёРіРё Р· РЅР°РІРёРєСѓ С…Р°РєС–РЅРіСѓ",
+    ItemName_Base.BookHacking1 = "Хакінг I: "Фрікінг 101"",
+    ItemName_Base.BookHacking2 = "Хакінг II: "Дзвінки та підключення"",
+    ItemName_Base.BookHacking3 = "Хакінг III: "Посібник початківця з BBS-хакінгу"",
+    ItemName_Base.BookHacking4 = "Хакінг IV: "Кодекс 2600: Мистецтво модема"",
+    ItemName_Base.BookHacking5 = "Хакінг V: "Біблія нульового дня"",
+    ItemName_Base.BookHackingSet = "Набір книг з хакінгу",
+    ItemName_Base.HackingSkillCatalog = "Каталог: Книги з навику хакінгу",
 }

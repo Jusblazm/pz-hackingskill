@@ -1,10 +1,10 @@
 IGUI_DE = {
     IGUI_perks_Technology = "Technologie",
     IGUI_perks_Hacking = "Hacken",
-    IGUI_perks_Hacking_Description = "ErmÃ¶glicht das Umgehen elektronischer SchlÃ¶sser, Alarmsysteme und Sicherheitsvorrichtungen. ErhÃ¶ht die Erfolgsquote elektronischer Infiltration.",
+    IGUI_perks_Hacking_Description = "Ermöglicht das Umgehen elektronischer Schlösser, Alarmsysteme und Sicherheitsvorrichtungen. Erhöht die Erfolgsquote elektronischer Infiltration.",
 
     IGUI_HackingSkill_PlayerText_NoAlarm = "Kein Alarmsystem erkannt",
-    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Dieses GebÃ¤ude hat ein Alarmsystem",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Dieses Gebäude hat ein Alarmsystem",
     IGUI_HackingSkill_PlayerText_VehicleAlarm = "Dieses Fahrzeug hat ein Alarmsystem",
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Ich habe das Alarmsystem erfolgreich deaktiviert",
     IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Vielleicht habe ich das Alarmsystem deaktiviert",

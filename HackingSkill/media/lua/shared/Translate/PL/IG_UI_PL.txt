@@ -1,1 +1,12 @@
-IG_UI_PL = {}
+IGUI_PL = {
+    IGUI_perks_Technology = "Technologia",
+    IGUI_perks_Hacking = "Hakowanie",
+    IGUI_perks_Hacking_Description = "Pozwala omijaæ zamki elektroniczne, systemy alarmowe i urz¹dzenia zabezpieczaj¹ce. Zwiêksza skutecznoœæ elektronicznej infiltracji.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Nie wykryto systemu alarmowego",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Ten budynek ma system alarmowy",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Ten pojazd ma system alarmowy",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Pomyœlnie rozbroi³em system alarmowy",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Byæ mo¿e uda³o mi siê wy³¹czyæ system alarmowy",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Nie mogê rozbroiæ tego systemu alarmowego",
+}

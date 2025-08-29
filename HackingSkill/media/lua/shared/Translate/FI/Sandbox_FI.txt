@@ -2,8 +2,8 @@ Sandbox_FI = {
     Sandbox_HackingSkill = "Hakkerointitaitojen asetukset",
     Sandbox_HackingSkill_XPMultiplier = "Hakkeroinnin kerroin",
     Sandbox_HackingSkill_XPMultiplier_tooltip = "Nopeus, jolla hakkerointitaito kehittyy.",
-    Sandbox_HackingSkill_BuildingAlarms = "Rakennusten h√§lytykset",
-    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Pit√§isik√∂ rakennusten h√§lytysten hakkeroinnin antaa hakkerointikokemusta?",
-    Sandbox_HackingSkill_VehicleAlarms = "Ajoneuvojen h√§lytykset",
-    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Pit√§isik√∂ autojen h√§lytysten hakkeroinnin antaa hakkerointikokemusta?",
+    Sandbox_HackingSkill_BuildingAlarms = "Rakennusten h‰lytykset",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Pit‰isikˆ rakennusten h‰lytysten hakkeroinnin antaa hakkerointikokemusta?",
+    Sandbox_HackingSkill_VehicleAlarms = "Ajoneuvojen h‰lytykset",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Pit‰isikˆ autojen h‰lytysten hakkeroinnin antaa hakkerointikokemusta?",
 }

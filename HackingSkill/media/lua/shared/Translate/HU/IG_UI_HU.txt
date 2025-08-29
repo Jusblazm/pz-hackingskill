@@ -1,1 +1,12 @@
-IG_UI_HU = {}
+IGUI_HU = {
+    IGUI_perks_Technology = "Technológia",
+    IGUI_perks_Hacking = "Hacking",
+    IGUI_perks_Hacking_Description = "Lehetõvé teszi az elektronikus zárak, riasztórendszerek és biztonsági eszközök megkerülését. Növeli az elektronikus behatolás sikerességét.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Nem észlelhetõ riasztórendszer",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Ennek az épületnek van riasztórendszere",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Ennek a jármûnek van riasztórendszere",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Sikeresen hatástalanítottam a riasztórendszert",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Lehet, hogy hatástalanítottam a riasztórendszert",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Nem tudom hatástalanítani ezt a riasztórendszert",
+}

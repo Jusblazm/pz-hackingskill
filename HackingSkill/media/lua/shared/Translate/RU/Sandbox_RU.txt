@@ -1,9 +1,9 @@
 Sandbox_RU = {
-    Sandbox_HackingSkill = "РќР°СЃС‚СЂРѕР№РєРё РЅР°РІС‹РєР° РІР·Р»РѕРјР°",
-    Sandbox_HackingSkill_XPMultiplier = "РњРЅРѕР¶РёС‚РµР»СЊ РѕРїС‹С‚Р° РІР·Р»РѕРјР°",
-    Sandbox_HackingSkill_XPMultiplier_tooltip = "РЎРєРѕСЂРѕСЃС‚СЊ РїСЂРѕРєР°С‡РєРё РЅР°РІС‹РєР° РІР·Р»РѕРјР°.",
-    Sandbox_HackingSkill_BuildingAlarms = "РЎРёРіРЅР°Р»РёР·Р°С†РёРё Р·РґР°РЅРёР№",
-    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Р”РѕР»Р¶РµРЅ Р»Рё РІР·Р»РѕРј СЃРёРіРЅР°Р»РёР·Р°С†РёРё Р·РґР°РЅРёР№ РґР°РІР°С‚СЊ РѕРїС‹С‚?",
-    Sandbox_HackingSkill_VehicleAlarms = "РЎРёРіРЅР°Р»РёР·Р°С†РёРё Р°РІС‚РѕРјРѕР±РёР»РµР№",
-    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Р”РѕР»Р¶РµРЅ Р»Рё РІР·Р»РѕРј СЃРёРіРЅР°Р»РёР·Р°С†РёРё Р°РІС‚РѕРјРѕР±РёР»РµР№ РґР°РІР°С‚СЊ РѕРїС‹С‚?",
+    Sandbox_HackingSkill = "Настройки навыка взлома",
+    Sandbox_HackingSkill_XPMultiplier = "Множитель опыта взлома",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Скорость прокачки навыка взлома.",
+    Sandbox_HackingSkill_BuildingAlarms = "Сигнализации зданий",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Должен ли взлом сигнализации зданий давать опыт?",
+    Sandbox_HackingSkill_VehicleAlarms = "Сигнализации автомобилей",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Должен ли взлом сигнализации автомобилей давать опыт?",
 }

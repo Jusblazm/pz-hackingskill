@@ -1,1 +1,16 @@
-UI_ID = {}
+UI_ID = {
+    UI_trait_AmateurHacker = "Peretas Pemula",
+    UI_trait_AmateurHacker_Description = "Pengetahuan komputer dasar. +1 peningkatan pada keterampilan Peretasan.",
+    UI_trait_MasterHacker = "Peretas Ahli",
+    UI_trait_MasterHacker_Description = "Berpengalaman dalam peretasan. +3 peningkatan pada keterampilan Peretasan.",
+    UI_trait_TinFoilHat = "Topi Aluminium",
+    UI_trait_TinFoilHat_Description = "Anda tidak mempercayai komputer. Tidak bisa mendapatkan XP Peretasan di atas level 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Tempat yang bagus untuk mendapatkan semua buku keterampilan Peretasan Anda.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Koleksi lengkap buku Peretasan.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Pemula? Jangan khawatir, Anda bisa melakukannya!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Saatnya membangun fondasi pengetahuan yang kuat.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Mari belajar beberapa teknik baru.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Anda hampir sampai! Teruskan!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "Saatnya menguasai keahliannya.",
+}
