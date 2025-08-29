@@ -1,1 +1,12 @@
-IG_UI_CS = {}
+IGUI_CS = {
+    IGUI_perks_Technology = "Technologie",
+    IGUI_perks_Hacking = "Hackování",
+    IGUI_perks_Hacking_Description = "Umožňuje obejít elektronické zámky, poplašné systémy a bezpečnostní zařízení. Zvyšuje úspěšnost elektronického pronikání.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Nebyl zjištěn žádný poplašný systém",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Tato budova má poplašný systém",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Toto vozidlo má poplašný systém",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Úspěšně jsem deaktivoval poplašný systém",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Možná jsem deaktivoval poplašný systém",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Nemůžu deaktivovat tento poplašný systém",
+}

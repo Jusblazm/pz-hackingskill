@@ -1,6 +1,6 @@
 -- HackingCatalog_Distributions
 require "Items/ProceduralDistributions"
-require "Items/Distributions"
+require "Items/SuburbsDistributions"
 
 local catalogs = {
     "Base.HackingSkillCatalog"
@@ -68,24 +68,12 @@ end
 -- Distributions: Mailbox
 ----------------------------------------
 
-local gameVersion = getCore():getVersionNumber()
-local BlackshotsManhattan = nil
-
-if gameVersion and tonumber(gameVersion) >= 42 then
-    BlackshotsManhattan = "\\BlackshotsManhattan"
-else
-    BlackshotsManhattan = "BlackshotsManhattan"
-end
-
-if not getActivatedMods():contains(BlackshotsManhattan) then
-    local postboxWeight = 6
-
-    local postbox = Distributions[1].all.postbox
-    if postbox and postbox.items then
-        local items = postbox.items
-        for _, catalog in ipairs(catalogs) do
-            table.insert(items, catalog)
-            table.insert(items, postboxWeight)
-        end
+local postboxWeight = 2
+local distro = SuburbsDistributions
+if distro and distro.all and distro.all.postbox and distro.all.postbox.items then
+    local items = distro.all.postbox.items
+    for _, catalog in ipairs(catalogs) do
+        table.insert(items, catalog)
+        table.insert(items, postboxWeight)
     end
 end

@@ -1,1 +1,4 @@
-ContextMenu_CA = {}
+ContextMenu_CA = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Comprovar el sistema d'alarma",
+    ContextMenu_HackingSkill_DisarmAlarm = "Desactivar el sistema d'alarma",
+}
