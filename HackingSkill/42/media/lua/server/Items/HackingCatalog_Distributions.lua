@@ -1,6 +1,6 @@
 -- HackingCatalog_Distributions
 require "Items/ProceduralDistributions"
-require "Items/Distributions"
+require "Items/SuburbsDistributions"
 
 local catalogs = {
     "Base.HackingSkillCatalog"
@@ -68,8 +68,8 @@ end
 -- Distributions: Mailbox
 ----------------------------------------
 
-local postboxWeight = 3
-local distro = Distributions and Distributions[1]
+local postboxWeight = 2
+local distro = SuburbsDistributions
 if distro and distro.all and distro.all.postbox and distro.all.postbox.items then
     local items = distro.all.postbox.items
     for _, catalog in ipairs(catalogs) do
