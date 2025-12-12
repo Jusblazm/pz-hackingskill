@@ -9,7 +9,7 @@ module HackingSkill
         UIName = UI_trait_AmateurHacker,
         UIDescription = UI_trait_AmateurHacker_Description,
         XPBoosts = Hacking=1,
-    },
+    }
 
     character_trait_definition hackingskill:masterhacker
     {
