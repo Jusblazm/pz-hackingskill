@@ -1,0 +1,16 @@
+UI_CA = {
+    UI_trait_AmateurHacker = "Hacker Aficionat",
+    UI_trait_AmateurHacker_Description = "Coneixements bàsics d'informàtica. +1 d'impuls a l'habilitat de pirateria.",
+    UI_trait_MasterHacker = "Hacker Mestre",
+    UI_trait_MasterHacker_Description = "Experimentat en pirateria. +3 d'impuls a l'habilitat de pirateria.",
+    UI_trait_TinFoilHat = "Barret d'alumini",
+    UI_trait_TinFoilHat_Description = "No confies en els ordinadors. No pots guanyar XP de pirateria més enllà del nivell 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Un lloc perfecte per aconseguir tots els teus llibres d'habilitat de pirateria.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "La col·lecció completa de llibres de pirateria.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Ets nou? No et preocupis, ho tens tot controlat!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Hora de construir una base sòlida pel teu coneixement.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Aprenem algunes tècniques noves.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Ja gairebé hi ets! Continua així!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "És hora de dominar l'art.",
+}

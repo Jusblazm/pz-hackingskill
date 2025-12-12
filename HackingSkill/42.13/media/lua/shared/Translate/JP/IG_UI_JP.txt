@@ -1,0 +1,12 @@
+IGUI_JP = {
+    IGUI_perks_Technology = "テクノロジー",
+    IGUI_perks_Hacking = "ハッキング",
+    IGUI_perks_Hacking_Description = "電子ロック、アラームシステム、およびセキュリティデバイスの回避を可能にします。電子侵入の成功率が向上します。",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "アラームシステムは検出されませんでした",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "この建物にはアラームシステムがあります",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "この車両にはアラームシステムがあります",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "アラームシステムの解除に成功しました",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "アラームシステムを無効化したかもしれません",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "このアラームシステムは解除できませんでした",
+}

@@ -1,0 +1,9 @@
+Sandbox_NO = {
+    Sandbox_HackingSkill = "Innstillinger for hackeferdighet",
+    Sandbox_HackingSkill_XPMultiplier = "Hacking-multiplikator",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Hastigheten Hacking-ferdigheten øker med.",
+    Sandbox_HackingSkill_BuildingAlarms = "Bygningsalarmer",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Skal hacking av bygningsalarmer gi Hacking-XP?",
+    Sandbox_HackingSkill_VehicleAlarms = "Kjøretøysalarmer",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Skal hacking av bilalarmer gi Hacking-XP?",
+}

@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+    ContextMenu_HackingSkill_CheckForAlarm = "检查警报系统",
+    ContextMenu_HackingSkill_DisarmAlarm = "解除警报系统",
+}

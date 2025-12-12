@@ -1,0 +1,9 @@
+Sandbox_CH = {
+    Sandbox_HackingSkill = "駭客技能設定",
+    Sandbox_HackingSkill_XPMultiplier = "駭客經驗倍率",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "駭客技能升級的速度。",
+    Sandbox_HackingSkill_BuildingAlarms = "建築物警報",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "解除建築物警報是否獲得駭客經驗？",
+    Sandbox_HackingSkill_VehicleAlarms = "車輛警報",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "解除車輛警報是否獲得駭客經驗？",
+}

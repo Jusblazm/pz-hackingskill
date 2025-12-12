@@ -1,0 +1,9 @@
+Sandbox_FR = {
+    Sandbox_HackingSkill = "Paramètres de compétence en piratage",
+    Sandbox_HackingSkill_XPMultiplier = "Multiplicateur de piratage",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Taux de progression de la compétence Piratage.",
+    Sandbox_HackingSkill_BuildingAlarms = "Alarmes des bâtiments",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Le piratage des alarmes de bâtiments donne-t-il de l'XP en piratage ?",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarmes des véhicules",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Le piratage des alarmes de véhicules donne-t-il de l'XP en piratage ?",
+}

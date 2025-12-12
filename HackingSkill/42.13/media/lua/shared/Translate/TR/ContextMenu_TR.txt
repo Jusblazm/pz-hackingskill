@@ -1,0 +1,4 @@
+ContextMenu_TR = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Alarm Sistemini Kontrol Et",
+    ContextMenu_HackingSkill_DisarmAlarm = "Alarm Sistemini Devre Dışı Bırak",
+}

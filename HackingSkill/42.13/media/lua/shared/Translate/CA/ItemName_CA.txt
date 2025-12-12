@@ -1,0 +1,9 @@
+ItemName_CA = {
+    ItemName_Base.BookHacking1 = "Pirateria I: Phreaking 101",
+    ItemName_Base.BookHacking2 = "Pirateria II: Marcadors i Exploració",
+    ItemName_Base.BookHacking3 = "Pirateria III: Guia per a principiants sobre BBS",
+    ItemName_Base.BookHacking4 = "Pirateria IV: El Còdex 2600: Dominar el modem",
+    ItemName_Base.BookHacking5 = "Pirateria V: La Bíblia del Zero Day",
+    ItemName_Base.BookHackingSet = "Conjunt de llibres de pirateria",
+    ItemName_Base.HackingSkillCatalog = "Catàleg: Llibres de habilitats de pirateria",
+}

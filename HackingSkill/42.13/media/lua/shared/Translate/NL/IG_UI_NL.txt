@@ -1,0 +1,12 @@
+IGUI_NL = {
+    IGUI_perks_Technology = "Technologie",
+    IGUI_perks_Hacking = "Hacken",
+    IGUI_perks_Hacking_Description = "Maakt het mogelijk elektronische sloten, alarmsystemen en beveiligingsapparaten te omzeilen. Verhoogt de kans op succesvolle elektronische infiltratie.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Geen alarmsysteem gedetecteerd",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Dit gebouw heeft een alarmsysteem",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Dit voertuig heeft een alarmsysteem",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Ik heb het alarmsysteem succesvol uitgeschakeld",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Misschien heb ik het alarmsysteem uitgeschakeld",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Ik kan dit alarmsysteem niet uitschakelen",
+}

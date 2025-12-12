@@ -1,0 +1,16 @@
+UI_DA = {
+    UI_trait_AmateurHacker = "Amatørhacker",
+    UI_trait_AmateurHacker_Description = "Grundlæggende computerkundskaber. +1 til hackingfærdighed.",
+    UI_trait_MasterHacker = "Mesterhacker",
+    UI_trait_MasterHacker_Description = "Erfaren i hacking. +3 til hackingfærdighed.",
+    UI_trait_TinFoilHat = "Sølvpapirshat",
+    UI_trait_TinFoilHat_Description = "Du stoler ikke på computere. Du kan ikke få hacking-XP over niveau 2.",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "Et godt sted at få alle dine hacking-bøger.",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "Den komplette samling af hacking-bøger.",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "Nybegynder? Bare rolig, det klarer du!",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "Tid til at lægge et solidt fundament for din viden.",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "Lad os lære nogle nye teknikker.",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "Du er næsten i mål! Bliv ved!",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "Tid til at mestre håndværket.",
+}

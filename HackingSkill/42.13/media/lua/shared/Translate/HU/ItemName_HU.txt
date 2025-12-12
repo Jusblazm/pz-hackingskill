@@ -1,0 +1,9 @@
+ItemName_HU = {
+    ItemName_Base.BookHacking1 = "Hacking I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Hacking II: "Dial-Up és Dig In"",
+    ItemName_Base.BookHacking3 = "Hacking III: "Útmutató kezdőknek a BBS hackeléshez"",
+    ItemName_Base.BookHacking4 = "Hacking IV: "A 2600 Codex: A modem mestersége"",
+    ItemName_Base.BookHacking5 = "Hacking V: "A Zero Day Biblia"",
+    ItemName_Base.BookHackingSet = "Hacking könyvek gyűjteménye",
+    ItemName_Base.HackingSkillCatalog = "Katalógus: Hacking képesség könyvek",
+}

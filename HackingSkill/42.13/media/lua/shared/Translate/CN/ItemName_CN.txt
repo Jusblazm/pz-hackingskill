@@ -1,0 +1,9 @@
+ItemName_CN = {
+    ItemName_Base.BookHacking1 = "黑客入门 I：“Phreaking 101”",
+    ItemName_Base.BookHacking2 = "黑客进阶 II：“拨号与深入”",
+    ItemName_Base.BookHacking3 = "黑客实用 III：“BBS 黑客初学指南”",
+    ItemName_Base.BookHacking4 = "黑客精通 IV：“2600 法典：调制解调器大师”",
+    ItemName_Base.BookHacking5 = "黑客终章 V：“零日圣经”",
+    ItemName_Base.BookHackingSet = "一套黑客书籍",
+    ItemName_Base.HackingSkillCatalog = "目录：黑客技能书籍",
+}

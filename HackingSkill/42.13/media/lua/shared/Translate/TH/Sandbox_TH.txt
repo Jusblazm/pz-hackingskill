@@ -1,0 +1,9 @@
+Sandbox_TH = {
+    Sandbox_HackingSkill = "การตั้งค่าทักษะการแฮ็ก",
+    Sandbox_HackingSkill_XPMultiplier = "ตัวคูณค่าประสบการณ์แฮ็ก",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "อัตราการเพิ่มระดับทักษะการแฮ็ก",
+    Sandbox_HackingSkill_BuildingAlarms = "สัญญาณกันขโมยในอาคาร",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "การแฮ็กสัญญาณกันขโมยในอาคารควรให้ค่าประสบการณ์แฮ็กหรือไม่?",
+    Sandbox_HackingSkill_VehicleAlarms = "สัญญาณกันขโมยในรถ",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "การแฮ็กสัญญาณกันขโมยรถควรให้ค่าประสบการณ์แฮ็กหรือไม่?",
+}

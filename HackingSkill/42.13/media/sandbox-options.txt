@@ -1,0 +1,27 @@
+VERSION = 1,
+
+option MultiplierConfig.Hacking
+{
+    type = double,
+    min = 0.00,
+    max = 1000.0,
+    default = 1.0,
+    page = Character,
+    translation = HackingSkill_XPMultiplier,
+}
+
+option HackingSkill.BuildingAlarms
+{
+    type = boolean,
+    default = true,
+    page = HackingSkill,
+    translation = HackingSkill_BuildingAlarms,
+}
+
+option HackingSkill.VehicleAlarms
+{
+    type = boolean,
+    default = true,
+    page = HackingSkill,
+    translation = HackingSkill_VehicleAlarms,
+}

@@ -1,0 +1,9 @@
+ItemName_ID = {
+    ItemName_Base.BookHacking1 = "Peretasan I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Peretasan II: "Dial-Up dan Dig In"",
+    ItemName_Base.BookHacking3 = "Peretasan III: "Panduan Pemula untuk BBS Hacking"",
+    ItemName_Base.BookHacking4 = "Peretasan IV: "The 2600 Codex: Menguasai Modem"",
+    ItemName_Base.BookHacking5 = "Peretasan V: "Alkitab Zero Day"",
+    ItemName_Base.BookHackingSet = "Set Buku Peretasan",
+    ItemName_Base.HackingSkillCatalog = "Katalog: Buku Keterampilan Peretasan",
+}

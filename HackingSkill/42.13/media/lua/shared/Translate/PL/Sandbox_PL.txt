@@ -1,0 +1,9 @@
+Sandbox_PL = {
+    Sandbox_HackingSkill = "Ustawienia umiejętności hakowania",
+    Sandbox_HackingSkill_XPMultiplier = "Mnożnik hakowania",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Tempo zdobywania poziomów w umiejętności Hakowanie.",
+    Sandbox_HackingSkill_BuildingAlarms = "Alarmy budynków",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Czy hakowanie alarmów w budynkach powinno dawać XP do hakowania?",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarmy pojazdów",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Czy hakowanie alarmów samochodowych powinno dawać XP do hakowania?",
+}

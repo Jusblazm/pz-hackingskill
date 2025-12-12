@@ -1,0 +1,9 @@
+Sandbox_UA = {
+    Sandbox_HackingSkill = "Налаштування навику хакінгу",
+    Sandbox_HackingSkill_XPMultiplier = "Множник досвіду хакінгу",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Швидкість прокачування навику хакінгу.",
+    Sandbox_HackingSkill_BuildingAlarms = "Сигналізації будівель",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Чи давати досвід за злом сигналізацій будівель?",
+    Sandbox_HackingSkill_VehicleAlarms = "Сигналізації автомобілів",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Чи давати досвід за злом сигналізацій авто?",
+}

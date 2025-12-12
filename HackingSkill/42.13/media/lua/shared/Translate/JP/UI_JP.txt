@@ -1,0 +1,16 @@
+UI_JP = {
+    UI_trait_AmateurHacker = "アマチュアハッカー",
+    UI_trait_AmateurHacker_Description = "基本的なコンピュータ知識。ハッキングスキルに小さなボーナス。",
+    UI_trait_MasterHacker = "マスターハッカー",
+    UI_trait_MasterHacker_Description = "ハッキングの経験者。ハッキングスキルに大きなボーナス。",
+    UI_trait_TinFoilHat = "アルミホイル帽",
+    UI_trait_TinFoilHat_Description = "あなたはコンピュータを信用しません。ハッキング経験値はレベル2を超えて獲得できません。",
+
+    UI_HackingSkill_SiteDescription_HackingSkillCom = "ハッキングスキルの本が揃う最高の場所です。",
+    UI_HackingSkill_ItemDescription_BookHackingSet = "ハッキング本の完全コレクションです。",
+    UI_HackingSkill_ItemDescription_BookHacking1 = "初心者ですか？心配いりません、あなたなら大丈夫！",
+    UI_HackingSkill_ItemDescription_BookHacking2 = "知識のしっかりとした基礎を築く時間です。",
+    UI_HackingSkill_ItemDescription_BookHacking3 = "新しいテクニックを学びましょう。",
+    UI_HackingSkill_ItemDescription_BookHacking4 = "もう少しです！頑張って！",
+    UI_HackingSkill_ItemDescription_BookHacking5 = "技術を極める時間です。",
+}

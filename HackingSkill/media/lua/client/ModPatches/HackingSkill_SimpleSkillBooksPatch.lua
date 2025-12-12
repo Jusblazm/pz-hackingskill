@@ -38,9 +38,7 @@ local function patchHackingBooksIfModPresent()
         if SkillBook then
             if not SkillBook["Hacking"] then
                 print("[Hacking Skill] General: Successfully converted hacking books to Simple Skill Books")
-                SkillBook["Hacking"] = {
-                    perk = Perks.Hacking
-                }
+                SkillBook["Hacking"] = { perk = Perks.Hacking }
             end
         else
             print("[Hacking Skill] Warning: SkillBook table not found")

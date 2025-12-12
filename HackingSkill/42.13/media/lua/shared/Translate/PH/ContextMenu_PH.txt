@@ -1,0 +1,4 @@
+ContextMenu_PH = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Suriin kung may Alarm System",
+    ContextMenu_HackingSkill_DisarmAlarm = "I-disable ang Alarm System",
+}

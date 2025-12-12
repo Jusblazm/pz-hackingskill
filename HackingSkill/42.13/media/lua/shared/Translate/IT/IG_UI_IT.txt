@@ -1,0 +1,12 @@
+IGUI_IT = {
+    IGUI_perks_Technology = "Tecnologia",
+    IGUI_perks_Hacking = "Hacking",
+    IGUI_perks_Hacking_Description = "Permette di bypassare serrature elettroniche, sistemi di allarme e dispositivi di sicurezza. Aumenta la probabilità di successo nelle infiltrazioni elettroniche.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Nessun sistema di allarme rilevato",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "Questo edificio ha un sistema di allarme",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "Questo veicolo ha un sistema di allarme",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Ho disattivato con successo il sistema di allarme",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Potrei aver disattivato il sistema di allarme",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Non riesco a disattivare questo sistema di allarme",
+}

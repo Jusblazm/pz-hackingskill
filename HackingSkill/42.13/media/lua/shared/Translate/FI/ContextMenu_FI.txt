@@ -1,0 +1,4 @@
+ContextMenu_FI = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Tarkista hälytysjärjestelmä",
+    ContextMenu_HackingSkill_DisarmAlarm = "Poista hälytysjärjestelmä käytöstä",
+}
