@@ -1,0 +1,9 @@
+ItemName_PH = {
+    ItemName_Base.BookHacking1 = "Pagha-hack I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Pagha-hack II: "Dial-Up at Sumisid"",
+    ItemName_Base.BookHacking3 = "Pagha-hack III: "Gabay ng Baguhan sa BBS Hacking"",
+    ItemName_Base.BookHacking4 = "Pagha-hack IV: "Ang 2600 Codex: Pagsasanay sa Modem"",
+    ItemName_Base.BookHacking5 = "Pagha-hack V: "Ang Zero Day Bible"",
+    ItemName_Base.BookHackingSet = "Koleksiyon ng mga Aklat sa Pagha-hack",
+    ItemName_Base.HackingSkillCatalog = "Katalogo: Mga Aklat sa Kasanayan sa Pagha-hack",
+}

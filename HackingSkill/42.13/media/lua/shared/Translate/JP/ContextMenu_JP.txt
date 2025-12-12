@@ -1,0 +1,4 @@
+ContextMenu_JP = {
+    ContextMenu_HackingSkill_CheckForAlarm = "アラームシステムを確認する",
+    ContextMenu_HackingSkill_DisarmAlarm = "アラームシステムを解除する",
+}

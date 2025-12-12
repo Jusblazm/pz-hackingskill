@@ -1,0 +1,9 @@
+Sandbox_HU = {
+    Sandbox_HackingSkill = "Hacking képesség beállításai",
+    Sandbox_HackingSkill_XPMultiplier = "Hacking szorzó",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "A Hacking képesség szintlépésének sebessége.",
+    Sandbox_HackingSkill_BuildingAlarms = "Épületi riasztók",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Adjon tapasztalati pontot a Hacking képességhez az épületi riasztók hackelése?",
+    Sandbox_HackingSkill_VehicleAlarms = "Jármű riasztók",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Adjon tapasztalati pontot a Hacking képességhez az autóriasztók hackelése?",
+}

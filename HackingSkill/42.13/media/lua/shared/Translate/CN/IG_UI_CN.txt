@@ -1,0 +1,12 @@
+IG_UI_CN = {
+    IGUI_perks_Technology = "科技",
+    IGUI_perks_Hacking = "黑客技术",
+    IGUI_perks_Hacking_Description = "可绕过电子锁、警报系统和安全设备。提高电子入侵的成功率。",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "未检测到警报系统",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "该建筑有警报系统",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "该车辆有警报系统",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "我成功解除警报系统",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "我可能已解除警报系统",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "我无法解除该警报系统",
+}

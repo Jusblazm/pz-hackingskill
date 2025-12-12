@@ -1,0 +1,9 @@
+Sandbox_IT = {
+    Sandbox_HackingSkill = "Impostazioni Abilità di Hacking",
+    Sandbox_HackingSkill_XPMultiplier = "Moltiplicatore Hacking",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Velocità con cui si aumenta l'abilità di Hacking.",
+    Sandbox_HackingSkill_BuildingAlarms = "Allarmi Edifici",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Gli allarmi degli edifici danno esperienza in Hacking?",
+    Sandbox_HackingSkill_VehicleAlarms = "Allarmi Veicoli",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Gli allarmi delle auto danno esperienza in Hacking?",
+}

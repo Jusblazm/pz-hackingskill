@@ -1,0 +1,4 @@
+ContextMenu_HU = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Riasztórendszer ellenőrzése",
+    ContextMenu_HackingSkill_DisarmAlarm = "Riasztórendszer hatástalanítása",
+}

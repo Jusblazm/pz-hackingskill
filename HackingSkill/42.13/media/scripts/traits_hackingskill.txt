@@ -1,0 +1,34 @@
+module HackingSkill
+{
+    character_trait_definition hackingskill:amateurhacker
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = hackingskill:amateurhacker,
+        Cost = 2,
+        UIName = UI_trait_AmateurHacker,
+        UIDescription = UI_trait_AmateurHacker_Description,
+        XPBoosts = Hacking=1,
+    },
+
+    character_trait_definition hackingskill:masterhacker
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = hackingskill:masterhacker,
+        Cost = 6,
+        UIName = UI_trait_MasterHacker,
+        UIDescription = UI_trait_MasterHacker_Description,
+        XPBoosts = Hacking=3,
+    }
+
+    character_trait_definition hackingskill:tinfoilhat
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = hackingskill:tinfoilhat,
+        Cost = -3,
+        UIName = UI_trait_TinFoilHat,
+        UIDescription = UI_trait_TinFoilHat_Description,
+    }
+}

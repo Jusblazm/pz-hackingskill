@@ -1,0 +1,12 @@
+IGUI_RU = {
+    IGUI_perks_Technology = "Технологии",
+    IGUI_perks_Hacking = "Взлом",
+    IGUI_perks_Hacking_Description = "Позволяет обходить электронные замки, сигнализации и устройства безопасности. Повышает шанс успешного электронного взлома.",
+
+    IGUI_HackingSkill_PlayerText_NoAlarm = "Сигнализация не обнаружена",
+    IGUI_HackingSkill_PlayerText_BuildingAlarm = "В этом здании установлена сигнализация",
+    IGUI_HackingSkill_PlayerText_VehicleAlarm = "В этом транспортном средстве установлена сигнализация",
+    IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Мне удалось отключить сигнализацию",
+    IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Возможно, я отключил сигнализацию",
+    IGUI_HackingSkill_PlayerText_FailedDisarm = "Не удалось отключить сигнализацию",
+}

@@ -1,0 +1,9 @@
+Sandbox_CN = {
+    Sandbox_HackingSkill = "黑客技能设置",
+    Sandbox_HackingSkill_XPMultiplier = "黑客经验倍率",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "黑客技能升级速度。",
+    Sandbox_HackingSkill_BuildingAlarms = "建筑物警报",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "破解建筑警报是否获得黑客经验？",
+    Sandbox_HackingSkill_VehicleAlarms = "车辆警报",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "破解车辆警报是否获得黑客经验？",
+}

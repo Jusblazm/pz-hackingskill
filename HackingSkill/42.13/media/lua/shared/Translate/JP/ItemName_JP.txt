@@ -1,0 +1,9 @@
+ItemName_JP = {
+    ItemName_Base.BookHacking1 = "ハッキング I：「フリーキング入門」",
+    ItemName_Base.BookHacking2 = "ハッキング II：「ダイヤルアップで突入せよ」",
+    ItemName_Base.BookHacking3 = "ハッキング III：「初心者のためのBBSハッキングガイド」",
+    ItemName_Base.BookHacking4 = "ハッキング IV：「2600の書：モデムを極める」",
+    ItemName_Base.BookHacking5 = "ハッキング V：「ゼロデイ・バイブル」",
+    ItemName_Base.BookHackingSet = "ハッキング本セット",
+    ItemName_Base.HackingSkillCatalog = "カタログ：ハッキングスキル本",
+}

@@ -1,0 +1,9 @@
+ItemName_TH = {
+    ItemName_Base.BookHacking1 = "แฮ็กกิ้ง I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "แฮ็กกิ้ง II: "Dial-Up และ การเจาะลึก"",
+    ItemName_Base.BookHacking3 = "แฮ็กกิ้ง III: "คู่มือสำหรับผู้เริ่มต้นในการแฮ็ก BBS"",
+    ItemName_Base.BookHacking4 = "แฮ็กกิ้ง IV: "The 2600 Codex: การควบคุมโมเด็มขั้นเทพ"",
+    ItemName_Base.BookHacking5 = "แฮ็กกิ้ง V: "The Zero Day Bible"",
+    ItemName_Base.BookHackingSet = "ชุดหนังสือแฮ็กกิ้ง",
+    ItemName_Base.HackingSkillCatalog = "แค็ตตาล็อก: หนังสือทักษะการแฮ็ก",
+}

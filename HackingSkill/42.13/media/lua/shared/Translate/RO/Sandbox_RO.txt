@@ -1,0 +1,9 @@
+Sandbox_RO = {
+    Sandbox_HackingSkill = "Setări abilitate Hacking",
+    Sandbox_HackingSkill_XPMultiplier = "Multiplicator Hacking",
+    Sandbox_HackingSkill_XPMultiplier_tooltip = "Rata cu care abilitatea Hacking crește în nivel.",
+    Sandbox_HackingSkill_BuildingAlarms = "Alarme clădiri",
+    Sandbox_HackingSkill_BuildingAlarms_tooltip = "Dacă dezactivarea alarmelor din clădiri ar trebui să ofere XP pentru Hacking.",
+    Sandbox_HackingSkill_VehicleAlarms = "Alarme vehicule",
+    Sandbox_HackingSkill_VehicleAlarms_tooltip = "Dacă dezactivarea alarmelor auto ar trebui să ofere XP pentru Hacking.",
+}

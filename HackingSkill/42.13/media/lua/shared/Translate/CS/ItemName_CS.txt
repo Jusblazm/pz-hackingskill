@@ -1,0 +1,9 @@
+ItemName_CS = {
+    ItemName_Base.BookHacking1 = "Hackování I: "Phreaking 101"",
+    ItemName_Base.BookHacking2 = "Hackování II: "Dial-Up a jdeme na to"",
+    ItemName_Base.BookHacking3 = "Hackování III: "Zaèáteènický prùvodce BBS hackováním"",
+    ItemName_Base.BookHacking4 = "Hackování IV: "2600 Kódex: Ovládnutí modemu"",
+    ItemName_Base.BookHacking5 = "Hackování V: "Bible Zero Day"",
+    ItemName_Base.BookHackingSet = "Sada knih o hackování",
+    ItemName_Base.HackingSkillCatalog = "Katalog: Knihy o hackování",
+}

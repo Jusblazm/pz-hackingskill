@@ -1,0 +1,4 @@
+ContextMenu_UA = {
+    ContextMenu_HackingSkill_CheckForAlarm = "Перевірити наявність сигналізації",
+    ContextMenu_HackingSkill_DisarmAlarm = "Вимкнути сигналізацію",
+}
