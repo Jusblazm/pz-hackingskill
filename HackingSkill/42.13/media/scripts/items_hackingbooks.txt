@@ -11,11 +11,11 @@ module Base
 	{
 		DisplayCategory 	= SkillBook,
 		ItemType 			= base:normal,
-		Weight 				= 4,
+		Weight 				= 4.0,
 		Icon 				= BookSlipcase,
 		IconColorMask 		= BookSlipcase_Mask,
 		WorldStaticModel 	= BookSlipcase,
-		Tags 				= IgnoreZombieDensity,
+		Tags 				= base:ignorezombiedensity,
 		ColorBlue 			= 86,
 		ColorGreen 			= 94,
 		ColorRed 			= 104,
@@ -25,7 +25,7 @@ module Base
 	{
 		DisplayCategory 	= SkillBook,
 		ItemType 			= base:literature,
-		Weight 				= 1,
+		Weight 				= 1.0,
 		Icon 				= HackingBook,
 		LvlSkillTrained 	= 1,
 		NumLevelsTrained 	= 2,
@@ -39,7 +39,7 @@ module Base
 	{
 		DisplayCategory 	= SkillBook,
 		ItemType 			= base:literature,
-		Weight 				= 1,
+		Weight 				= 1.0,
 		Icon 				= HackingBook,
 		LvlSkillTrained 	= 3,
 		NumLevelsTrained 	= 2,
@@ -53,7 +53,7 @@ module Base
 	{
 		DisplayCategory 	= SkillBook,
 		ItemType 			= base:literature,
-		Weight 				= 1,
+		Weight 				= 1.0,
 		Icon 				= HackingBook,
 		LvlSkillTrained 	= 5,
 		NumLevelsTrained 	= 2,
@@ -67,7 +67,7 @@ module Base
 	{
 		DisplayCategory 	= SkillBook,
 		ItemType 			= base:literature,
-		Weight 				= 1,
+		Weight 				= 1.0,
 		Icon 				= HackingBook,
 		LvlSkillTrained 	= 7,
 		NumLevelsTrained 	= 2,
@@ -81,7 +81,7 @@ module Base
 	{
 		DisplayCategory 	= SkillBook,
 		ItemType 			= base:literature,
-		Weight 				= 1,
+		Weight 				= 1.0,
 		Icon 				= HackingBook,
 		LvlSkillTrained 	= 9,
 		NumLevelsTrained 	= 2,
@@ -101,7 +101,7 @@ module Base
 		StressChange        = -10,
 		StaticModel         = Magazine,
 		WorldStaticModel    = MagazineGround,
-		Tags                = Magazine,	
+		Tags                = base:magazine,	
 		OnCreate			= SpecialLootSpawns.OnCreateCatalog,
 	}
 }
