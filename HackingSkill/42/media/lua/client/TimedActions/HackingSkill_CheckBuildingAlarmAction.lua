@@ -26,7 +26,7 @@ function HackingSkill_CheckBuildingAlarmAction:stop()
 end
 
 function HackingSkill_CheckBuildingAlarmAction:perform()
-    local skill = HackingSkill.getLevel(self.character)
+    local skill = HackingSkill_API.getLevel(self.character)
     local chanceToDetect = 25 + (skill * 7.5)
     local detected = ZombRand(100) < chanceToDetect
     local alarm = HackingSkill_Utils.hasBuildingAlarm(self.object)
@@ -49,7 +49,7 @@ function HackingSkill_CheckBuildingAlarmAction:perform()
     self.character:Say(message)
 
     if HackingSkill_Utils.isBuildingAlarmXPEnabled() then
-        HackingSkill.addXP(self.character, xpToAdd)
+        HackingSkill_API.addXP(self.character, xpToAdd)
     end
     
     ISBaseTimedAction.perform(self)

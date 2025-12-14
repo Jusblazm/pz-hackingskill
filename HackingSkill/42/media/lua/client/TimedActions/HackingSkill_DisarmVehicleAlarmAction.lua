@@ -26,7 +26,7 @@ function HackingSkill_DisarmVehicleAlarmAction:stop()
 end
 
 function HackingSkill_DisarmVehicleAlarmAction:perform()
-    local skill = HackingSkill.getLevel(self.character)
+    local skill = HackingSkill_API.getLevel(self.character)
     local disarmChance = (skill * 8) + 10
     local success = ZombRand(100) < disarmChance
     local xpToAdd = 1
@@ -50,7 +50,7 @@ function HackingSkill_DisarmVehicleAlarmAction:perform()
     end
 
     if HackingSkill_Utils.isVehicleAlarmXPEnabled() then
-        HackingSkill.addXP(self.character, xpToAdd)
+        HackingSkill_API.addXP(self.character, xpToAdd)
     end
 
     ISBaseTimedAction.perform(self)

@@ -7,13 +7,6 @@ function HackingSkill_CheckBuildingAlarmAction:isValid()
     return true
 end
 
-function HackingSkill_CheckBuildingAlarmAction:getDuration()
-    if self.character:isTimedActionInstant() then
-        return 1
-    end
-    return 100
-end
-
 function HackingSkill_CheckBuildingAlarmAction:waitToStart()
     self.character:faceThisObject(self.object)
     return self.character:shouldBeTurning()
@@ -42,9 +35,16 @@ end
 
 function HackingSkill_CheckBuildingAlarmAction:complete()
     if HackingSkill_Utils.isBuildingAlarmXPEnabled() then
-        HackingSkill.addXP(self.character, self.xpToAdd)
+        HackingSkill_API.addXP(self.character, self.xpToAdd)
     end
     return true
+end
+
+function HackingSkill_CheckBuildingAlarmAction:getDuration()
+    if self.character:isTimedActionInstant() then
+        return 1
+    end
+    return 100
 end
 
 function HackingSkill_CheckBuildingAlarmAction:new(character, object)
@@ -53,7 +53,7 @@ function HackingSkill_CheckBuildingAlarmAction:new(character, object)
     o.character = character
     o.object = object
 
-    local skill = HackingSkill.getLevel(character)
+    local skill = HackingSkill_API.getLevel(character)
     local chanceToDetect = 25 + (skill * 7.5)
 
     o.detected = ZombRand(100) < chanceToDetect

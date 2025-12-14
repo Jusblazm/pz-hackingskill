@@ -26,7 +26,7 @@ function HackingSkill_DisarmBuildingAlarmAction:stop()
 end
 
 function HackingSkill_DisarmBuildingAlarmAction:perform()
-    local skill = HackingSkill.getLevel(self.character)
+    local skill = HackingSkill_API.getLevel(self.character)
     local disarmChance = (skill * 8) + 10
     local success = ZombRand(100) < disarmChance
     local xpToAdd = 1
@@ -58,7 +58,7 @@ function HackingSkill_DisarmBuildingAlarmAction:perform()
     end
 
     if HackingSkill_Utils.isBuildingAlarmXPEnabled() then
-        HackingSkill.addXP(self.character, xpToAdd)
+        HackingSkill_API.addXP(self.character, xpToAdd)
     end
 
     ISBaseTimedAction.perform(self)
