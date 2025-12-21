@@ -57,8 +57,8 @@ You don't need to declare this as a dependency.
 Wrap your calls to check if the skill is present, to keep compatibility for players without Hacking Skill:
 ``` lua
  -- Safely grant 10 XP if Hacking Skill is installed.
-if HackingSkill and Perks.Hacking then
-    HackingSkill.addXP(player, 10)
+if HackingSkill_API and Perks.Hacking then
+    HackingSkill_API.addXP(player, 10)
 end
 ```
 
