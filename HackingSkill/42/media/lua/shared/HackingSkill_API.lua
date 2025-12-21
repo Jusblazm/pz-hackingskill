@@ -67,7 +67,7 @@ end
 -- @param player (IsoPlayer) The player object.
 -- @return (boolean) True if player has the trait.
 function HackingSkill_API.hasTinFoilHatTrait(player)
-    return player:hasTrait(HackingSkillTraits.TinFoilHat)
+    return player:HasTrait("TinFoilHat")
 end
 
 --- checks if XP gain is blocked by TinFoilHat trait.
