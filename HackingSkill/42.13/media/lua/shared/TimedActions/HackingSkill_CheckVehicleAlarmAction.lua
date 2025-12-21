@@ -35,7 +35,7 @@ end
 
 function HackingSkill_CheckVehicleAlarmAction:complete()
     if HackingSkill_Utils.isVehicleAlarmXPEnabled() then
-        HackingSkill.addXP(self.character, self.xpToAdd)
+        HackingSkill_API.addXP(self.character, self.xpToAdd)
     end
     return true
 end
@@ -53,7 +53,7 @@ function HackingSkill_CheckVehicleAlarmAction:new(character, vehicle)
     o.character = character
     o.vehicle = vehicle
 
-    local skill = HackingSkill.getLevel(character)
+    local skill = HackingSkill_API.getLevel(character)
     local chanceToDetect = 25 + (skill * 7.5)
 
     o.detected = ZombRand(100) < chanceToDetect

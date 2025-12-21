@@ -19,33 +19,36 @@ You do **not** need to repack or include this mod to use them.
 > ⚠️ **Note:** Players with the `Tin Foil Hat` trait cannot gain XP or levels beyond 2 in the Hacking skill.  
 > The API functions `addXP()` and `setLevel()` **enforce this automatically**.
 ``` lua
-HackingSkill.addXP(player, amount)
+HackingSkill_API.addXP(player, amount)
 -- Adds XP to the Hacking skill.
 -- XP gain is blocked if the player has the Tin Foil Hat trait and level >= 2.
+-- Returns false if used by the client in multiplayer
 
-HackingSkill.getXP(player) -> number
+HackingSkill_API.getXP(player) -> number
 -- Returns the player's current Hacking XP.
 
-HackingSkill.getXPToNextLevel(player) -> number
+HackingSkill_API.getXPToNextLevel(player) -> number
 -- Returns XP required for the next level.
 
-HackingSkill.getLevel(player) -> number
+HackingSkill_API.getLevel(player) -> number
 -- Returns the player's current Hacking level.
 
-HackingSkill.setLevel(player, level)
+HackingSkill_API.setLevel(player, level)
 -- Sets the player's Hacking level directly (use with care).
 -- If the player has the Tin Foil Hat trait, levels above 2 are clamped to 2.
+-- Returns false if used by the client in multiplayer
 
-HackingSkill.isMaxLevel(player) -> boolean
+HackingSkill_API.isMaxLevel(player) -> boolean
 -- Returns true if the player has reached the max level.
 
-HackingSkill.reset(player) -> boolean
+HackingSkill_API.reset(player) -> boolean
 -- Returns true after resetting the player's Hacking level to 0 (use with care).
+-- Returns false if used by the client in multiplayer
 
-HackingSkill.hasTinFoilHatTrait(player) -> boolean
+HackingSkill_API.hasTinFoilHatTrait(player) -> boolean
 -- Returns true if the player has the Tin Foil Hat trait.
 
-HackingSkill.isBlockedByTinFoilHatTrait(player) -> boolean
+HackingSkill_API.isBlockedByTinFoilHatTrait(player) -> boolean
 -- Returns true if the player has the Tin Foil Hat trait and a Hacking level >= 2
 ```
 

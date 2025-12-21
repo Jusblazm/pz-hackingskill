@@ -7,13 +7,6 @@ function HackingSkill_DisarmBuildingAlarmAction:isValid()
     return self.object and HackingSkill_Utils.hasBuildingAlarm(self.object)
 end
 
-function HackingSkill_DisarmBuildingAlarmAction:getDuration()
-    if self.character:isTimedActionInstant() then
-        return 1
-    end
-    return 150
-end
-
 function HackingSkill_DisarmBuildingAlarmAction:waitToStart()
     self.character:faceThisObject(self.object)
     return self.character:shouldBeTurning()
@@ -42,9 +35,16 @@ end
 
 function HackingSkill_DisarmBuildingAlarmAction:complete()
     if HackingSkill_Utils.isBuildingAlarmXPEnabled() then
-        HackingSkill.addXP(self.character, self.xpToAdd)
+        HackingSkill_API.addXP(self.character, self.xpToAdd)
     end
     return true
+end
+
+function HackingSkill_DisarmBuildingAlarmAction:getDuration()
+    if self.character:isTimedActionInstant() then
+        return 1
+    end
+    return 150
 end
 
 function HackingSkill_DisarmBuildingAlarmAction:new(character, object)
@@ -53,7 +53,7 @@ function HackingSkill_DisarmBuildingAlarmAction:new(character, object)
     o.character = character
     o.object = object
 
-    local skill = HackingSkill.getLevel(character)
+    local skill = HackingSkill_API.getLevel(character)
     local disarmChance = (skill * 8) + 10
 
     o.success = ZombRand(100) < disarmChance
