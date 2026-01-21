@@ -3,7 +3,8 @@ require "Items/ProceduralDistributions"
 require "Items/SuburbsDistributions"
 
 local catalogs = {
-    "Base.HackingSkillCatalog"
+    "Base.HackingSkillCatalog",
+    "Base.HackingSkillMagazine1"
 }
 
 ----------------------------------------
