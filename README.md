@@ -22,7 +22,6 @@ You do **not** need to repack or include this mod to use them.
 HackingSkill_API.addXP(player, amount)
 -- Adds XP to the Hacking skill.
 -- XP gain is blocked if the player has the Tin Foil Hat trait and level >= 2.
--- Returns false if used by the client in multiplayer
 
 HackingSkill_API.getXP(player) -> number
 -- Returns the player's current Hacking XP.
@@ -36,14 +35,12 @@ HackingSkill_API.getLevel(player) -> number
 HackingSkill_API.setLevel(player, level)
 -- Sets the player's Hacking level directly (use with care).
 -- If the player has the Tin Foil Hat trait, levels above 2 are clamped to 2.
--- Returns false if used by the client in multiplayer
 
 HackingSkill_API.isMaxLevel(player) -> boolean
 -- Returns true if the player has reached the max level.
 
 HackingSkill_API.reset(player) -> boolean
 -- Returns true after resetting the player's Hacking level to 0 (use with care).
--- Returns false if used by the client in multiplayer
 
 HackingSkill_API.hasTinFoilHatTrait(player) -> boolean
 -- Returns true if the player has the Tin Foil Hat trait.
@@ -101,11 +98,11 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 <!-- AUTO-GENERATED-TABLE:END -->
 
 ### Translation Notice
-Translations are done via ChatGPT and checked with Google Translate, unless otherwise noted. I do my best, but I'm sure there are some errors. If you would like to contribute please get in touch.
+Translations are done via ChatGPT and checked with Google Translate. I do my best, but I'm sure there are some errors. If you would like to contribute please get in touch.
 
 ## Support
-Come find me on discord! Be sure to grab the Project Zomboid Modding Role once you arrive.
+Come find me on discord! Be sure to grab the Project Zomboid Modding Role once you arrive.\
 [![Discord](https://raw.githubusercontent.com/Jusblazm/pz-archive/refs/heads/main/_imgs/discordinvite.png)](https://discord.gg/yqstRpuGXy)
 
-A simple like and a favorite is more than enough, but if you would like to do more:
+A simple like and a favorite is more than enough, but if you would like to do more:\
 [![Ko-fi](https://i.imgur.com/vs8dr3R.png)](https://ko-fi.com/jusblazm)

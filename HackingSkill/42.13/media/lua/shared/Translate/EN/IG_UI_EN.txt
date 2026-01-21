@@ -9,4 +9,6 @@ IGUI_EN = {
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "I successfully disarmed the alarm system",
     IGUI_HackingSkill_PlayerText_MaybeDisarmed = "I might have disabled the alarm system",
     IGUI_HackingSkill_PlayerText_FailedDisarm = "I can't disarm this alarm system",
+    IGUI_HackingSkill_PlayerText_DoorUnlockSuccess = "I successfully bypassed the electronic lock",
+    IGUI_HackingSkill_PlayerText_DoorUnlockFailed = "I failed to hack the electronic lock",
 }

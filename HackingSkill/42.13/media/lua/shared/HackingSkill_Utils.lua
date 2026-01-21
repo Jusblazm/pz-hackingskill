@@ -1,6 +1,20 @@
 -- HackingSkill_Utils
 HackingSkill_Utils = {}
 
+HackingSkill_Utils.validElectronicDoorSprites = {
+    ["fixtures_doors_01_32"] = true,
+    ["fixtures_doors_01_33"] = true,
+}
+
+HackingSkill_Utils.ElectronicDoorFacingDirections = {
+    ["fixtures_doors_01_32"] = 1, -- West
+    ["fixtures_doors_01_33"] = 2, -- North
+}
+
+function HackingSkill_Utils.isValidElectronicDoorSprite(spriteName)
+    return HackingSkill_Utils.validElectronicDoorSprites[spriteName] == true
+end
+
 function HackingSkill_Utils.isDoorOrWindow(obj)
     return instanceof(obj, "IsoDoor") or instanceof(obj, "IsoWindow")
 end
@@ -51,22 +65,101 @@ function HackingSkill_Utils.isVehicleAlarmXPEnabled()
     return SandboxVars.HackingSkill and SandboxVars.HackingSkill.VehicleAlarms == true
 end
 
-function HackingSkill_Utils.walkToNearestLocationForTimedAction(player, object, callback)
-    if not player or not object or not callback then return end
+function HackingSkill_Utils.hasHackingTool(player)
+    local sandboxValue = SandboxVars.HackingSkill.HackingTools
+    local inv = player:getInventory()
 
-    local sq1 = object:getSquare()
-    local sq2 = object.getOppositeSquare and object:getOppositeSquare() or nil
-    local playerSquare = player:getSquare()
-    local dist1 = sq1 and sq1:DistTo(playerSquare) or math.huge
-    local dist2 = sq2 and sq2:DistTo(playerSquare) or math.huge
-    local targetSquare = dist1 <= dist2 and sq1 or sq2
-    if not targetSquare then return end
+    local tools = { "Base.DIYPINBypassTool" }
 
-    local walkAction = ISWalkToTimedAction:new(player, targetSquare)
-    walkAction:setOnComplete(function()
-        callback()
-    end)
-    ISTimedActionQueue.add(walkAction)
+    local function hasTool(fullType)
+        local shortType = string.match(fullType, "[^.]+$")
+
+        if sandboxValue == 1 then
+            return inv:containsTypeRecurse(shortType)
+        elseif sandboxValue == 2 then
+            return inv:contains(fullType)
+        elseif sandboxValue == 3 then
+            local primary = player:getPrimaryHandItem()
+            local secondary = player:getSecondaryHandItem()
+
+            if primary and primary:getFullType() == fullType then
+                return true
+            end
+            if secondary and secondary:getFullType() == fullType then
+                return true
+            end
+        end
+        return false
+    end
+
+    for _, toolType in ipairs(tools) do
+        if hasTool(toolType) then
+            return true
+        end
+    end
+    return false
+end
+
+function HackingSkill_Utils.consumeHackingTool(player)
+    local sandboxValue = SandboxVars.HackingSkill.HackingTools
+    local inv = player:getInventory()
+
+    local tools = { "Base.DIYPINBypassTool" }
+
+    local function consume(fullType)
+        local shortType = string.match(fullType, "[^.]+$")
+
+        if sandboxValue == 1 then
+            local item = inv:getFirstTypeRecurse(shortType)
+            if item then 
+                inv:Remove(item)
+                sendRemoveItemFromContainer(inv, item)
+                return true
+            end
+        elseif sandboxValue == 2 then
+            local item = inv:FindAndReturn(fullType)
+            if item then
+                inv:Remove(item)
+                sendRemoveItemFromContainer(inv, item)
+                return true
+            end
+        elseif sandboxValue == 3 then
+            local primary = player:getPrimaryHandItem()
+            local secondary = player:getSecondaryHandItem()
+
+            if primary and primary:getFullType() == fullType then
+                inv:Remove(primary)
+                sendRemoveItemFromContainer(inv, item)
+                return true
+            end
+            if secondary and secondary:getFullType() == fullType then
+                inv:Remove(secondary)
+                sendRemoveItemFromContainer(inv, item)
+                return true
+            end
+        end
+        return false
+    end
+
+    for _, toolType in ipairs(tools) do
+        if consume(toolType) then
+            return true
+        end
+    end
+    return false
+end
+
+function HackingSkill_Utils.stopWhenAdjacent(context)
+    local p = context.player
+    local o = context.object
+
+    if not p or not o then return false end
+    if p:getZ() ~= o:getZ() then return false end
+
+    local dx = math.abs(p:getX() - o:getX())
+    local dy = math.abs(p:getY() - o:getY())
+
+    return (dx + dy) <= 1
 end
 
 function HackingSkill_Utils.getAdjustedAlarmChance(character, baseChance)
@@ -152,6 +245,39 @@ function HackingSkill_Utils.knowsBuildingAlarm(player, object)
     if not buildingID then return false end
     local known = HackingSkill_Utils.getPlayerKnownBuildingAlarms(player)
     return known[buildingID] == true
+end
+
+local function isSquarePowered(square)
+    return (
+        (SandboxVars.AllowExteriorGenerator and square:haveElectricity()) or
+        (SandboxVars.ElecShutModifier > -1 and GameTime:getInstance():getNightsSurvived() < SandboxVars.ElecShutModifier and not square:isOutside())
+    )
+end
+
+--[[ 
+    possibly required for security doors in louisville checkpoint
+    where they could be considered not part of the building
+]]
+local function isNearbySquarePowered(square, radius)
+    if not square then return false end
+    radius = radius or 1
+
+    for dx = -radius, radius do
+        for dy = -radius, radius do
+            local checkSquare = getCell():getGridSquare(square:getX() + dx, square:getY() + dy, square:getZ())
+            if checkSquare and isSquarePowered(checkSquare) then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+function HackingSkill_Utils.isDoorPowered(obj)
+    if not obj then return false end
+    local square = obj:getSquare()
+    if not square then return false end
+    return isNearbySquarePowered(square, 3)
 end
 
 return HackingSkill_Utils

@@ -29,7 +29,7 @@ function HackingSkill_DisarmVehicleAlarmAction:perform()
     self.character:Say(self.message)
     --[[ 
         I'm 99% sure triggerAlarm is client-side
-        even though tis uses it server-side
+        even though TIS uses it server-side
         so for now, its in both actions
     ]]
     if self.success then
@@ -54,7 +54,7 @@ function HackingSkill_DisarmVehicleAlarmAction:complete()
     end
 
     if HackingSkill_Utils.isVehicleAlarmXPEnabled() then
-        HackingSkill_API.addXP(self.character, xpToAdd)
+        HackingSkill_API.addXP(self.character, self.xpToAdd)
     end
     return true
 end
@@ -73,7 +73,7 @@ function HackingSkill_DisarmVehicleAlarmAction:new(character, vehicle)
     o.vehicle = vehicle
 
     local skill = HackingSkill_API.getLevel(character)
-    local disarmChance = (skill * 8) + 10
+    local disarmChance = 10 + (skill * 8)
 
     o.success = ZombRand(100) < disarmChance
     o.triggerAlarm = false

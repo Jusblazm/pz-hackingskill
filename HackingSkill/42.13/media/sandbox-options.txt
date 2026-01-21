@@ -25,3 +25,12 @@ option HackingSkill.VehicleAlarms
     page = HackingSkill,
     translation = HackingSkill_VehicleAlarms,
 }
+
+option HackingSkill.HackingTools
+{
+    type = enum,
+    default = 2,
+    numValues = 3,
+    page = HackingSkill,
+    translation = HackingSkill_HackingTools,
+}

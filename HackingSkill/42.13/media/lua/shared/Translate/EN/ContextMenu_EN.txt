@@ -1,4 +1,5 @@
 ContextMenu_EN = {
     ContextMenu_HackingSkill_CheckForAlarm = "Check for Alarm System",
     ContextMenu_HackingSkill_DisarmAlarm = "Disarm Alarm System",
+    ContextMenu_HackingSkill_HackDoor = "Hack Security Door Keypad",
 }

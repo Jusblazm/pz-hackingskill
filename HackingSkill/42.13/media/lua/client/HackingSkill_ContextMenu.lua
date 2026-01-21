@@ -12,19 +12,48 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
             if not knowsAlarm then
                 -- let player check for an alarm
                 context:addOption(getText("ContextMenu_HackingSkill_CheckForAlarm"), obj, function()
-                    HackingSkill_Utils.walkToNearestLocationForTimedAction(player, obj, function()
+                    local square = obj:getSquare()
+                    local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
+                    walkAction:setOnComplete(function()
                         ISTimedActionQueue.add(HackingSkill_CheckBuildingAlarmAction:new(player, obj))
                     end)
+                    ISTimedActionQueue.add(walkAction)
                 end)
             elseif knowsAlarm and hasAlarm then
                 -- player knows there is an alarm
                 context:addOption(getText("ContextMenu_HackingSkill_DisarmAlarm"), obj, function()
-                    HackingSkill_Utils.walkToNearestLocationForTimedAction(player, obj, function()
+                    local square = obj:getSquare()
+                    local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
+                    walkAction:setOnComplete(function()
                         ISTimedActionQueue.add(HackingSkill_DisarmBuildingAlarmAction:new(player, obj))
                     end)
+                    ISTimedActionQueue.add(walkAction)
                 end)
             end
             break
+        end
+    end
+
+    for _, obj in ipairs(worldObjects) do
+        if instanceof(obj, "IsoDoor") then
+            local sprite = obj:getSprite()
+            if sprite then
+                local spriteName = sprite:getName()
+                
+                if spriteName and HackingSkill_Utils.isValidElectronicDoorSprite(spriteName) then
+                    if HackingSkill_Utils.isDoorPowered(obj) then
+                        context:addOption(getText("ContextMenu_HackingSkill_HackDoor"), obj, function()
+                            local square = obj:getSquare()
+                            local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
+                            walkAction:setOnComplete(function()
+                                ISTimedActionQueue.add(HackingSkill_BypassSecurityDoorLockAction:new(player, obj))
+                            end)
+                            ISTimedActionQueue.add(walkAction)
+                        end)
+                    end
+                end
+                break
+            end
         end
     end
 

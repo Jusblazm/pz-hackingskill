@@ -1,0 +1,4 @@
+Tooltip_EN = {
+    Tooltip_DIYPINBypassTool = "A one-time use item to help speed up and<br>improve your chances of hacking security doors.",
+    Tooltip_LinemansTestSet = "A professional grade telephone test set.<br>You can use this to ring phones, if you dare to<br>get close enough to the house to plug in.",
+}

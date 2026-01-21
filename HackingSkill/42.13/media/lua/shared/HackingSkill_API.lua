@@ -5,7 +5,6 @@ HackingSkill_API = {}
 -- @param player (IsoPlayer) The player object.
 -- @param amount (number) The amount of XP to add.
 function HackingSkill_API.addXP(player, amount)
-    if isClient() then return false end
     if not HackingSkill_API.isBlockedByTinFoilHatTrait(player) then
         addXp(player, Perks.Hacking, amount)
     end
@@ -40,7 +39,6 @@ end
 -- @param player (IsoPlayer) The player object.
 -- @param level (number) The desired level to set.
 function HackingSkill_API.setLevel(player, level)
-    if isClient() then return false end
     if level > 2 then
         if HackingSkill_API.hasTinFoilHatTrait(player) then
             player:getXp():setXPToLevel(Perks.Hacking, 2)
@@ -61,7 +59,6 @@ end
 -- @param player (IsoPlayer) The player object.
 -- @return (boolean) Always returns true.
 function HackingSkill_API.reset(player)
-    if isClient() then return false end
     HackingSkill_API.setLevel(player, 0)
     return true
 end

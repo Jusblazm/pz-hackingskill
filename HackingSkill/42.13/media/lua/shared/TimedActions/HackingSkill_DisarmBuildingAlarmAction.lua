@@ -54,7 +54,7 @@ function HackingSkill_DisarmBuildingAlarmAction:new(character, object)
     o.object = object
 
     local skill = HackingSkill_API.getLevel(character)
-    local disarmChance = (skill * 8) + 10
+    local disarmChance = 10 + (skill * 8)
 
     o.success = ZombRand(100) < disarmChance
 
