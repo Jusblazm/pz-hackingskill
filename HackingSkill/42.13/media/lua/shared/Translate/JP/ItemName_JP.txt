@@ -6,4 +6,10 @@ ItemName_JP = {
     ItemName_Base.BookHacking5 = "ハッキング V：「ゼロデイ・バイブル」",
     ItemName_Base.BookHackingSet = "ハッキング本セット",
     ItemName_Base.HackingSkillCatalog = "カタログ：ハッキングスキル本",
+    ItemName_Base.HackingSkillMagazine1 = "雑誌：ハッカーズ・クォータリー",
+    ItemName_Base.AmateurHackerMagazine = "雑誌：ルートアクセス・レポート",
+    ItemName_Base.MasterHackerMagazine = "雑誌：メインフレーム・マニフェスト",
+    ItemName_Base.TinFoilHatMagazine = "雑誌：イルミノーティ",
+    ItemName_Base.DIYPINBypassTool = "簡易PINバイパスツール",
+    ItemName_Base.LinemansTestSet = "電話回線テストセット",
 }

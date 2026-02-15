@@ -9,4 +9,6 @@ IGUI_JP = {
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "アラームシステムの解除に成功しました",
     IGUI_HackingSkill_PlayerText_MaybeDisarmed = "アラームシステムを無効化したかもしれません",
     IGUI_HackingSkill_PlayerText_FailedDisarm = "このアラームシステムは解除できませんでした",
+    IGUI_HackingSkill_PlayerText_DoorUnlockSuccess = "電子ロックの解除に成功しました",
+    IGUI_HackingSkill_PlayerText_DoorUnlockFailed = "電子ロックのハッキングに失敗しました",
 }

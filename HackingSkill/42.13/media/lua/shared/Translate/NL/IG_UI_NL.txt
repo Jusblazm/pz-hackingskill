@@ -9,4 +9,6 @@ IGUI_NL = {
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Ik heb het alarmsysteem succesvol uitgeschakeld",
     IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Misschien heb ik het alarmsysteem uitgeschakeld",
     IGUI_HackingSkill_PlayerText_FailedDisarm = "Ik kan dit alarmsysteem niet uitschakelen",
+    IGUI_HackingSkill_PlayerText_DoorUnlockSuccess = "Ik heb het elektronische slot succesvol omzeild",
+    IGUI_HackingSkill_PlayerText_DoorUnlockFailed = "Het is me niet gelukt om het elektronische slot te hacken",
 }

@@ -6,4 +6,10 @@ ItemName_UA = {
     ItemName_Base.BookHacking5 = "Хакінг V: "Біблія нульового дня"",
     ItemName_Base.BookHackingSet = "Набір книг з хакінгу",
     ItemName_Base.HackingSkillCatalog = "Каталог: Книги з навику хакінгу",
+    ItemName_Base.HackingSkillMagazine1 = "Журнал: «Квартал хакерів»",
+    ItemName_Base.AmateurHackerMagazine = "Журнал: «Звіт про Root-доступ»",
+    ItemName_Base.MasterHackerMagazine = "Журнал: «Маніфест мейнфрейма»",
+    ItemName_Base.TinFoilHatMagazine = "Журнал: Illuminaughty",
+    ItemName_Base.DIYPINBypassTool = "Грубий інструмент обходу PIN",
+    ItemName_Base.LinemansTestSet = "Телефонний тестовий набір",
 }

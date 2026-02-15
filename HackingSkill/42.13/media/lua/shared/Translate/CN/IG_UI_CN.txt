@@ -9,4 +9,6 @@ IG_UI_CN = {
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "我成功解除警报系统",
     IGUI_HackingSkill_PlayerText_MaybeDisarmed = "我可能已解除警报系统",
     IGUI_HackingSkill_PlayerText_FailedDisarm = "我无法解除该警报系统",
+    IGUI_HackingSkill_PlayerText_DoorUnlockSuccess = "我成功绕过了电子锁",
+    IGUI_HackingSkill_PlayerText_DoorUnlockFailed = "我未能入侵电子锁",
 }

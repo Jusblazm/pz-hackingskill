@@ -1,0 +1,6 @@
+Recipe_PTBR = {
+    Recipe_MakeDIYPINBypassTool = "Criar ferramenta DIY de bypass de PIN",
+    Recipe_AmateurHackerTrait = "Traço Hacker Amador",
+    Recipe_MasterHackerTrait = "Traço Hacker Mestre",
+    Recipe_TinFoilHatTrait = "Traço Chapéu de Papel Alumínio",
+}

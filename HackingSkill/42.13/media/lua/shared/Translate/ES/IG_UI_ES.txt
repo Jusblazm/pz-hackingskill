@@ -9,4 +9,6 @@ IGUI_ES = {
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "He desactivado el sistema de alarma con éxito",
     IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Puede que haya desactivado el sistema de alarma",
     IGUI_HackingSkill_PlayerText_FailedDisarm = "No puedo desactivar este sistema de alarma",
+    IGUI_HackingSkill_PlayerText_DoorUnlockSuccess = "He omitido la cerradura electrónica con éxito",
+    IGUI_HackingSkill_PlayerText_DoorUnlockFailed = "Fallé al hackear la cerradura electrónica",
 }
