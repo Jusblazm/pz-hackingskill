@@ -83,7 +83,7 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 | 🇮🇩 Indonesian           | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇮🇹 Italian              | ██████████ 100% | 58/58     | ✅ Done      |
 | 🇯🇵 Japanese             | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇰🇷 Korean               | ██████████ 97% | 56/58     | 🔃 In Progress |
+| 🇰🇷 Korean               | ██████████ 100% | 58/58     | ✅ Done      |
 | 🇳🇱 Dutch                | ██████████ 100% | 58/58     | ✅ Done      |
 | 🇳🇴 Norwegian            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇵🇭 Filipino             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
