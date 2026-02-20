@@ -71,30 +71,30 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 | 🇺🇸 English              | ██████████ 100% | 58/58     | ✅ Done      |
 | 🇦🇷 Argentina            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🏴 Catalan             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇹🇼 Traditional Chinese  | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇨🇳 Simplified Chinese   | ██████████ 100% | 58/58     | ✅ Done      |
+| 🇹🇼 Traditional Chinese  | ███████░░░ 66% | 38/58     | 🔃 In Progress |
+| 🇨🇳 Simplified Chinese   | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇨🇿 Czech                | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇩🇰 Danish               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇩🇪 German               | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇪🇸 Spanish              | ██████████ 100% | 58/58     | ✅ Done      |
+| 🇩🇪 German               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
+| 🇪🇸 Spanish              | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇫🇮 Finnish              | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇫🇷 French               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇭🇺 Hungarian            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇮🇩 Indonesian           | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇮🇹 Italian              | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇯🇵 Japanese             | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇰🇷 Korean               | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇳🇱 Dutch                | ██████████ 100% | 58/58     | ✅ Done      |
+| 🇮🇹 Italian              | ███████░░░ 66% | 38/58     | 🔃 In Progress |
+| 🇯🇵 Japanese             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
+| 🇰🇷 Korean               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
+| 🇳🇱 Dutch                | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇳🇴 Norwegian            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇵🇭 Filipino             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇵🇱 Polish               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇵🇹 Portuguese           | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇧🇷 Brazilian Portuguese | ██████████ 100% | 58/58     | ✅ Done      |
+| 🇵🇹 Portuguese           | ███████░░░ 66% | 38/58     | 🔃 In Progress |
+| 🇧🇷 Brazilian Portuguese | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇷🇴 Romanian             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇷🇺 Russian              | ██████████ 100% | 58/58     | ✅ Done      |
+| 🇷🇺 Russian              | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇹🇭 Thai                 | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇹🇷 Turkish              | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇺🇦 Ukrainian            | ██████████ 100% | 58/58     | ✅ Done      |
+| 🇺🇦 Ukrainian            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 <!-- AUTO-GENERATED-TABLE:END -->
 
 ### Translation Notice
