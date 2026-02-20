@@ -1,0 +1,6 @@
+Recipe_CH = {
+    Recipe_MakeDIYPINBypassTool = "製作 DIY PIN 繞過工具",
+    Recipe_AmateurHackerTrait = "業餘駭客特性",
+    Recipe_MasterHackerTrait = "駭客大師特性",
+    Recipe_TinFoilHatTrait = "鋁箔帽特性",
+}

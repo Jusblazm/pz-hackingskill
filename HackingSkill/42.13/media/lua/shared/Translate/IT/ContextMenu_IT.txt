@@ -1,4 +1,5 @@
 ContextMenu_IT = {
     ContextMenu_HackingSkill_CheckForAlarm = "Controlla il sistema di allarme",
     ContextMenu_HackingSkill_DisarmAlarm = "Disattiva il sistema di allarme",
+    ContextMenu_HackingSkill_HackDoor = "Hacka Tastierino Porta di Sicurezza",
 }

@@ -9,4 +9,6 @@ IGUI_UA = {
     IGUI_HackingSkill_PlayerText_DisarmedAlarm = "Мені вдалося вимкнути сигналізацію",
     IGUI_HackingSkill_PlayerText_MaybeDisarmed = "Можливо, я вимкнув сигналізацію",
     IGUI_HackingSkill_PlayerText_FailedDisarm = "Не можу вимкнути сигналізацію",
+    IGUI_HackingSkill_PlayerText_DoorUnlockSuccess = "Мені вдалося обійти електронний замок",
+    IGUI_HackingSkill_PlayerText_DoorUnlockFailed = "Мені не вдалося зламати електронний замок",
 }

@@ -1,1 +1,4 @@
-Tooltip_ES = {}
+Tooltip_ES = {
+    Tooltip_DIYPINBypassTool = "Objeto de un solo uso para ayudar a acelerar y<br>mejorar tus probabilidades de hackear puertas de seguridad.",
+    Tooltip_LinemansTestSet = "Equipo telefónico de grado profesional.<br>Puedes usarlo para hacer sonar teléfonos, si te atreves a<br>acercarte lo suficiente a la casa para conectarlo.",
+}

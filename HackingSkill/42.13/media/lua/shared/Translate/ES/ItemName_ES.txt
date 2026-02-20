@@ -6,4 +6,10 @@ ItemName_ES = {
     ItemName_Base.BookHacking5 = "Hackeo V: "La biblia del Zero Day"",
     ItemName_Base.BookHackingSet = "Conjunto de libros de hackeo",
     ItemName_Base.HackingSkillCatalog = "Catálogo: Libros de Habilidad de Hackeo",
+    ItemName_Base.HackingSkillMagazine1 = "Revista: Hackers Quarterly",
+    ItemName_Base.AmateurHackerMagazine = "Revista: Informe de acceso raíz",
+    ItemName_Base.MasterHackerMagazine = "Revista: Manifiesto del mainframe",
+    ItemName_Base.TinFoilHatMagazine = "Revista: Illuminaughty",
+    ItemName_Base.DIYPINBypassTool = "Herramienta rudimentaria para omitir PIN",
+    ItemName_Base.LinemansTestSet = "Equipo de prueba telefónica",
 }

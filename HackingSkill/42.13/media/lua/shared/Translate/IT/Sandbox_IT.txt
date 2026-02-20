@@ -6,4 +6,9 @@ Sandbox_IT = {
     Sandbox_HackingSkill_BuildingAlarms_tooltip = "Gli allarmi degli edifici danno esperienza in Hacking?",
     Sandbox_HackingSkill_VehicleAlarms = "Allarmi Veicoli",
     Sandbox_HackingSkill_VehicleAlarms_tooltip = "Gli allarmi delle auto danno esperienza in Hacking?",
+    Sandbox_HackingSkill_HackingTools = "Posizione Strumenti di Hacking",
+    Sandbox_HackingSkill_HackingTools_tooltip = "Determina dove la mod cerca gli strumenti di hacking.",
+    Sandbox_HackingSkill_HackingTools_option1 = "Tutti gli Inventari",
+    Sandbox_HackingSkill_HackingTools_option2 = "Inventario Principale",
+    Sandbox_HackingSkill_HackingTools_option3 = "In Mano",
 }

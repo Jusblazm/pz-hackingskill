@@ -6,4 +6,9 @@ Sandbox_NL = {
     Sandbox_HackingSkill_BuildingAlarms_tooltip = "Moet het hacken van gebouwalarmen hacker-ervaring geven?",
     Sandbox_HackingSkill_VehicleAlarms = "Voertuigalarmen",
     Sandbox_HackingSkill_VehicleAlarms_tooltip = "Moet het hacken van autoalarmen hacker-ervaring geven?",
+    Sandbox_HackingSkill_HackingTools = "Locatie van hackingtools",
+    Sandbox_HackingSkill_HackingTools_tooltip = "Bepaalt waar de mod zoekt naar hackingtools.",
+    Sandbox_HackingSkill_HackingTools_option1 = "Alle inventarissen",
+    Sandbox_HackingSkill_HackingTools_option2 = "Hoofdinventaris",
+    Sandbox_HackingSkill_HackingTools_option3 = "In handen",
 }

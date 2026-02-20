@@ -6,4 +6,10 @@ ItemName_CN = {
     ItemName_Base.BookHacking5 = "黑客终章 V：“零日圣经”",
     ItemName_Base.BookHackingSet = "一套黑客书籍",
     ItemName_Base.HackingSkillCatalog = "目录：黑客技能书籍",
+    ItemName_Base.HackingSkillMagazine1 = "杂志：黑客季刊",
+    ItemName_Base.AmateurHackerMagazine = "杂志：Root 权限报告",
+    ItemName_Base.MasterHackerMagazine = "杂志：主机宣言",
+    ItemName_Base.TinFoilHatMagazine = "杂志：阴谋狂想",
+    ItemName_Base.DIYPINBypassTool = "简易 PIN 绕过工具",
+    ItemName_Base.LinemansTestSet = "电信测试器",
 }

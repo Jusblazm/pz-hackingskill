@@ -6,4 +6,9 @@ Sandbox_RU = {
     Sandbox_HackingSkill_BuildingAlarms_tooltip = "Должен ли взлом сигнализации зданий давать опыт?",
     Sandbox_HackingSkill_VehicleAlarms = "Сигнализации автомобилей",
     Sandbox_HackingSkill_VehicleAlarms_tooltip = "Должен ли взлом сигнализации автомобилей давать опыт?",
+    Sandbox_HackingSkill_HackingTools = "Расположение инструментов взлома",
+    Sandbox_HackingSkill_HackingTools_tooltip = "Определяет, где мод ищет инструменты для взлома.",
+    Sandbox_HackingSkill_HackingTools_option1 = "Все инвентари",
+    Sandbox_HackingSkill_HackingTools_option2 = "Основной инвентарь",
+    Sandbox_HackingSkill_HackingTools_option3 = "В руках",
 }

@@ -1,0 +1,6 @@
+Recipe_DE = {
+    Recipe_MakeDIYPINBypassTool = "DIY-PIN-Umgehungswerkzeug herstellen",
+    Recipe_AmateurHackerTrait = "Eigenschaft: Hacker-Amateur",
+    Recipe_MasterHackerTrait = "Eigenschaft: Meisterhacker",
+    Recipe_TinFoilHatTrait = "Eigenschaft: Aluhut",
+}

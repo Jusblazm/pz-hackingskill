@@ -26,18 +26,24 @@ function HackingSkill_BypassSecurityDoorLockAction:stop()
 end
 
 function HackingSkill_BypassSecurityDoorLockAction:perform()
-    self.character:Say(self.message)
     ISBaseTimedAction.perform(self)
 end
 
 function HackingSkill_BypassSecurityDoorLockAction:complete()
-    HackingSkill_API.addXP(self.character, self.xpToAdd)
+    local success = ZombRand(100) < self.unlockChance
+
+    sendServerCommand(self.character, "HackingSkill", "BypassResult", {
+        success = success
+    })
+
+    HackingSkill_API.addXP(self.character, success and 6 or 1)
 
     if self.hasHackingTool then
         HackingSkill_Utils.consumeHackingTool(self.character)
     end
 
-    if self.success then
+    -- if self.success then
+    if success then
         self.object:setLocked(false)
         self.object:setLockedByKey(false)
     end
@@ -78,18 +84,10 @@ function HackingSkill_BypassSecurityDoorLockAction:new(character, object)
     if o.hasHackingTool then
         unlockChance = unlockChance + 20
     end
+
     unlockChance = math.min(unlockChance, 90)
-
-    o.success = ZombRand(100) < unlockChance
-
-    o.message = getText("IGUI_HackingSkill_PlayerText_DoorUnlockFailed")
-    o.xpToAdd = 1
-
-    if o.success then
-        o.message = getText("IGUI_HackingSkill_PlayerText_DoorUnlockSuccess")
-        o.xpToAdd = 6
-    end
-
+    o.unlockChance = unlockChance
+    
     o.maxTime = o:getDuration()
 
     return o
