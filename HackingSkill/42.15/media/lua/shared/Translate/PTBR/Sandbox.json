@@ -1,0 +1,14 @@
+{
+    "Sandbox_HackingSkill": "Configurações da Habilidade de Hacking",
+    "Sandbox_HackingSkill_XPMultiplier": "Multiplicador de Hacking",
+    "Sandbox_HackingSkill_XPMultiplier_tooltip": "Velocidade de evolução da habilidade de Hacking.",
+    "Sandbox_HackingSkill_BuildingAlarms": "Alarmes de Edifícios",
+    "Sandbox_HackingSkill_BuildingAlarms_tooltip": "Hackear alarmes de edifícios deve conceder XP em Hacking?",
+    "Sandbox_HackingSkill_VehicleAlarms": "Alarmes de Veículos",
+    "Sandbox_HackingSkill_VehicleAlarms_tooltip": "Hackear alarmes de veículos deve conceder XP em Hacking?",
+    "Sandbox_HackingSkill_HackingTools": "Localização das Ferramentas de Hacking",
+    "Sandbox_HackingSkill_HackingTools_tooltip": "Determina onde o mod procura ferramentas de hacking.",
+    "Sandbox_HackingSkill_HackingTools_option1": "Todos os Inventários",
+    "Sandbox_HackingSkill_HackingTools_option2": "Inventário Principal",
+    "Sandbox_HackingSkill_HackingTools_option3": "Nas Mãos"
+}

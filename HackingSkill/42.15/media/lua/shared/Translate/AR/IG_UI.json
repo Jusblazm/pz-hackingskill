@@ -1,0 +1,11 @@
+{
+    "IGUI_perks_Technology": "Tecnolog?a",
+    "IGUI_perks_Hacking": "Hacking",
+    "IGUI_perks_Hacking_Description": "Permite evadir cerraduras electr?nicas, sistemas de alarma y dispositivos de seguridad. Aumenta la probabilidad de ?xito en infiltraciones electr?nicas.",
+    "IGUI_HackingSkill_PlayerText_NoAlarm": "No se detect? ning?n sistema de alarma",
+    "IGUI_HackingSkill_PlayerText_BuildingAlarm": "Este edificio tiene un sistema de alarma",
+    "IGUI_HackingSkill_PlayerText_VehicleAlarm": "Este veh?culo tiene un sistema de alarma",
+    "IGUI_HackingSkill_PlayerText_DisarmedAlarm": "Desactiv? el sistema de alarma con ?xito",
+    "IGUI_HackingSkill_PlayerText_MaybeDisarmed": "Puede que haya desactivado el sistema de alarma",
+    "IGUI_HackingSkill_PlayerText_FailedDisarm": "No puedo desactivar este sistema de alarma"
+}

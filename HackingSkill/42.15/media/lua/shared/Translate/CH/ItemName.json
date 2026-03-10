@@ -1,0 +1,15 @@
+{
+    "Base.BookHacking1": "駭客入門 I：「Phreaking 101」",
+    "Base.BookHacking2": "駭客進階 II：「撥號與深入」",
+    "Base.BookHacking3": "駭客實用 III：「BBS 駭客初學指南」",
+    "Base.BookHacking4": "駭客精通 IV：「2600 密典：調變解密」",
+    "Base.BookHacking5": "駭客終章 V：「零日聖經」",
+    "Base.BookHackingSet": "一套駭客書籍",
+    "Base.HackingSkillCatalog": "目錄：駭客技能書籍",
+    "Base.HackingSkillMagazine1": "雜誌：駭客季刊",
+    "Base.AmateurHackerMagazine": "雜誌：Root 權限報告",
+    "Base.MasterHackerMagazine": "雜誌：主機宣言",
+    "Base.TinFoilHatMagazine": "雜誌：陰謀狂想",
+    "Base.DIYPINBypassTool": "簡易 PIN 繞過工具",
+    "Base.LinemansTestSet": "電信測試器"
+}
