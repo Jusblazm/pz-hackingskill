@@ -4,6 +4,7 @@ local HackingSkill_Utils = require("HackingSkill_Utils")
 local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, test)
     local player = getSpecificPlayer(playerIndex)
  
+    -- standard doors and windows
     for _, obj in ipairs(worldObjects) do
         if HackingSkill_Utils.isDoorOrWindow(obj) then
             local knowsAlarm = HackingSkill_Utils.knowsBuildingAlarm(player, obj)
@@ -34,6 +35,7 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
         end
     end
 
+    -- security doors
     for _, obj in ipairs(worldObjects) do
         if instanceof(obj, "IsoDoor") then
             local sprite = obj:getSprite()
@@ -42,14 +44,16 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
                 
                 if spriteName and HackingSkill_Utils.isValidElectronicDoorSprite(spriteName) then
                     if HackingSkill_Utils.isDoorPowered(obj) then
-                        context:addOption(getText("ContextMenu_HackingSkill_HackDoor"), obj, function()
-                            local square = obj:getSquare()
-                            local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
-                            walkAction:setOnComplete(function()
-                                ISTimedActionQueue.add(HackingSkill_BypassSecurityDoorLockAction:new(player, obj))
+                        if obj:isLocked() then
+                            context:addOption(getText("ContextMenu_HackingSkill_HackDoor"), obj, function()
+                                local square = obj:getSquare()
+                                local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
+                                walkAction:setOnComplete(function()
+                                    ISTimedActionQueue.add(HackingSkill_BypassSecurityDoorLockAction:new(player, obj))
+                                end)
+                                ISTimedActionQueue.add(walkAction)
                             end)
-                            ISTimedActionQueue.add(walkAction)
-                        end)
+                        end
                     end
                 end
                 break
@@ -57,6 +61,7 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
         end
     end
 
+    -- vehicles
     for _, obj in ipairs(worldObjects) do
         if instanceof(obj, "IsoObject") then
             local square = obj:getSquare()

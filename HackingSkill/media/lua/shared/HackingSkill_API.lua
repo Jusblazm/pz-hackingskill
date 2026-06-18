@@ -6,7 +6,7 @@ HackingSkill_API = {}
 -- @param amount (number) The amount of XP to add
 function HackingSkill_API.addXP(player, amount)
     if not HackingSkill_API.isBlockedByTinFoilHatTrait(player) then
-        addXp(player, Perks.Hacking, amount)
+        player:getXp():AddXP(Perks.Hacking, amount)
     end
 end
 
