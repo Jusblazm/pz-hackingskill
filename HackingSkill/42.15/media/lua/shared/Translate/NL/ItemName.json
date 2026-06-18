@@ -1,0 +1,15 @@
+{
+    "Base.BookHacking1": "Hacken I: \"Phreaking 101\"",
+    "Base.BookHacking2": "Hacken II: \"Dial-Up en Duik Erin\"",
+    "Base.BookHacking3": "Hacken III: \"Een beginnersgids voor BBS-hacken\"",
+    "Base.BookHacking4": "Hacken IV: \"De 2600 Codex: Meesteren van de Modem\"",
+    "Base.BookHacking5": "Hacken V: \"De Zero Day Bijbel\"",
+    "Base.BookHackingSet": "Set met hackboeken",
+    "Base.HackingSkillCatalog": "Catalogus: Hacken-vaardigheidsboeken",
+    "Base.HackingSkillMagazine1": "Tijdschrift: Hackers Kwartaal",
+    "Base.AmateurHackerMagazine": "Tijdschrift: Root Access Rapport",
+    "Base.MasterHackerMagazine": "Tijdschrift: Mainframe Manifest",
+    "Base.TinFoilHatMagazine": "Tijdschrift: Illuminaughty",
+    "Base.DIYPINBypassTool": "Ruwe PIN-omzeiltool",
+    "Base.LinemansTestSet": "Telecom-testset"
+}

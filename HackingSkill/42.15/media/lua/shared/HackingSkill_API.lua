@@ -6,7 +6,7 @@ HackingSkill_API = {}
 -- @param amount (number) The amount of XP to add
 function HackingSkill_API.addXP(player, amount)
     if not HackingSkill_API.isBlockedByTinFoilHatTrait(player) then
-        player:getXp():AddXP(Perks.Hacking, amount)
+        addXp(player, Perks.Hacking, amount)
     end
 end
 
@@ -67,7 +67,7 @@ end
 -- @param player (IsoPlayer) The player object
 -- @return (boolean) True if player has the trait
 function HackingSkill_API.hasTinFoilHatTrait(player)
-    return player:HasTrait("TinFoilHat")
+    return player:hasTrait(HackingSkillTraits.TinFoilHat)
 end
 
 --- checks if XP gain is blocked by TinFoilHat trait
