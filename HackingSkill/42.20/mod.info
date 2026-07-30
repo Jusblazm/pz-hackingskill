@@ -1,0 +1,9 @@
+name=Hacking Skill & Traits
+id=JusHackingSkill
+description=Adds a brand new hacking skill with a few traits.
+poster=poster.png
+icon=icon.png
+author=Jusblazm
+url=https://github.com/Jusblazm/pz-hackingskill
+versionMin=42.19
+modversion=3.0
