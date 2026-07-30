@@ -1,4 +1,0 @@
-Tooltip_DE = {
-    Tooltip_DIYPINBypassTool = "Ein Einweg-Item, das hilft, den Vorgang zu beschleunigen<br>und deine Chancen beim Hacken von Sicherheitstüren zu verbessern.",
-    Tooltip_LinemansTestSet = "Ein professionelles Telefon-Testgerät.<br>Damit kannst du Telefone klingeln lassen –<br>wenn du dich traust, nahe genug an das Haus heranzugehen, um es anzuschließen.",
-}

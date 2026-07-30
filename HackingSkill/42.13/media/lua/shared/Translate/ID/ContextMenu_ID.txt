@@ -1,4 +1,0 @@
-ContextMenu_ID = {
-    ContextMenu_HackingSkill_CheckForAlarm = "Periksa Sistem Alarm",
-    ContextMenu_HackingSkill_DisarmAlarm = "Nonaktifkan Sistem Alarm",
-}

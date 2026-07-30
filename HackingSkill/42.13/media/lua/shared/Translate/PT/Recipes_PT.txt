@@ -1,6 +1,0 @@
-Recipe_PT = {
-    Recipe_MakeDIYPINBypassTool = "Criar ferramenta DIY de bypass de PIN",
-    Recipe_AmateurHackerTrait = "Traço Hacker Amador",
-    Recipe_MasterHackerTrait = "Traço Mestre Hacker",
-    Recipe_TinFoilHatTrait = "Traço Chapéu de Papel de Alumínio",
-}

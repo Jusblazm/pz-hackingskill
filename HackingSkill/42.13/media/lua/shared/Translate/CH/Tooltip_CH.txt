@@ -1,4 +1,0 @@
-Tooltip_CH = {
-    Tooltip_DIYPINBypassTool = "一次性使用的工具，用於加快速度並<br>提高你駭入安全門的成功機率。",
-    Tooltip_LinemansTestSet = "專業級電話測試器。<br>你可以用它來撥打電話，前提是你敢<br>靠近房屋插上線路。",
-}
