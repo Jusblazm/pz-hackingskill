@@ -1,6 +1,0 @@
-Recipe_RU = {
-    Recipe_MakeDIYPINBypassTool = "Сделать инструмент обхода PIN (DIY)",
-    Recipe_AmateurHackerTrait = "Черта: Хакер-любитель",
-    Recipe_MasterHackerTrait = "Черта: Мастер-хакер",
-    Recipe_TinFoilHatTrait = "Черта: Шапочка из фольги",
-}

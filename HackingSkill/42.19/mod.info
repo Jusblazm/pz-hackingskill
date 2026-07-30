@@ -5,4 +5,5 @@ poster=poster.png
 icon=icon.png
 author=Jusblazm
 url=https://github.com/Jusblazm/pz-hackingskill
-modversion=2.7
+versionMin=42.19
+modversion=2.7.1

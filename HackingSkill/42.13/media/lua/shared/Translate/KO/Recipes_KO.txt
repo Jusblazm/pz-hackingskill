@@ -1,6 +1,0 @@
-Recipe_KO = {
-    Recipe_MakeDIYPINBypassTool = "DIY PIN 우회 도구 제작",
-    Recipe_AmateurHackerTrait = "아마추어 해커 특성",
-    Recipe_MasterHackerTrait = "마스터 해커 특성",
-    Recipe_TinFoilHatTrait = "은박 모자 특성",
-}

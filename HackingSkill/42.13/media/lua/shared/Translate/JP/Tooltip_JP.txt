@@ -1,4 +1,0 @@
-Tooltip_JP = {
-    Tooltip_DIYPINBypassTool = "セキュリティドアのハッキングを速め、<br>成功率を向上させる使い切りアイテムです。",
-    Tooltip_LinemansTestSet = "業務用の電話回線テストセットです。<br>家の近くまで近づいて接続できれば、<br>電話を鳴らすことができます。",
-}

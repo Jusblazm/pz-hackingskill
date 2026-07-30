@@ -1,0 +1,5 @@
+{
+    "ContextMenu_HackingSkill_CheckForAlarm": "Проверить наличие сигнализации",
+    "ContextMenu_HackingSkill_DisarmAlarm": "Отключить сигнализацию",
+    "ContextMenu_HackingSkill_HackDoor": "Взломать клавиатуру двери безопасности"
+}

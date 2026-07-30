@@ -88,7 +88,7 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 | 🇳🇴 Norwegian            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇵🇭 Filipino             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇵🇱 Polish               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇵🇹 Portuguese           | ██████████ 100% | 58/58     | ✅ Done      |
+| 🇵🇹 Portuguese           | ████████░░ 78% | 45/58     | 🔃 In Progress |
 | 🇧🇷 Brazilian Portuguese | ██████████ 100% | 58/58     | ✅ Done      |
 | 🇷🇴 Romanian             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
 | 🇷🇺 Russian              | ██████████ 100% | 58/58     | ✅ Done      |
@@ -98,7 +98,7 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 <!-- AUTO-GENERATED-TABLE:END -->
 
 ### Translation Notice
-Translations are done via ChatGPT and checked with Google Translate. I do my best, but I'm sure there are some errors. If you would like to contribute please get in touch.
+Translations are provided by AI for your benefit. There are bound to be some errors. If you would like to contribiute, please reach out to me; I will happily replace AI-generated translations.
 
 ## Support
 Come find me on discord! Be sure to grab the Project Zomboid Modding Role once you arrive.\

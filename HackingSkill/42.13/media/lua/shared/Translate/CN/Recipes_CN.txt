@@ -1,6 +1,0 @@
-Recipe_CN = {
-    Recipe_MakeDIYPINBypassTool = "制作 DIY PIN 绕过工具",
-    Recipe_AmateurHackerTrait = "业余黑客特性",
-    Recipe_MasterHackerTrait = "黑客大师特性",
-    Recipe_TinFoilHatTrait = "锡箔帽特性",
-}
