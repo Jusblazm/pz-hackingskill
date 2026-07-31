@@ -46,6 +46,7 @@ function HackingSkill_BypassSecurityDoorLockAction:complete()
     if success then
         self.object:setLocked(false)
         self.object:setLockedByKey(false)
+        self.object:syncIsoObject(false, 0, nil, nil)
     end
     return true
 end
