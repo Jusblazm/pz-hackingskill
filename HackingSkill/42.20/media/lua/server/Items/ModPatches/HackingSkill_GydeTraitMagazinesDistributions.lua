@@ -1,5 +1,5 @@
 -- HackingSkill_GydeTraitMagazinesDistributions
-if not getActivatedMods():contains("\\GydeTraitMags") then
+if not getActivatedMods():contains("GydeTraitMags") then
     print("[HackingSkill] General: Gyde Trait Magazines is not installed, distribution aborted")
     return
 end

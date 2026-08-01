@@ -26,16 +26,31 @@ function HackingSkill_CheckVehicleAlarmAction:stop()
 end
 
 function HackingSkill_CheckVehicleAlarmAction:perform()
-    self.character:Say(self.message)
-    if self.detected and self.alarm then
-        HackingSkill_Utils.rememberVehicleAlarm(self.character, self.vehicle)
-    end
     ISBaseTimedAction.perform(self)
 end
 
 function HackingSkill_CheckVehicleAlarmAction:complete()
+    local success = ZombRand(100) < self.chanceToDetect
+
+    if not isClient() and not isServer() then
+        if success and self.alarm then
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_VehicleAlarm"))
+        else
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_NoAlarm"))
+        end
+    else
+        sendServerCommand(self.character, "HackingSkill", "CheckVehicleAlarmResult", {
+            success = success,
+            alarm = self.alarm
+        })
+    end
+
+    if success and self.alarm then
+        HackingSkill_Utils.rememberVehicleAlarm(self.character, self.vehicle)
+    end
+
     if HackingSkill_Utils.isVehicleAlarmXPEnabled() then
-        HackingSkill_API.addXP(self.character, self.xpToAdd)
+        HackingSkill_API.addXP(self.character, success and 3 or 1)
     end
     return true
 end
@@ -54,26 +69,9 @@ function HackingSkill_CheckVehicleAlarmAction:new(character, vehicle)
     o.vehicle = vehicle
 
     local skill = HackingSkill_API.getLevel(character)
-    local chanceToDetect = 25 + (skill * 7.5)
+    o.chanceToDetect = 25 + (skill * 7.5)
 
-    o.detected = ZombRand(100) < chanceToDetect
     o.alarm = HackingSkill_Utils.hasVehicleAlarm(vehicle)
-
-    o.message = getText("IGUI_HackingSkill_PlayerText_NoAlarm")
-    o.xpToAdd  = 1
-
-    if o.detected and o.alarm then
-        o.message = getText("IGUI_HackingSkill_PlayerText_VehicleAlarm")
-        o.xpToAdd = 2
-
-    elseif o.detected and not o.alarm then
-        o.message = getText("IGUI_HackingSkill_PlayerText_NoAlarm")
-        o.xpToAdd = 2
-
-    elseif not o.detected and o.alarm then
-        o.message = getText("IGUI_HackingSkill_PlayerText_NoAlarm")
-        o.xpToAdd = 1
-    end
 
     o.maxTime = o:getDuration()
     

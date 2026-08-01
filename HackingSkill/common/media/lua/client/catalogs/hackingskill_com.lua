@@ -30,9 +30,14 @@ return {
             description = getText("UI_HackingSkill_ItemDescription_BookHacking4"),
         },
         {
-            name = "Base.BookHacking5",
-            price = 90,
-            description = getText("UI_HackingSkill_ItemDescription_BookHacking5"),
+            name = "Base.HackerHoodieDown",
+            price = 34,
+            description = getText("UI_HackingSkill_ItemDescription_HackerHoodieDown"),
+        },
+        {
+            name = "Base.HackerHoodieUp",
+            price = 34,
+            description = getText("UI_HackingSkill_ItemDescription_HackerHoodieUp"),
         }
     }
 }
