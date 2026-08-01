@@ -68,33 +68,33 @@ On steam you can replace "Hacking Skill" with `[url=https://steamcommunity.com/s
 <!-- AUTO-GENERATED-TABLE:START -->
 | Language                | Progress      | Completed | Status        |
 |-------------------------|---------------|-----------|---------------|
-| 🇺🇸 English              | ██████████ 100% | 58/58     | ✅ Done      |
-| 🇦🇷 Argentina            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🏴 Catalan             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇹🇼 Traditional Chinese  | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇨🇳 Simplified Chinese   | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇨🇿 Czech                | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇩🇰 Danish               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇩🇪 German               | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇪🇸 Spanish              | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇫🇮 Finnish              | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇫🇷 French               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇭🇺 Hungarian            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇮🇩 Indonesian           | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇮🇹 Italian              | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇯🇵 Japanese             | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇰🇷 Korean               | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇳🇱 Dutch                | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇳🇴 Norwegian            | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇵🇭 Filipino             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇵🇱 Polish               | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇵🇹 Portuguese           | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇧🇷 Brazilian Portuguese | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇷🇴 Romanian             | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇷🇺 Russian              | █████████░ 93% | 54/58     | 🔃 In Progress |
-| 🇹🇭 Thai                 | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇹🇷 Turkish              | ███████░░░ 66% | 38/58     | 🔃 In Progress |
-| 🇺🇦 Ukrainian            | █████████░ 93% | 54/58     | 🔃 In Progress |
+| 🇺🇸 English              | ██████████ 100% | 62/62     | ✅ Done      |
+| 🇦🇷 Argentina            | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🏴 Catalan             | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇹🇼 Traditional Chinese  | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇨🇳 Simplified Chinese   | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇨🇿 Czech                | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇩🇰 Danish               | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇩🇪 German               | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇪🇸 Spanish              | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇫🇮 Finnish              | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇫🇷 French               | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇭🇺 Hungarian            | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇮🇩 Indonesian           | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇮🇹 Italian              | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇯🇵 Japanese             | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇰🇷 Korean               | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇳🇱 Dutch                | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇳🇴 Norwegian            | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇵🇭 Filipino             | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇵🇱 Polish               | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇵🇹 Portuguese           | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇧🇷 Brazilian Portuguese | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇷🇴 Romanian             | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇷🇺 Russian              | █████████░ 87% | 54/62     | 🔃 In Progress |
+| 🇹🇭 Thai                 | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇹🇷 Turkish              | ██████░░░░ 61% | 38/62     | 🔃 In Progress |
+| 🇺🇦 Ukrainian            | █████████░ 87% | 54/62     | 🔃 In Progress |
 <!-- AUTO-GENERATED-TABLE:END -->
 
 ### Translation Notice
