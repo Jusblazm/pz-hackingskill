@@ -5,6 +5,47 @@ module Base
         Base
     }
 
+	/******* CLOTHING - HOODIES *******/
+
+	item HackerHoodieDown
+	{
+		DisplayCategory 			= Clothing,
+		ItemType 					= base:clothing,
+		IconsForTexture 			= HoodieHackerBlue;HoodieHackerGreen;HoodieHackerOrange;HoodieHackerPink;HoodieHackerRed;HoodieHackerYellow,
+		BloodLocation 				= Jumper,
+		BodyLocation 				= base:sweater,
+		ClothingExtraSubmenu 		= DownHoodie,
+		ClothingItem 				= HoodieDOWN_TEXTURE_Hacker,
+		ClothingItemExtra 			= Base.HackerHoodieUp,
+		ClothingItemExtraOption 	= UpHoodie,
+		FabricType 					= Cotton,
+		Insulation 					= 0.6,
+		NeckProtectionModifier 		= 0.5,
+		ScratchDefense 				= 10,
+		WindResistance 				= 0.25,
+		WorldStaticModel 			= Hoodie_Ground
+		Tags 						= base:ripclothingcotton,
+	}
+
+    item HackerHoodieUp
+    {
+        DisplayCategory 			= Clothing,
+        ItemType 					= base:clothing,
+		IconsForTexture 			= HoodieHackerBlue;HoodieHackerGreen;HoodieHackerOrange;HoodieHackerPink;HoodieHackerRed;HoodieHackerYellow,
+        BloodLocation 				= Jumper;Neck;FullHelmet,
+        BodyLocation 				= base:sweaterhat,
+        ClothingExtraSubmenu 		= UpHoodie,
+        ClothingItem 				= HoodieUP_TEXTURE_Hacker,
+        ClothingItemExtra 			= Base.HackerHoodieDown,
+        ClothingItemExtraOption 	= DownHoodie,
+        FabricType 					= Cotton,
+        Insulation 					= 0.55,
+        ScratchDefense 				= 10,
+        WindResistance 				= 0.2,
+        WorldStaticModel 			= Hoodie_Ground,
+        Tags 						= base:ripclothingcotton,
+    }
+
 	/******* LITERATURE - SKILL BOOKS *******/
 
 	item BookHackingSet

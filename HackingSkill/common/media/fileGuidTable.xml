@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+    <files>
+        <path>media/clothing/clothingItems/HoodieDOWN_TEXTURE_Hacker.xml</path>
+        <guid>6a75730b-9967-4833-85fc-6861636b6572</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/HoodieUP_TEXTURE_Hacker.xml</path>
+        <guid>6a75737a-07e7-4d82-9384-6861636b6572</guid>
+    </files>
+</fileGuidTable>

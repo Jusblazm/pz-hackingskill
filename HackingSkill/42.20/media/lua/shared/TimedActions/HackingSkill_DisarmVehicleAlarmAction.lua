@@ -26,35 +26,42 @@ function HackingSkill_DisarmVehicleAlarmAction:stop()
 end
 
 function HackingSkill_DisarmVehicleAlarmAction:perform()
-    self.character:Say(self.message)
-    --[[ 
-        I'm 99% sure triggerAlarm is client-side
-        even though TIS uses it server-side
-        so for now, its in both actions
-    ]]
-    if self.success then
-        self.vehicle:setAlarmed(false)
-    else
-        if self.triggerAlarm then
-            self.vehicle:triggerAlarm()
-            self.vehicle:setPreviouslyEntered(true)
-        end
-    end
     ISBaseTimedAction.perform(self)
 end
 
 function HackingSkill_DisarmVehicleAlarmAction:complete()
-    if self.success then
-        self.vehicle:setAlarmed(false)
-    else
-        if self.triggerAlarm then
-            self.vehicle:triggerAlarm()
-            self.vehicle:setPreviouslyEntered(true)
+    local success = ZombRand(100) < self.disarmChance
+    local triggerAlarm = ZombRand(100) < self.alarmChance
+
+    if not isClient() and not isServer() then
+        if success then
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_DisarmedAlarm"))
+        elseif ZombRand(100) < self.maybeChance then
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_MaybeDisarmed"))
+        else
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_FailedDisarm"))
         end
+    else
+        sendServerCommand(self.character, "HackingSkill", "DisableVehicleAlarmResult", {
+            success = success,
+            maybeChance = self.maybeChance
+        })
+    end
+        
+    if not success and triggerAlarm then
+        self.vehicle:triggerAlarm()
+        self.vehicle:setPreviouslyEntered(true)
+    end
+
+    if success then
+        self.vehicle:setAlarmed(false)
+    elseif triggerAlarm then
+        self.vehicle:triggerAlarm()
+        self.vehicle:setPreviouslyEntered(true)
     end
 
     if HackingSkill_Utils.isVehicleAlarmXPEnabled() then
-        HackingSkill_API.addXP(self.character, self.xpToAdd)
+        HackingSkill_API.addXP(self.character, success and 6 or 3)
     end
     return true
 end
@@ -73,35 +80,10 @@ function HackingSkill_DisarmVehicleAlarmAction:new(character, vehicle)
     o.vehicle = vehicle
 
     local skill = HackingSkill_API.getLevel(character)
-    local disarmChance = 10 + (skill * 8)
+    o.maybeChance = math.max(10, 90 - (skill * 10))
+    o.disarmChance = 10 + (skill * 8)
 
-    o.success = ZombRand(100) < disarmChance
-    o.triggerAlarm = false
-
-    o.message = getText("IGUI_HackingSkill_PlayerText_FailedDisarm")
-    o.xpToAdd = 1
-
-    if o.success then
-        o.message = getText("IGUI_HackingSkill_PlayerText_DisarmedAlarm")
-        o.xpToAdd = 6
-    else
-        local maybeChance = math.max(10, 90 - (skill * 10))
-        local maybe = (ZombRand(100) < maybeChance)
-
-        if maybe then 
-            o.message = getText("IGUI_HackingSkill_PlayerText_MaybeDisarmed")
-        else
-            o.message = getText("IGUI_HackingSkill_PlayerText_FailedDisarm")
-        end
-
-        o.xpToAdd = 3
-
-        local alarmChance = HackingSkill_Utils.getAdjustedAlarmChance(character, 40)
-        if ZombRand(100) < alarmChance then
-            o.triggerAlarm = true
-        end
-    end
-
+    o.alarmChance = HackingSkill_Utils.getAdjustedAlarmChance(character, 40)
     o.maxTime = o:getDuration()
 
     return o
