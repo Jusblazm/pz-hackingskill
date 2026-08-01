@@ -149,34 +149,15 @@ function HackingSkill_Utils.consumeHackingTool(player)
     return false
 end
 
-function HackingSkill_Utils.stopWhenAdjacent(context)
-    local p = context.player
-    local o = context.object
-
-    if not p or not o then return false end
-    if p:getZ() ~= o:getZ() then return false end
-
-    local dx = math.abs(p:getX() - o:getX())
-    local dy = math.abs(p:getY() - o:getY())
-
-    return (dx + dy) <= 1
-end
-
 function HackingSkill_Utils.getAdjustedAlarmChance(character, baseChance)
     local alarmChance = baseChance or 40
 
     if character:hasTrait(CharacterTrait.DEXTROUS) then
         alarmChance = alarmChance - 10
     end
-    -- if character:hasTrait(CharacterTrait.LUCKY) then
-    --     alarmChance = alarmChance - 15
-    -- end
     if character:hasTrait(CharacterTrait.ALL_THUMBS) then
         alarmChance = alarmChance + 10
     end
-    -- if character:hasTrait(CharacterTrait.UNLUCKY) then
-    --     alarmChance = alarmChance + 15
-    -- end
 
     alarmChance = math.max(0, math.min(100, alarmChance))
     return alarmChance

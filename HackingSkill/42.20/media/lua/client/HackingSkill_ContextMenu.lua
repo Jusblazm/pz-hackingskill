@@ -13,22 +13,16 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
             if not knowsAlarm then
                 -- let player check for an alarm
                 context:addOption(getText("ContextMenu_HackingSkill_CheckForAlarm"), obj, function()
-                    local square = obj:getSquare()
-                    local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
-                    walkAction:setOnComplete(function()
+                    if obj:getSquare() and luautils.walkAdjWindowOrDoor(player, obj:getSquare(), obj) then
                         ISTimedActionQueue.add(HackingSkill_CheckBuildingAlarmAction:new(player, obj))
-                    end)
-                    ISTimedActionQueue.add(walkAction)
+                    end
                 end)
             elseif knowsAlarm and hasAlarm then
                 -- player knows there is an alarm
                 context:addOption(getText("ContextMenu_HackingSkill_DisarmAlarm"), obj, function()
-                    local square = obj:getSquare()
-                    local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
-                    walkAction:setOnComplete(function()
+                    if obj:getSquare() and luautils.walkAdjWindowOrDoor(player, obj:getSquare(), obj) then
                         ISTimedActionQueue.add(HackingSkill_DisarmBuildingAlarmAction:new(player, obj))
-                    end)
-                    ISTimedActionQueue.add(walkAction)
+                    end
                 end)
             end
             break
@@ -46,12 +40,9 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
                     if HackingSkill_Utils.isDoorPowered(obj) then
                         if obj:isLocked() then
                             context:addOption(getText("ContextMenu_HackingSkill_HackDoor"), obj, function()
-                                local square = obj:getSquare()
-                                local walkAction = ISWalkToTimedAction:new(player, square, HackingSkill_Utils.stopWhenAdjacent, { player = player, object = obj })
-                                walkAction:setOnComplete(function()
+                                if obj:getSquare() and luautils.walkAdjWindowOrDoor(player, obj:getSquare(), obj) then
                                     ISTimedActionQueue.add(HackingSkill_BypassSecurityDoorLockAction:new(player, obj))
-                                end)
-                                ISTimedActionQueue.add(walkAction)
+                                end
                             end)
                         end
                     end
@@ -74,22 +65,16 @@ local function onFillWorldObjectContextMenu(playerIndex, context, worldObjects, 
                     if not knowsAlarm then
                         -- let player check for an alarm
                         context:addOption(getText("ContextMenu_HackingSkill_CheckForAlarm"), vehicle, function()
-                            local square = vehicle:getSquare()
-                            local walkAction = ISWalkToTimedAction:new(player, square)
-                            walkAction:setOnComplete(function()
+                            if obj:getSquare() and luautils.walkAdj(player, obj:getSquare()) then
                                 ISTimedActionQueue.add(HackingSkill_CheckVehicleAlarmAction:new(player, vehicle))
-                            end)
-                            ISTimedActionQueue.add(walkAction)
+                            end
                         end)
                     elseif knowsAlarm and hasAlarm then
                         -- player knows there is an alarm
                         context:addOption(getText("ContextMenu_HackingSkill_DisarmAlarm"), vehicle, function()
-                            local square = vehicle:getSquare()
-                            local walkAction = ISWalkToTimedAction:new(player, square)
-                            walkAction:setOnComplete(function()
+                            if obj:getSquare() and luautils.walkAdj(player, obj:getSquare()) then
                                 ISTimedActionQueue.add(HackingSkill_DisarmVehicleAlarmAction:new(player, vehicle))
-                            end)
-                            ISTimedActionQueue.add(walkAction)
+                            end
                         end)
                     end
                     break
