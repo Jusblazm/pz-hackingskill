@@ -32,9 +32,17 @@ end
 function HackingSkill_BypassSecurityDoorLockAction:complete()
     local success = ZombRand(100) < self.unlockChance
 
-    sendServerCommand(self.character, "HackingSkill", "BypassResult", {
-        success = success
-    })
+    if not isClient() and not isServer() then
+        if success then
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_DoorUnlockSuccess"))
+        else
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_DoorUnlockFailed"))
+        end
+    else
+        sendServerCommand(self.character, "HackingSkill", "BypassResult", {
+            success = success
+        })
+    end
 
     HackingSkill_API.addXP(self.character, success and 6 or 1)
 
@@ -42,7 +50,6 @@ function HackingSkill_BypassSecurityDoorLockAction:complete()
         HackingSkill_Utils.consumeHackingTool(self.character)
     end
 
-    -- if self.success then
     if success then
         self.object:setLocked(false)
         self.object:setLockedByKey(false)
