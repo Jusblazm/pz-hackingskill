@@ -152,7 +152,7 @@ module Base
 
 	item HackingSkillMagazine1
 	{
-		DisplayCategory             = SkillBook,
+		DisplayCategory             = RecipeResource,
 		ItemType 			        = base:literature,
 		Weight                      = 0.5,
 		Icon                        = Magazine,
@@ -162,55 +162,52 @@ module Base
 		WorldStaticModel            = MagazineGround,
 		Tags                        = base:magazine,
         LearnedRecipes              = MakeDIYPINBypassTool,
-		OnCreate			        = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate			        = ItemCodeOnCreate.onCreateRecipeMagazine,
 	}
 	
     item AmateurHackerMagazine
     {
-        DisplayCategory     		= SkillBook,
+        DisplayCategory     		= RecipeResource,
         ItemType            		= base:literature,
         Weight              		= 0.5,
         Icon                		= AmateurHackerMagazine,
         BoredomChange       		= -20,
         StressChange        		= -15,
         LearnedRecipes      		= AmateurHackerTrait,
-        DisappearOnUse      		= false,
         StaticModel         		= Magazine,
         WorldStaticModel    		= MagazineGround,
         Tags                		= base:magazine,
-        OnCreate            		= SpecialLootSpawns.OnCreateRecipeMagazine,
+        OnCreate            		= ItemCodeOnCreate.onCreateRecipeMagazine,
     }
 	
     item MasterHackerMagazine
     {
-        DisplayCategory     		= SkillBook,
+        DisplayCategory     		= RecipeResource,
         ItemType            		= base:literature,
         Weight              		= 0.5,
         Icon                		= MasterHackerMagazine,
         BoredomChange       		= -20,
         StressChange        		= -15,
         LearnedRecipes      		= MasterHackerTrait,
-        DisappearOnUse      		= false,
         StaticModel         		= Magazine,
         WorldStaticModel    		= MagazineGround,
         Tags                		= base:magazine,
-        OnCreate            		= SpecialLootSpawns.OnCreateRecipeMagazine,
+        OnCreate            		= ItemCodeOnCreate.onCreateRecipeMagazine,
     }
 	
     item TinFoilHatMagazine
     {
-        DisplayCategory     		= SkillBook,
+        DisplayCategory     		= RecipeResource,
         ItemType            		= base:literature,
         Weight              		= 0.5,
         Icon                		= TinFoilHatMagazine,
         BoredomChange       		= -20,
         StressChange        		= -15,
         LearnedRecipes      		= TinFoilHatTrait,
-        DisappearOnUse      		= false,
         StaticModel         		= Magazine,
         WorldStaticModel    		= MagazineGround,
         Tags                		= base:magazine,
-        OnCreate            		= SpecialLootSpawns.OnCreateRecipeMagazine,
+        OnCreate            		= ItemCodeOnCreate.onCreateRecipeMagazine,
     }
 
 	/******* NORMAL - ELECTRICAL TOOLS *******/
