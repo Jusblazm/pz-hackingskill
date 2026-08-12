@@ -31,12 +31,11 @@ end
 
 function HackingSkill_DisarmBuildingAlarmAction:complete()
     local success = ZombRand(100) < self.disarmChance
-    local maybeChance = math.max(10, 90 - (skill * 10))
 
     if not isClient() and not isServer() then
         if success then
             self.character:Say(getText("IGUI_HackingSkill_PlayerText_DisarmedAlarm"))
-        elseif ZombRand(100) < maybeChance then
+        elseif ZombRand(100) < self.maybeChance then
             self.characterSay(getText("IGUI_HackingSkill_PlayerText_MaybeDisarmed"))
         else
             self.characterSay(getText("IGUI_HackingSkill_PlayerText_FailedDisarm"))
@@ -44,7 +43,7 @@ function HackingSkill_DisarmBuildingAlarmAction:complete()
     else
         sendServerCommand(self.character, "HackingSkill", "DisableBuildingAlarmResult", {
             success = success,
-            maybeChance = maybeChance
+            maybeChance = self.maybeChance
         })
     end
 
@@ -72,6 +71,8 @@ function HackingSkill_DisarmBuildingAlarmAction:new(character, object)
     o.object = object
 
     local skill = HackingSkill_API.getLevel(character)
+    
+    o.maybeChance = math.max(10, 90 - (skill * 10))
     o.disarmChance = 10 + (skill * 8)
 
     o.maxTime = o:getDuration()
