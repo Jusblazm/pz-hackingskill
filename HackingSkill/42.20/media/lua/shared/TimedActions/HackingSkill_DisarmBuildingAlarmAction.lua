@@ -36,9 +36,9 @@ function HackingSkill_DisarmBuildingAlarmAction:complete()
         if success then
             self.character:Say(getText("IGUI_HackingSkill_PlayerText_DisarmedAlarm"))
         elseif ZombRand(100) < self.maybeChance then
-            self.characterSay(getText("IGUI_HackingSkill_PlayerText_MaybeDisarmed"))
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_MaybeDisarmed"))
         else
-            self.characterSay(getText("IGUI_HackingSkill_PlayerText_FailedDisarm"))
+            self.character:Say(getText("IGUI_HackingSkill_PlayerText_FailedDisarm"))
         end
     else
         sendServerCommand(self.character, "HackingSkill", "DisableBuildingAlarmResult", {
